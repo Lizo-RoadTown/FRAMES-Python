@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8114-865c-e869b468c7c3",
+  "title": "Software for Cygnet",
+  "slug": "software-for-cygnet",
+  "description": "Complete software stack for Cygnet mission",
+  "category": "Software Development",
+  "difficulty": "Advanced",
+  "estimated_minutes": 120,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "cadence",
+    "flight-software"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8114-865c-e869b468c7c3",
+  "fetched_at": "2025-11-28T07:17:50.766963"
+}

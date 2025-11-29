@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-811f-aa42-e8cb63eaa605",
+  "title": "Mission Assurance",
+  "slug": "mission-assurance",
+  "description": "Quality assurance and mission reliability practices",
+  "category": "Systems Engineering",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 30,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "quality"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-811f-aa42-e8cb63eaa605",
+  "fetched_at": "2025-11-28T07:17:58.391813"
+}

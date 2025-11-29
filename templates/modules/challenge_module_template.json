@@ -1,0 +1,39 @@
+{
+  "module_id": "11111111-1111-1111-1111-111111111111",
+  "title": "Challenge Module Template",
+  "slug": "challenge-module-template",
+  "description": "Template for race/competition style modules with checkpoints and ghost data.",
+  "category": "Software Development",
+  "discipline": "Software",
+  "target_audience": "Graduate",
+  "estimated_minutes": 60,
+  "difficulty": "Advanced",
+  "status": "Draft",
+  "source_type": "Template",
+  "source_file": "templates/modules/challenge_module_template.json",
+  "tags": ["template", "challenge"],
+  "prerequisites": [],
+  "learning_objectives": [
+    {"statement": "Plan the challenge workflow and checkpoints.", "bloom_level": "Analyze"},
+    {"statement": "Execute the challenge within target time windows.", "bloom_level": "Apply"},
+    {"statement": "Reflect on optimization strategies.", "bloom_level": "Evaluate"}
+  ],
+  "concepts": ["race"],
+  "sections": [
+    {"title": "Challenge Brief", "type": "reading", "content_markdown": "Describe the mission and scoring rules.", "assets": []},
+    {"title": "Race Execution", "type": "race", "checkpoints": [], "ghost_data": []},
+    {"title": "Knowledge Check", "type": "quiz", "questions": []},
+    {"title": "After Action Review", "type": "reflection", "prompts": []}
+  ],
+  "reflection_prompts": ["What slowed you down?", "How will you improve next run?"],
+  "race_metadata": {
+    "ghost_data": [],
+    "time_targets": {"beginner": 90, "intermediate": 60, "advanced": 45},
+    "checkpoints": []
+  },
+  "notion_page_id": null,
+  "github_file": "templates/modules/challenge_module_template.json",
+  "record_source": {"type": "template"},
+  "created_at": null,
+  "updated_at": null
+}

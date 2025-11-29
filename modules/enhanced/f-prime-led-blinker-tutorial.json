@@ -1,0 +1,128 @@
+{
+  "module_id": "2b96b8ea-578a-81dd-ae84-da0467e688a6",
+  "title": "F Prime LED Blinker Tutorial",
+  "slug": "f-prime-led-blinker-tutorial",
+  "description": "Hands-on F-Prime tutorial with LED blinker example",
+  "category": "Software Development",
+  "discipline": "General",
+  "target_audience": "Undergraduate",
+  "estimated_minutes": 60,
+  "difficulty": "Beginner",
+  "status": "Published",
+  "source_type": "Markdown",
+  "source_file": "modules\\exports\\f-prime-led-blinker-tutorial.json",
+  "tags": [
+    "f-prime",
+    "software"
+  ],
+  "prerequisites": [],
+  "record_source": {
+    "type": "enhanced"
+  },
+  "notion_page_id": "2b96b8ea-578a-81dd-ae84-da0467e688a6",
+  "github_file": "modules/enhanced/f-prime-led-blinker-tutorial.json",
+  "learning_objectives": [
+    {
+      "statement": "Hands-on F-Prime tutorial with LED blinker example",
+      "bloom_level": "Understand"
+    }
+  ],
+  "concepts": [
+    "f-prime",
+    "software"
+  ],
+  "sections": [
+    {
+      "title": "Overview",
+      "type": "reading",
+      "content_markdown": "Hands-on F-Prime tutorial with LED blinker example",
+      "assets": []
+    },
+    {
+      "title": "Hands-on Practice",
+      "type": "practice",
+      "steps": [
+        {
+          "instruction": "Review the resources associated with F Prime LED Blinker Tutorial and note key dependencies.",
+          "check": "Did you capture the primary goals and blockers?",
+          "hint": "Summarize the main objective in one sentence before proceeding.",
+          "expected_duration_minutes": 10,
+          "requires_review": false
+        },
+        {
+          "instruction": "Apply the documented workflow on a realistic scenario related to F Prime LED Blinker Tutorial.",
+          "check": "Can you demonstrate the workflow end-to-end?",
+          "hint": "Start with a simplified scenario before scaling up.",
+          "expected_duration_minutes": 15,
+          "requires_review": true
+        }
+      ]
+    },
+    {
+      "title": "Knowledge Check",
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "What is the primary objective of F Prime LED Blinker Tutorial?",
+          "type": "multiple_choice",
+          "options": [
+            "To document context",
+            "To apply procedures",
+            "To track resources"
+          ],
+          "correct": "To apply procedures",
+          "explanation": "Each CADENCE module focuses on actionable procedures that support mission success.",
+          "concept_tags": [
+            "f-prime-led-blinker-tutorial"
+          ],
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which artifact should you produce after completing F Prime LED Blinker Tutorial?",
+          "type": "short_answer",
+          "options": [],
+          "correct": "A concise summary of actions, blockers, and next steps.",
+          "explanation": "Every module concludes with documentation that feeds onboarding and analytics.",
+          "concept_tags": [
+            "documentation"
+          ],
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "title": "Reflection",
+      "type": "reflection",
+      "prompts": [
+        "What worked well when completing F Prime LED Blinker Tutorial?",
+        "What would you change for the next iteration?"
+      ]
+    }
+  ],
+  "reflection_prompts": [
+    "What insight will you share with your team?",
+    "Which follow-up tasks should you track?"
+  ],
+  "race_metadata": {
+    "ghost_data": [],
+    "time_targets": {
+      "beginner": 90.0,
+      "intermediate": 60,
+      "advanced": 45
+    },
+    "checkpoints": [
+      {
+        "name": "Plan",
+        "order": 1
+      },
+      {
+        "name": "Execute",
+        "order": 2
+      },
+      {
+        "name": "Document",
+        "order": 3
+      }
+    ]
+  }
+}

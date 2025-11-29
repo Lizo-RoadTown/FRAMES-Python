@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81c4-930b-e1e5e2483bd3",
+  "title": "How to Run scales-software",
+  "slug": "how-to-run-scales-software",
+  "description": "Guide to running scales-software and fprime-python",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 30,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "f-prime",
+    "tools"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81c4-930b-e1e5e2483bd3",
+  "fetched_at": "2025-11-28T07:19:50.222103"
+}

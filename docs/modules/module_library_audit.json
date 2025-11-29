@@ -1,0 +1,708 @@
+{
+  "summary": {
+    "total_modules": 68,
+    "complete": 0,
+    "partial": 7,
+    "stub": 61,
+    "missing_description": 0,
+    "missing_sections": 61,
+    "missing_metadata": 1,
+    "missing_objectives": 68
+  },
+  "modules": [
+    {
+      "title": "2U Flight Software - Cygnet",
+      "file": "2u-flight-software-cygnet.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Add Github Tasks",
+      "file": "add-github-tasks.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Angel - Software",
+      "file": "angel-software.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": false,
+      "has_objectives": false
+    },
+    {
+      "title": "Avionics Team Onboarding",
+      "file": "avionics-team-onboarding.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "CDH and Software",
+      "file": "cdh-and-software.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Check in and GitHub discussion",
+      "file": "check-in-and-github-discussion.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Communications Subsystem",
+      "file": "communications-subsystem.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "ConOps and Experiment Plan",
+      "file": "conops-and-experiment-plan.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Create new section on Github",
+      "file": "create-new-section-on-github.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Cygnet Hardware Software Plan",
+      "file": "cygnet-hardware-software-plan.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Cygnet Payload Software F-Prime Components",
+      "file": "cygnet-payload-software-f-prime-components.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "EAT Software Design Notes",
+      "file": "eat-software-design-notes.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "EAT - Software (Valerie's Notes)",
+      "file": "eat-software-valerie-s-notes.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Ella - UML Diagrams & Github",
+      "file": "ella-uml-diagrams-github.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "EPS Design Presentation",
+      "file": "eps-design-presentation.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "F Prime LED Blinker Tutorial",
+      "file": "f-prime-led-blinker-tutorial.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "F Prime Tutorials",
+      "file": "f-prime-tutorials.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "GitHub Guide",
+      "file": "github-guide.json",
+      "classification": "partial",
+      "section_count": 10,
+      "section_types": {
+        "unknown": 10
+      },
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "GitHub Navigation",
+      "file": "github-navigation.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "GitHub Practice",
+      "file": "github-practice.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "GMAT Development User Guide",
+      "file": "gmat-development-user-guide.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "GMAT Tutorial",
+      "file": "gmat-tutorial.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "GMAT Users Guide",
+      "file": "gmat-users-guide.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "High Energy Proton SEE Test - iMX",
+      "file": "high-energy-proton-see-test-imx.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "High Energy Proton SEE Test - Jetson AGX",
+      "file": "high-energy-proton-see-test-jetson-agx.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "How Many Satellites for 24hr Surveillance",
+      "file": "how-many-satellites-for-24hr-surveillance.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "How to Run scales-software",
+      "file": "how-to-run-scales-software.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "IMX v2 Board Software Compatibility",
+      "file": "imx-v2-board-software-compatibility.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Matt's Github Intro",
+      "file": "matt-s-github-intro.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Mission Assurance",
+      "file": "mission-assurance.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Mission Definition",
+      "file": "mission-definition.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "NASA Power Systems for CubeSats",
+      "file": "nasa-power-systems-for-cubesats.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "New Avionics Team Members Onboarding",
+      "file": "new-avionics-team-members-onboarding.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "New Recruits",
+      "file": "new-recruits.json",
+      "classification": "partial",
+      "section_count": 13,
+      "section_types": {
+        "unknown": 13
+      },
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Orbit Simulations - Targeting SMA",
+      "file": "orbit-simulations-targeting-sma.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Outlook Calendar Tutorial",
+      "file": "outlook-calendar-tutorial.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Payload Software",
+      "file": "payload-software.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "PCB Layout Tips Guidelines Resources",
+      "file": "pcb-layout-tips-guidelines-resources.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Perfected Github Assignment",
+      "file": "perfected-github-assignment.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Power Systems PCB Onboarding",
+      "file": "power-systems-pcb-onboarding.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Prelim Software Architecture",
+      "file": "prelim-software-architecture.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Prelim Software Diagrams",
+      "file": "prelim-software-diagrams.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "RadLab Environmental Data APP",
+      "file": "radlab-environmental-data-app.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Read UNP User's Guide Section 2",
+      "file": "read-unp-user-s-guide-section-2.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Satellite Operations",
+      "file": "satellite-operations.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "SCR/SRR Expectations",
+      "file": "scr-srr-expectations.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Software Development for Baby CADENCE",
+      "file": "software-development-for-baby-cadence.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Software F-Prime for Baby CADENCE",
+      "file": "software-f-prime-for-baby-cadence.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Software for Cygnet",
+      "file": "software-for-cygnet.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Software Management",
+      "file": "software-management.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Software Onboarding",
+      "file": "software-onboarding.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Software Overview",
+      "file": "software-overview.json",
+      "classification": "partial",
+      "section_count": 4,
+      "section_types": {
+        "unknown": 4
+      },
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Software System Architecture Block Diagrams",
+      "file": "software-system-architecture-block-diagrams.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "SpaceX Rideshare Payload Guide",
+      "file": "spacex-rideshare-payload-guide.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "SRR - Software Design Document",
+      "file": "srr-software-design-document.json",
+      "classification": "partial",
+      "section_count": 3,
+      "section_types": {
+        "unknown": 3
+      },
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Systems Engineering Part 1",
+      "file": "systems-engineering-part-1.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Systems Engineering Part 2",
+      "file": "systems-engineering-part-2.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Systems Engineering Part 3",
+      "file": "systems-engineering-part-3.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Team Management",
+      "file": "team-management.json",
+      "classification": "partial",
+      "section_count": 1,
+      "section_types": {
+        "unknown": 1
+      },
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "TID Test Guideline Research",
+      "file": "tid-test-guideline-research.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "TID Test Setup - Jetson",
+      "file": "tid-test-setup-jetson.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Train Kelly in Software",
+      "file": "train-kelly-in-software.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "UNP Audio Visual Recommendations",
+      "file": "unp-audio-visual-recommendations.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "UNP COMM Subsystem",
+      "file": "unp-comm-subsystem.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "UNP Electrical Power Systems",
+      "file": "unp-electrical-power-systems.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "UNP Mission Design Course",
+      "file": "unp-mission-design-course.json",
+      "classification": "stub",
+      "section_count": 0,
+      "section_types": {},
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "UNP Nanosatellite User Guide",
+      "file": "unp-nanosatellite-user-guide.json",
+      "classification": "partial",
+      "section_count": 2,
+      "section_types": {
+        "unknown": 2
+      },
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    },
+    {
+      "title": "Update Software Design Document for PMR",
+      "file": "update-software-design-document-for-pmr.json",
+      "classification": "partial",
+      "section_count": 1,
+      "section_types": {
+        "unknown": 1
+      },
+      "has_description": true,
+      "has_metadata": true,
+      "has_objectives": false
+    }
+  ]
+}

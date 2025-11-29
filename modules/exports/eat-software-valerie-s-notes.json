@@ -1,0 +1,17 @@
+{
+  "module_id": "2b96b8ea-578a-8113-acb7-f372d3c5b9dd",
+  "title": "EAT - Software (Valerie's Notes)",
+  "slug": "eat-software-valerie-s-notes",
+  "description": "Software team notes and development insights",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 30,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "notes"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8113-acb7-f372d3c5b9dd",
+  "fetched_at": "2025-11-28T07:17:44.476257"
+}

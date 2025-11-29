@@ -1,0 +1,19 @@
+{
+  "module_id": "2b96b8ea-578a-81df-9b74-f772952fa098",
+  "title": "Systems Engineering Part 2",
+  "slug": "systems-engineering-part-2",
+  "description": "Systems engineering processes and documentation",
+  "category": "Systems Engineering",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 60,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "se",
+    "process"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81df-9b74-f772952fa098",
+  "fetched_at": "2025-11-28T07:19:57.996132"
+}

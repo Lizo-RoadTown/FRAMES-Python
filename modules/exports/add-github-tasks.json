@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8142-861b-d6a490760ea9",
+  "title": "Add Github Tasks",
+  "slug": "add-github-tasks",
+  "description": "GitHub task management and issues",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 15,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "github",
+    "tools"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8142-861b-d6a490760ea9",
+  "fetched_at": "2025-11-28T07:18:17.148093"
+}

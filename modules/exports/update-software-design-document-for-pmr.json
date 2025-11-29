@@ -1,0 +1,34 @@
+{
+  "module_id": "3e636ba6-425f-5be3-8dbf-c021334b0a2e",
+  "slug": "update-software-design-document-for-pmr",
+  "title": "Update Software Design Document for PMR",
+  "description": "Preliminary Mission Review software documentation updates",
+  "category": "Software Development",
+  "discipline": "Software",
+  "target_audience": "Graduate",
+  "estimated_minutes": 60,
+  "status": "Draft",
+  "difficulty": "Advanced",
+  "source_type": "Markdown",
+  "source_file": "Update Software Design Document for PMR.md",
+  "tags": [
+    "documentation",
+    "reviews"
+  ],
+  "prerequisites": [
+    "SRR - Software Design Document"
+  ],
+  "sections": [
+    {
+      "heading": "Update Software Design Document for PMR",
+      "content_markdown": "Date: July 21, 2025 → August 1, 2025\nStatus: Not started",
+      "word_count": 11
+    }
+  ],
+  "raw_markdown": "# Update Software Design Document for PMR\n\nDate: July 21, 2025 → August 1, 2025\nStatus: Not started",
+  "record_source": {
+    "type": "cadence-notion-export",
+    "archive": "temp_cadence_extract\\ExportBlock-e881308d-93d4-492e-bdac-6d92e7bb342e-Part-1.zip",
+    "entry_name": "Update Software Design Document for PMR 1ebca1dca64c806abf6ec3096ad4a431.md"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8128-ae8a-f0612ff8a232",
+  "title": "Mission Definition",
+  "slug": "mission-definition",
+  "description": "Defining mission requirements and objectives",
+  "category": "Getting Started",
+  "difficulty": "Beginner",
+  "estimated_minutes": 45,
+  "target_audience": "All",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "mission"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8128-ae8a-f0612ff8a232",
+  "fetched_at": "2025-11-28T07:18:06.806950"
+}

@@ -1,0 +1,228 @@
+/* Space-Tech Dark Theme Overrides for Notion Content */
+
+:root {
+  --notion-bg-dark: #0a0a0f;
+  --notion-bg-secondary: #1a1a2e;
+  --notion-bg-hover: #252540;
+  --notion-text-primary: #e6edf3;
+  --notion-text-secondary: #8b949e;
+  --notion-text-muted: #6e7681;
+  --notion-cyan: #00f0ff;
+  --notion-purple: #8b5cf6;
+  --notion-blue: #4a90e2;
+  --notion-border: #30363d;
+}
+
+.notion-container.dark-mode {
+  background-color: var(--notion-bg-dark);
+  color: var(--notion-text-primary);
+}
+
+.notion-page,
+.notion-frame {
+  background-color: var(--notion-bg-dark) !important;
+  color: var(--notion-text-primary) !important;
+}
+
+.notion-text {
+  color: var(--notion-text-primary);
+  line-height: 1.6;
+}
+
+.notion-h1,
+.notion-h-title {
+  color: var(--notion-cyan);
+  border-bottom: 2px solid var(--notion-purple);
+  padding-bottom: 0.5rem;
+}
+
+.notion-h2 {
+  color: var(--notion-cyan);
+}
+
+.notion-h3 {
+  color: var(--notion-text-primary);
+}
+
+.notion-link {
+  color: var(--notion-cyan);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.notion-link:hover {
+  border-bottom-color: var(--notion-cyan);
+}
+
+.notion-code {
+  background-color: var(--notion-bg-secondary) !important;
+  border: 1px solid var(--notion-border);
+  border-radius: 6px;
+  color: var(--notion-text-primary);
+}
+
+.notion-inline-code {
+  background-color: var(--notion-bg-secondary);
+  color: var(--notion-cyan);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+.notion-callout {
+  background-color: var(--notion-bg-secondary) !important;
+  border-left: 4px solid var(--notion-purple);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
+
+.notion-list {
+  color: var(--notion-text-primary);
+}
+
+.notion-list-disc li::marker,
+.notion-list-numbered li::marker {
+  color: var(--notion-purple);
+}
+
+.notion-table,
+.notion-table-cell {
+  border-color: var(--notion-border);
+  background-color: var(--notion-bg-dark);
+}
+
+.notion-quote {
+  border-left: 4px solid var(--notion-cyan);
+  padding-left: 1rem;
+  color: var(--notion-text-secondary);
+  font-style: italic;
+}
+
+.notion-hr {
+  border-color: var(--notion-border);
+}
+
+.notion-image {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.notion-toggle {
+  background-color: var(--notion-bg-secondary);
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.module-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--notion-bg-dark);
+  min-height: 100vh;
+}
+
+.module-header h1 {
+  color: var(--notion-cyan);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: var(--notion-bg-secondary);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--notion-cyan), var(--notion-purple));
+  transition: width 0.3s ease;
+}
+
+.section-nav {
+  margin: 2rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--notion-border);
+}
+
+.section-indicator {
+  color: var(--notion-text-secondary);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.module-content {
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: var(--notion-bg-secondary);
+  border-radius: 12px;
+  min-height: 400px;
+}
+
+.module-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--notion-border);
+}
+
+.btn-prev,
+.btn-next {
+  padding: 0.75rem 2rem;
+  background-color: var(--notion-purple);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-prev:hover:not(:disabled),
+.btn-next:hover:not(:disabled) {
+  background-color: var(--notion-cyan);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 240, 255, 0.3);
+}
+
+.btn-prev:disabled,
+.btn-next:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.placeholder {
+  color: var(--notion-text-secondary);
+  padding: 4rem 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.loading,
+.error {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: var(--notion-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .module-page {
+    padding: 1rem;
+  }
+
+  .module-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .module-content {
+    padding: 1rem;
+  }
+}

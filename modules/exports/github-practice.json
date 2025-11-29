@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81ed-9cef-d56a1b0216f0",
+  "title": "GitHub Practice",
+  "slug": "github-practice",
+  "description": "Hands-on GitHub exercises for team collaboration",
+  "category": "Getting Started",
+  "difficulty": "Beginner",
+  "estimated_minutes": 30,
+  "target_audience": "All",
+  "status": "Published",
+  "tags": [
+    "github",
+    "tools"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81ed-9cef-d56a1b0216f0",
+  "fetched_at": "2025-11-28T07:20:17.408620"
+}

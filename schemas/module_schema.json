@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LMS Module Schema",
+  "description": "JSON schema for validating LMS module data exported from Notion",
+  "type": "object",
+  "required": ["module_id", "title", "sections"],
+  "properties": {
+    "module_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the module (kebab-case)"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255,
+      "description": "Module title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Module description"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "fundamentals",
+        "technical",
+        "collaboration",
+        "safety",
+        "documentation",
+        "tools",
+        "research",
+        "onboarding"
+      ],
+      "description": "Module category"
+    },
+    "estimated_minutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 480,
+      "description": "Estimated completion time in minutes"
+    },
+    "target_audience": {
+      "type": "string",
+      "enum": ["undergraduate", "graduate", "faculty", "all"],
+      "description": "Target audience for this module"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "published", "archived"],
+      "default": "draft",
+      "description": "Publication status"
+    },
+    "university_id": {
+      "type": "string",
+      "description": "University ID if module is university-specific"
+    },
+    "created_by_id": {
+      "type": "string",
+      "description": "Faculty member who created the module"
+    },
+    "notion_page_id": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{32}$",
+      "description": "Notion page ID (32 hex chars)"
+    },
+    "content_source": {
+      "type": "string",
+      "enum": ["notion", "markdown", "html"],
+      "default": "notion",
+      "description": "Source format of content"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for searching and categorization"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Module IDs that should be completed first"
+    },
+    "related_modules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Related module IDs"
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["section_number", "section_type", "title", "content"],
+        "properties": {
+          "section_number": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Section order (1-indexed)"
+          },
+          "section_type": {
+            "type": "string",
+            "enum": ["text", "video", "image", "checklist", "quiz", "interactive", "notion_page"],
+            "description": "Type of content in this section"
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 255,
+            "description": "Section title"
+          },
+          "content": {
+            "type": "string",
+            "description": "Section content (text, markdown, or HTML)"
+          },
+          "media_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL for video/image content"
+          },
+          "duration_seconds": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Expected time to complete this section"
+          },
+          "notion_block_id": {
+            "type": "string",
+            "description": "Notion block ID for this section"
+          },
+          "record_map": {
+            "type": "object",
+            "description": "Notion recordMap for react-notion-x rendering"
+          }
+        }
+      }
+    }
+  }
+}

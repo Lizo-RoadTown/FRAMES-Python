@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8191-963c-f2028ec5296c",
+  "title": "Payload Software",
+  "slug": "payload-software",
+  "description": "Payload software integration overview",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Advanced",
+  "estimated_minutes": 60,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "payload",
+    "integration"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8191-963c-f2028ec5296c",
+  "fetched_at": "2025-11-28T07:18:58.332847"
+}

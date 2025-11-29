@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8126-aac1-c57e74c116e0",
+  "title": "Check in and GitHub discussion",
+  "slug": "check-in-and-github-discussion",
+  "description": "GitHub communication and collaboration practices",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 20,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "github",
+    "collaboration"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8126-aac1-c57e74c116e0",
+  "fetched_at": "2025-11-28T07:18:03.853547"
+}

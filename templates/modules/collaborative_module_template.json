@@ -1,0 +1,39 @@
+{
+  "module_id": "22222222-2222-2222-2222-222222222222",
+  "title": "Collaborative Module Template",
+  "slug": "collaborative-module-template",
+  "description": "Template for modules that require multiple team members working together with shared deliverables.",
+  "category": "Mission Design & Analysis",
+  "discipline": "Systems",
+  "target_audience": "Mixed",
+  "estimated_minutes": 75,
+  "difficulty": "Intermediate",
+  "status": "Draft",
+  "source_type": "Template",
+  "source_file": "templates/modules/collaborative_module_template.json",
+  "tags": ["template", "collaboration"],
+  "prerequisites": [],
+  "learning_objectives": [
+    {"statement": "Assign roles and responsibilities across disciplines.", "bloom_level": "Apply"},
+    {"statement": "Synthesize individual findings into a shared deliverable.", "bloom_level": "Create"}
+  ],
+  "concepts": ["teamwork"],
+  "sections": [
+    {"title": "Team Brief", "type": "reading", "content_markdown": "Outline roles, communication channels, and success criteria.", "assets": []},
+    {"title": "Collaborative Workshop", "type": "practice", "steps": []},
+    {"title": "Peer Review", "type": "practice", "steps": []},
+    {"title": "Knowledge Check", "type": "quiz", "questions": []},
+    {"title": "Retrospective", "type": "reflection", "prompts": []}
+  ],
+  "reflection_prompts": ["How did your team split the work?", "What would improve cross-team visibility?"],
+  "race_metadata": {
+    "ghost_data": [],
+    "time_targets": {"beginner": 120, "intermediate": 90, "advanced": 60},
+    "checkpoints": []
+  },
+  "notion_page_id": null,
+  "github_file": "templates/modules/collaborative_module_template.json",
+  "record_source": {"type": "template"},
+  "created_at": null,
+  "updated_at": null
+}

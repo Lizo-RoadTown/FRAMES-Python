@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81fb-a813-c6f7a45229d7",
+  "title": "Orbit Simulations - Targeting SMA",
+  "slug": "orbit-simulations-targeting-sma",
+  "description": "Orbital mechanics tutorial on semi-major axis targeting",
+  "category": "Mission Design & Analysis",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 60,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "orbits",
+    "simulation"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81fb-a813-c6f7a45229d7",
+  "fetched_at": "2025-11-28T07:20:25.919721"
+}

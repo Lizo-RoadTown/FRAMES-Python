@@ -1,0 +1,21 @@
+Title,Category,Description,Target Audience,Estimated Minutes,Status,Source File
+GitHub Guide,tools,Learn GitHub basics for team collaboration,all,30,published,GitHub Guide.md
+New Recruits Onboarding,onboarding,Complete onboarding guide for new team members,all,45,published,New Recruits.md
+Avionics Team Onboarding,onboarding,Hardware-software integration overview for avionics team,undergraduate,60,published,Avionics Team Onboarding Followup.md
+Software Setup,tools,Development environment and tools setup guide,undergraduate,45,published,Software.md
+EAT Software Design,technical,Software architecture and design patterns for flight systems,graduate,90,published,EAT Software Design Notes.md
+F-Prime Tutorials,technical,Flight software framework tutorials and exercises,graduate,120,draft,F Prime Tutorials.md
+Flight Software Overview,technical,Introduction to flight software development for CubeSats,undergraduate,60,published,Flight Software.md
+GitHub Practice,tools,Hands-on GitHub exercises for team collaboration,all,30,published,GitHub practice.md
+NASA Power Systems,technical,Electrical power systems design for CubeSats (PDF reference),graduate,120,published,4_UNP_NASA_Electrical_Power_Systems.pdf
+Communications Subsystems,technical,RF communications and subsystem design guide (PDF),graduate,90,published,16_UNP_Communications_Subsystem.pdf
+Systems Engineering Part 1,fundamentals,Introduction to systems engineering methodology (PDF),undergraduate,60,published,1_UNP_EAT_Systems_Engineering_Part_1_Presentation.pdf
+Systems Engineering Part 2,fundamentals,Systems engineering processes and documentation (PDF),undergraduate,60,published,4_UNP_EAT_Systems_Engineering_Part_2_Presentation.pdf
+Mission Definition,fundamentals,Defining mission requirements and objectives (PDF),all,45,published,2_UNP_EAT_Mission_Definition_Presentation.pdf
+GMAT Tutorial,tools,Mission analysis tool tutorial and exercises,graduate,90,draft,Download GMAT 2025a Do the Tutorial.md
+Outlook Calendar,tools,Team calendar management and scheduling tutorial (PDF),all,15,published,outlook_calendar_tutorial.pdf
+CDH and Software,technical,Command and data handling systems overview (PDF),graduate,75,published,5_UNP_CDH_and_Software.pdf
+Satellite Operations,technical,Satellite operations procedures and best practices (PDF),graduate,60,published,8_UNP_Satellite_Operations_Presentation.pdf
+Team Management,collaboration,Project management for aerospace teams (PDF),all,45,published,8_UNP_EAT_TeamManagement_Presentation.pdf
+Mission Assurance,fundamentals,Quality assurance and mission reliability (PDF),undergraduate,30,published,7_UNP_EAT_Mission_Assurance_Presentation.pdf
+ConOps and Experiment Plan,fundamentals,Concept of operations and experiment planning (PDF),undergraduate,45,published,5_UNP_EAT_ConOps_and_Experiment_Plan_Presentation.pdf

@@ -1,0 +1,16 @@
+﻿Task,Assignee,Description,Group,Priority,Status,Time Required to Complete
+Literature Review,,"Go through the linked Research Papers to determine the if there are any usable tables, data or other resources","🌸Ella, 🏀Angel",High,SAA Region Location,> 24Hours
+Rasterizing the SAA,,Establish a method for rasterizing the region of interest for running the optimization simulation (a bunch of tiny squares rather than one big square!) Determine the number of squares that makes sense to decrease redundancy and increase accuracy!,"🌸Ella, 🏀Angel, 🚀Jordy",High,SAA Region Location,> 24Hours
+RadLab/Environmental Data APP How To,,"Determine the best tool for analyzing and extracting data, NASA’s RadLab vs Environmental Data App",🌸Ella,Medium,SAA Region Location,> 24Hours
+SAA Area Research,,"1. Identify and document what the South Atlantic Anomaly region of interest is in terms of 1 degree by 1 degree latitude / longitude squares are various altitudes (approximately 400km - 900km)
+—> Squares over the rectangular space, 111km x 111km (at the equator but the closer to the poles the smaller the 1x1)",,Medium,SAA Region Location,~3Hours
+Brute Force Method,,Research the Range for 2D plane+ Collect Data,"🌸Ella, 🏀Angel, 🚀Jordy",High,GMAT Orbits,> 24Hours
+Finding the Optimal Solution for Maximizing the Time Spent in a Defined Region,,Choose the necessary requirements to define a solution as “optimal”,"🌸Ella, 🏀Angel, 🚀Jordy",High,GMAT Orbits,~3Hours
+Make Changes to the GMAT Code for New Parameter Ranges,,Determine in the code whether we have to run sims on 10 or 100 orbits,"🌸Ella, 🏀Angel, 🚀Jordy",High,GMAT Orbits,~3Hours
+SAA Rectangle Becomes Squares,,"1. Develop code that allows for the sections of the regions
+2. Combine or section off those new sections in the output report","🌸Ella, 🏀Angel, 🚀Jordy",High,GMAT Code,~3Hours
+Parameter Changes,,Determine What Paremeters need to change for the GMAT Code,"🌸Ella, 🏀Angel, 🚀Jordy",Medium,GMAT Code,
+Determine Which Currently Flying Satellites has the “Most Optimal Orbit” For Observing the SAA,,Figure out which satellites are in the region the longest and determine which satellites can take over the watch.,,Low,SAA 24 Hour Surveillance,~3Hours
+"How Many Satellites Are Needed For 24 Hour Surveillance ",,Calculate the number of satellites needed for the observation of an entire 24hr period based on the consistency/trajectory of the satellites.,,Low,SAA 24 Hour Surveillance,~3Hours
+"Find and store the data on all currently flying satellites ",,"1. Research the locations of current satellites
+2. Determine which spend the most time in the SAA",,Low,SAA 24 Hour Surveillance,~3Hours

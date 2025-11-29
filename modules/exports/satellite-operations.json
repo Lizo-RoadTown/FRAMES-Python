@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8173-802d-cd0aa733ac2a",
+  "title": "Satellite Operations",
+  "slug": "satellite-operations",
+  "description": "Satellite operations procedures and best practices",
+  "category": "Mission Design & Analysis",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 60,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "operations"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8173-802d-cd0aa733ac2a",
+  "fetched_at": "2025-11-28T07:18:41.914790"
+}

@@ -1,0 +1,48 @@
+﻿Name,Person(s),Category,Status,Due Date
+Testing/Verification/Validation Checklist,Pragun,Cygnet Demo Cosmic Watch,In progress,
+Order Cygnet Cosmic Watch v2 Boards,Pragun,Cygnet Demo Cosmic Watch,Done,
+Implement changes for Cygnet Cosmic Watch v2,Pragun,Cygnet Demo Cosmic Watch,Done,
+Test/Debug Cygnet Cosmic Watch,"Pragun, Anthony S, William, Zach Karazin, Ibrahim Elsousi",Cygnet Demo Cosmic Watch,Done,
+Find Suitable Plastic Scintillator,"Pragun, William",Cygnet Demo Cosmic Watch,Done,"June 12, 2025"
+Order Plastic Scintillator,Pragun,Cygnet Demo Cosmic Watch,Done,"June 16, 2025"
+Review JLCPCB Assembly,Pragun,Cygnet Demo Cosmic Watch,Done,"June 11, 2025"
+Review Gerber Files,Pragun,Cygnet Demo Cosmic Watch,Done,"June 11, 2025"
+Replace LT1807 Footprint with SOIC-8,Pragun,Cygnet Demo Cosmic Watch,Done,"June 11, 2025"
+Order Cygnet Cosmic Watch,Pragun,Cygnet Demo Cosmic Watch,Done,"June 11, 2025"
+Testing/Verification/Validation Checklist,William,Cygnet Demo Computer,In progress,
+"Order Cygnet Computer Dev Board v2 ",,Cygnet Demo Computer,Not started,
+Implement changes for Cygnet Computer Dev Board v2,,Cygnet Demo Computer,In progress,
+Cygnet Payload Computer (Flight Version) System Block Diagram,"Pragun, William",Cygnet Demo Computer,Not started,
+Test/Debug Cygnet Computer Dev Board,"William, Pragun, Anthony S, Zach Karazin, Ibrahim Elsousi",Cygnet Demo Computer,Done,
+"Cygnet Computer Dev Board Firmware ","William, Johann",Cygnet Demo Computer,Done,"June 23, 2025"
+Upload Files to JLCPCB,William,Cygnet Demo Computer,Done,"June 11, 2025"
+Generate BOM/CPL File,William,Cygnet Demo Computer,Done,"June 11, 2025"
+Generate Gerber Files,William,Cygnet Demo Computer,Done,"June 11, 2025"
+Implement Michael PR Comments,William,Cygnet Demo Computer,Done,"June 11, 2025"
+Order Cygnet Muon Dev Board,"William, Zach Karazin",Cygnet Demo Computer,Done,"June 11, 2025"
+Update Radiation Requirements,Pragun,Component Selection,Done,"June 12, 2025"
+Criteria for uControllers,"Anthony S, Zach Karazin",Component Selection,Done,"June 16, 2025"
+List of categories of components,"Anthony S, Zach Karazin",Component Selection,Done,"June 13, 2025"
+Criteria for SBC,"Zach Karazin, Anthony S",Component Selection,Done,"June 10, 2025"
+TID Test Guideline Research,,Radiation Testing,Not started,"June 16, 2025"
+TID Test Standard Research,,Radiation Testing,Not started,"June 16, 2025"
+High High Energy SEE Test Procedure - iMX,"Pragun, Ibrahim Elsousi",Radiation Testing,Not started,"June 30, 2025"
+High Energy Proton SEE Test Setup - Jetson AGX Orin,"Pragun, Ibrahim Elsousi",Radiation Testing,Not started,"June 30, 2025"
+High Energy Proton SEE Test Procedure - Jetson AGX Orin,"Pragun, Ibrahim Elsousi",Radiation Testing,Not started,"June 30, 2025"
+High Energy Proton SEE Test Conditions - iMX,"Pragun, Ibrahim Elsousi",Radiation Testing,Not started,"June 30, 2025"
+High Energy Proton SEE Test Setup - iMX,"Pragun, Ibrahim Elsousi",Radiation Testing,Not started,"June 30, 2025"
+High Energy Proton SEE Test Procedure - iMX,"Pragun, Ibrahim Elsousi",Radiation Testing,Not started,"June 30, 2025"
+TID Test Conditions - Jetson,"Ibrahim Elsousi, Pragun",Radiation Testing,Not started,"June 30, 2025"
+"TID Test Procedure - Jetson ","Ibrahim Elsousi, Pragun",Radiation Testing,Not started,"June 30, 2025"
+"TID Test Setup - Jetson ","Ibrahim Elsousi, Pragun",Radiation Testing,Not started,"June 30, 2025"
+RadFET Board Test Procedure,,Cygnet RadFET Board,Not started,
+RadFET Board Test,,Cygnet RadFET Board,Not started,
+RadFET Footprint,Anthony S,Cygnet RadFET Board,Done,
+RadFET Schematic Symbol,Anthony S,Cygnet RadFET Board,Done,
+Upload Files to JLCPCB,,Cygnet RadFET Board,Not started,
+Generate BOM/CPL,,Cygnet RadFET Board,Not started,
+Generate Gerber Files,,Cygnet RadFET Board,Not started,
+RadFET Board Layout,,Cygnet RadFET Board,Done,
+RadFET Board Schematic,,Cygnet RadFET Board,Done,
+Naming the RadFET Board,,Cygnet RadFET Board,Done,
+System Block Diagram,Pragun,Cygnet RadFET Board,Not started,

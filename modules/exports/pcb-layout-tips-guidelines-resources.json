@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81ab-96fe-efb731d43fff",
+  "title": "PCB Layout Tips Guidelines Resources",
+  "slug": "pcb-layout-tips-guidelines-resources",
+  "description": "PCB layout best practices and design guidelines",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 45,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "pcb",
+    "design"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81ab-96fe-efb731d43fff",
+  "fetched_at": "2025-11-28T07:19:25.847682"
+}

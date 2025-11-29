@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81ac-93e2-de54fa34208a",
+  "title": "GMAT Development User Guide",
+  "slug": "gmat-development-user-guide",
+  "description": "GMAT software development guide",
+  "category": "Mission Design & Analysis",
+  "difficulty": "Advanced",
+  "estimated_minutes": 120,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "gmat",
+    "reference"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81ac-93e2-de54fa34208a",
+  "fetched_at": "2025-11-28T07:19:27.454960"
+}

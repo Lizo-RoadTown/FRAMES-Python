@@ -1,0 +1,128 @@
+{
+  "module_id": "2b96b8ea-578a-81eb-97f7-e8ac91d11482",
+  "title": "EAT Software Design Notes",
+  "slug": "eat-software-design-notes",
+  "description": "Comprehensive software architecture and design patterns",
+  "category": "Software Development",
+  "discipline": "General",
+  "target_audience": "Graduate",
+  "estimated_minutes": 90,
+  "difficulty": "Advanced",
+  "status": "Published",
+  "source_type": "Markdown",
+  "source_file": "modules\\exports\\eat-software-design-notes.json",
+  "tags": [
+    "architecture",
+    "design"
+  ],
+  "prerequisites": [],
+  "record_source": {
+    "type": "enhanced"
+  },
+  "notion_page_id": "2b96b8ea-578a-81eb-97f7-e8ac91d11482",
+  "github_file": "modules/enhanced/eat-software-design-notes.json",
+  "learning_objectives": [
+    {
+      "statement": "Comprehensive software architecture and design patterns",
+      "bloom_level": "Understand"
+    }
+  ],
+  "concepts": [
+    "architecture",
+    "design"
+  ],
+  "sections": [
+    {
+      "title": "Overview",
+      "type": "reading",
+      "content_markdown": "Comprehensive software architecture and design patterns",
+      "assets": []
+    },
+    {
+      "title": "Hands-on Practice",
+      "type": "practice",
+      "steps": [
+        {
+          "instruction": "Review the resources associated with EAT Software Design Notes and note key dependencies.",
+          "check": "Did you capture the primary goals and blockers?",
+          "hint": "Summarize the main objective in one sentence before proceeding.",
+          "expected_duration_minutes": 10,
+          "requires_review": false
+        },
+        {
+          "instruction": "Apply the documented workflow on a realistic scenario related to EAT Software Design Notes.",
+          "check": "Can you demonstrate the workflow end-to-end?",
+          "hint": "Start with a simplified scenario before scaling up.",
+          "expected_duration_minutes": 15,
+          "requires_review": true
+        }
+      ]
+    },
+    {
+      "title": "Knowledge Check",
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "What is the primary objective of EAT Software Design Notes?",
+          "type": "multiple_choice",
+          "options": [
+            "To document context",
+            "To apply procedures",
+            "To track resources"
+          ],
+          "correct": "To apply procedures",
+          "explanation": "Each CADENCE module focuses on actionable procedures that support mission success.",
+          "concept_tags": [
+            "eat-software-design-notes"
+          ],
+          "difficulty": "Beginner"
+        },
+        {
+          "question": "Which artifact should you produce after completing EAT Software Design Notes?",
+          "type": "short_answer",
+          "options": [],
+          "correct": "A concise summary of actions, blockers, and next steps.",
+          "explanation": "Every module concludes with documentation that feeds onboarding and analytics.",
+          "concept_tags": [
+            "documentation"
+          ],
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "title": "Reflection",
+      "type": "reflection",
+      "prompts": [
+        "What worked well when completing EAT Software Design Notes?",
+        "What would you change for the next iteration?"
+      ]
+    }
+  ],
+  "reflection_prompts": [
+    "What insight will you share with your team?",
+    "Which follow-up tasks should you track?"
+  ],
+  "race_metadata": {
+    "ghost_data": [],
+    "time_targets": {
+      "beginner": 135.0,
+      "intermediate": 90,
+      "advanced": 67
+    },
+    "checkpoints": [
+      {
+        "name": "Plan",
+        "order": 1
+      },
+      {
+        "name": "Execute",
+        "order": 2
+      },
+      {
+        "name": "Document",
+        "order": 3
+      }
+    ]
+  }
+}

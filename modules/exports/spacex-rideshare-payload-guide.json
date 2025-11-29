@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8179-804a-ee375049871f",
+  "title": "SpaceX Rideshare Payload Guide",
+  "slug": "spacex-rideshare-payload-guide",
+  "description": "SpaceX rideshare integration requirements",
+  "category": "Mission Design & Analysis",
+  "difficulty": "Advanced",
+  "estimated_minutes": 75,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "launch",
+    "integration"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8179-804a-ee375049871f",
+  "fetched_at": "2025-11-28T07:18:45.774770"
+}

@@ -1,0 +1,17 @@
+{
+  "module_id": "2b96b8ea-578a-819c-aaed-f4ae5ac304ff",
+  "title": "Angel - Software",
+  "slug": "angel-software",
+  "description": "Individual software development workspace",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": null,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "workspace"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-819c-aaed-f4ae5ac304ff",
+  "fetched_at": "2025-11-28T07:19:14.174383"
+}

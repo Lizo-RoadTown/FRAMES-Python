@@ -1,0 +1,39 @@
+{
+  "module_id": "00000000-0000-0000-0000-000000000000",
+  "title": "Core Module Template",
+  "slug": "core-module-template",
+  "description": "Use this template for standard learning modules with reading, practice, quiz, and reflection sections.",
+  "category": "Getting Started",
+  "discipline": "General",
+  "target_audience": "Mixed",
+  "estimated_minutes": 45,
+  "difficulty": "Beginner",
+  "status": "Draft",
+  "source_type": "Template",
+  "source_file": "templates/modules/core_module_template.json",
+  "tags": ["template"],
+  "prerequisites": [],
+  "learning_objectives": [
+    {"statement": "Introduce the topic succinctly.", "bloom_level": "Remember"},
+    {"statement": "Guide the learner through a hands-on workflow.", "bloom_level": "Apply"},
+    {"statement": "Assess key concepts via quiz.", "bloom_level": "Analyze"}
+  ],
+  "concepts": ["core"],
+  "sections": [
+    {"title": "Overview", "type": "reading", "content_markdown": "Provide context and link to references.", "assets": []},
+    {"title": "Hands-on Practice", "type": "practice", "steps": []},
+    {"title": "Knowledge Check", "type": "quiz", "questions": []},
+    {"title": "Reflection", "type": "reflection", "prompts": []}
+  ],
+  "reflection_prompts": ["What did you learn?"],
+  "race_metadata": {
+    "ghost_data": [],
+    "time_targets": {"beginner": 60, "intermediate": 45, "advanced": 30},
+    "checkpoints": []
+  },
+  "notion_page_id": null,
+  "github_file": "templates/modules/core_module_template.json",
+  "record_source": {"type": "template"},
+  "created_at": null,
+  "updated_at": null
+}

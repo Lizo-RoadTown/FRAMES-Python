@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-816b-b167-d54ce4c0c2f0",
+  "title": "Perfected Github Assignment",
+  "slug": "perfected-github-assignment",
+  "description": "Advanced GitHub workflows and best practices",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 45,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "github",
+    "tools"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-816b-b167-d54ce4c0c2f0",
+  "fetched_at": "2025-11-28T07:18:34.230595"
+}

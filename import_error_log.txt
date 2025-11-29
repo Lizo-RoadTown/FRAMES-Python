@@ -1,0 +1,81 @@
+============================================================
+IMPORTING MODULES TO NOTION
+============================================================
+
+Found 68 modules in CSV
+
+[1/68] New Recruits... FAILED: Category is not a property that exists. Descriptio
+[2/68] GitHub Guide... FAILED: Category is not a property that exists. Descriptio
+[3/68] GitHub Practice... FAILED: Category is not a property that exists. Descriptio
+[4/68] Matt's Github Intro... FAILED: Category is not a property that exists. Descriptio
+[5/68] Software Overview... FAILED: Category is not a property that exists. Descriptio
+[6/68] UNP Nanosatellite User Guide... FAILED: Category is not a property that exists. Descriptio
+[7/68] Outlook Calendar Tutorial... FAILED: Category is not a property that exists. Descriptio
+[8/68] Team Management... FAILED: Category is not a property that exists. Descriptio
+[9/68] Mission Definition... FAILED: Category is not a property that exists. Descriptio
+[10/68] UNP Audio Visual Recommendations... FAILED: Category is not a property that exists. Descriptio
+[11/68] F Prime Tutorials... FAILED: Category is not a property that exists. Descriptio
+[12/68] F Prime LED Blinker Tutorial... FAILED: Category is not a property that exists. Descriptio
+[13/68] Software F-Prime for Baby CADENCE... FAILED: Category is not a property that exists. Descriptio
+[14/68] How to Run scales-software... FAILED: Category is not a property that exists. Descriptio
+[15/68] Cygnet Payload Software F-Prime Components... FAILED: Category is not a property that exists. Descriptio
+[16/68] EAT Software Design Notes... FAILED: Category is not a property that exists. Descriptio
+[17/68] Prelim Software Architecture... FAILED: Category is not a property that exists. Descriptio
+[18/68] Prelim Software Diagrams... FAILED: Category is not a property that exists. Descriptio
+[19/68] Software System Architecture Block Diagrams... FAILED: Category is not a property that exists. Descriptio
+[20/68] SRR - Software Design Document... FAILED: Category is not a property that exists. Descriptio
+[21/68] Software Management... FAILED: Category is not a property that exists. Descriptio
+[22/68] Software Onboarding... FAILED: Category is not a property that exists. Descriptio
+[23/68] Update Software Design Document for PMR... FAILED: Category is not a property that exists. Descriptio
+[24/68] Perfected Github Assignment... FAILED: Category is not a property that exists. Descriptio
+[25/68] 2U Flight Software - Cygnet... FAILED: Category is not a property that exists. Descriptio
+[26/68] Software for Cygnet... FAILED: Category is not a property that exists. Descriptio
+[27/68] Cygnet Hardware Software Plan... FAILED: Category is not a property that exists. Descriptio
+[28/68] Software Development for Baby CADENCE... FAILED: Category is not a property that exists. Descriptio
+[29/68] EAT - Software (Valerie's Notes)... FAILED: Category is not a property that exists. Descriptio
+[30/68] CDH and Software... FAILED: Category is not a property that exists. Descriptio
+[31/68] GitHub Navigation... FAILED: Category is not a property that exists. Descriptio
+[32/68] Add Github Tasks... FAILED: Category is not a property that exists. Descriptio
+[33/68] Create new section on Github... FAILED: Category is not a property that exists. Descriptio
+[34/68] Check in and GitHub discussion... FAILED: Category is not a property that exists. Descriptio
+[35/68] Ella - UML Diagrams & Github... FAILED: Category is not a property that exists. Descriptio
+[36/68] Train Kelly in Software... FAILED: Category is not a property that exists. Descriptio
+[37/68] Angel - Software... FAILED: Category is not a property that exists. Descriptio
+[38/68] Avionics Team Onboarding... FAILED: Category is not a property that exists. Descriptio
+[39/68] New Avionics Team Members Onboarding... FAILED: Category is not a property that exists. Descriptio
+[40/68] Power Systems PCB Onboarding... FAILED: Category is not a property that exists. Descriptio
+[41/68] NASA Power Systems for CubeSats... FAILED: Category is not a property that exists. Descriptio
+[42/68] UNP Electrical Power Systems... FAILED: Category is not a property that exists. Descriptio
+[43/68] EPS Design Presentation... FAILED: Category is not a property that exists. Descriptio
+[44/68] Communications Subsystem... FAILED: Category is not a property that exists. Descriptio
+[45/68] UNP COMM Subsystem... FAILED: Category is not a property that exists. Descriptio
+[46/68] PCB Layout Tips Guidelines Resources... FAILED: Category is not a property that exists. Descriptio
+[47/68] High Energy Proton SEE Test - iMX... FAILED: Category is not a property that exists. Descriptio
+[48/68] High Energy Proton SEE Test - Jetson AGX... FAILED: Category is not a property that exists. Descriptio
+[49/68] TID Test Setup - Jetson... FAILED: Category is not a property that exists. Descriptio
+[50/68] TID Test Guideline Research... FAILED: Category is not a property that exists. Descriptio
+[51/68] IMX v2 Board Software Compatibility... FAILED: Category is not a property that exists. Descriptio
+[52/68] RadLab Environmental Data APP... FAILED: Category is not a property that exists. Descriptio
+[53/68] Payload Software... FAILED: Category is not a property that exists. Descriptio
+[54/68] UNP Mission Design Course... FAILED: Category is not a property that exists. Descriptio
+[55/68] Orbit Simulations - Targeting SMA... FAILED: Category is not a property that exists. Descriptio
+[56/68] How Many Satellites for 24hr Surveillance... FAILED: Category is not a property that exists. Descriptio
+[57/68] GMAT Tutorial... FAILED: Category is not a property that exists. Descriptio
+[58/68] GMAT Development User Guide... FAILED: Category is not a property that exists. Descriptio
+[59/68] GMAT Users Guide... FAILED: Category is not a property that exists. Descriptio
+[60/68] Satellite Operations... FAILED: Category is not a property that exists. Descriptio
+[61/68] SpaceX Rideshare Payload Guide... FAILED: Category is not a property that exists. Descriptio
+[62/68] ConOps and Experiment Plan... FAILED: Category is not a property that exists. Descriptio
+[63/68] Systems Engineering Part 1... FAILED: Category is not a property that exists. Descriptio
+[64/68] Systems Engineering Part 2... FAILED: Category is not a property that exists. Descriptio
+[65/68] Systems Engineering Part 3... FAILED: Category is not a property that exists. Descriptio
+[66/68] SCR/SRR Expectations... FAILED: Category is not a property that exists. Descriptio
+[67/68] Mission Assurance... FAILED: Category is not a property that exists. Descriptio
+[68/68] Read UNP User's Guide Section 2... FAILED: Category is not a property that exists. Descriptio
+
+============================================================
+IMPORT COMPLETE
+============================================================
+Success: 0
+Failed: 68
+Total: 68

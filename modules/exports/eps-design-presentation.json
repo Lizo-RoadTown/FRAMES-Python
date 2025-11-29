@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81a8-a616-e6a81039cb40",
+  "title": "EPS Design Presentation",
+  "slug": "eps-design-presentation",
+  "description": "EPS subsystem design presentation",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Advanced",
+  "estimated_minutes": 45,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "power",
+    "design"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81a8-a616-e6a81039cb40",
+  "fetched_at": "2025-11-28T07:19:23.797187"
+}

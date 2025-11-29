@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81bf-8ab5-d0acfc7839c3",
+  "title": "SCR/SRR Expectations",
+  "slug": "scr-srr-expectations",
+  "description": "System Concept Review and System Requirements Review expectations",
+  "category": "Systems Engineering",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 30,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "reviews"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81bf-8ab5-d0acfc7839c3",
+  "fetched_at": "2025-11-28T07:19:42.908660"
+}

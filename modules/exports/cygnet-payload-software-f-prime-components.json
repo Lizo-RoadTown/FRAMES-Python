@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81ae-8e49-f0006fe0a104",
+  "title": "Cygnet Payload Software F-Prime Components",
+  "slug": "cygnet-payload-software-f-prime-components",
+  "description": "F-Prime component architecture for Cygnet payload",
+  "category": "Software Development",
+  "difficulty": "Advanced",
+  "estimated_minutes": 60,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "f-prime",
+    "cadence"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81ae-8e49-f0006fe0a104",
+  "fetched_at": "2025-11-28T07:19:28.777554"
+}

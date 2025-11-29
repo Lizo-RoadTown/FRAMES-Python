@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81af-b80a-e66bb793f364",
+  "title": "ConOps and Experiment Plan",
+  "slug": "conops-and-experiment-plan",
+  "description": "Concept of operations and experiment planning",
+  "category": "Mission Design & Analysis",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 45,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "planning"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81af-b80a-e66bb793f364",
+  "fetched_at": "2025-11-28T07:19:32.259088"
+}

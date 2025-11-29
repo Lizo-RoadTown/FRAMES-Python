@@ -1,0 +1,19 @@
+{
+  "module_id": "2b96b8ea-578a-814b-943f-e15d5ce95eee",
+  "title": "Systems Engineering Part 3",
+  "slug": "systems-engineering-part-3",
+  "description": "Advanced systems engineering practices",
+  "category": "Systems Engineering",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 60,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "se",
+    "advanced"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-814b-943f-e15d5ce95eee",
+  "fetched_at": "2025-11-28T07:18:22.655826"
+}

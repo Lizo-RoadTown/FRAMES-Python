@@ -1,0 +1,17 @@
+{
+  "module_id": "2b96b8ea-578a-8119-99cf-d5ed7450c5d3",
+  "title": "Prelim Software Architecture",
+  "slug": "prelim-software-architecture",
+  "description": "Preliminary software architecture documentation",
+  "category": "Software Development",
+  "difficulty": "Advanced",
+  "estimated_minutes": 60,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "architecture"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8119-99cf-d5ed7450c5d3",
+  "fetched_at": "2025-11-28T07:17:55.411637"
+}

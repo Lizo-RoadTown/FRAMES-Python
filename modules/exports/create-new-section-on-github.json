@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81a2-95ef-f156fc0f37f6",
+  "title": "Create new section on Github",
+  "slug": "create-new-section-on-github",
+  "description": "GitHub organization and section management",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 15,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "github",
+    "tools"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81a2-95ef-f156fc0f37f6",
+  "fetched_at": "2025-11-28T07:19:20.517187"
+}

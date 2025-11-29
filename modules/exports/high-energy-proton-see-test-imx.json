@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8134-85a9-f9e0c110aad9",
+  "title": "High Energy Proton SEE Test - iMX",
+  "slug": "high-energy-proton-see-test-imx",
+  "description": "Single event effects testing procedure for iMX",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Advanced",
+  "estimated_minutes": 60,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "testing",
+    "radiation"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8134-85a9-f9e0c110aad9",
+  "fetched_at": "2025-11-28T07:18:15.333294"
+}

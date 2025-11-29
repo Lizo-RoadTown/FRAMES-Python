@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-815c-9d59-f4e427de1e87",
+  "title": "CDH and Software",
+  "slug": "cdh-and-software",
+  "description": "Command and data handling systems overview",
+  "category": "Software Development",
+  "difficulty": "Advanced",
+  "estimated_minutes": 75,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "cdh"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-815c-9d59-f4e427de1e87",
+  "fetched_at": "2025-11-28T07:18:25.783870"
+}

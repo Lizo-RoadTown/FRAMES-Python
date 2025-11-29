@@ -1,0 +1,19 @@
+{
+  "module_id": "2b96b8ea-578a-8129-9df4-d72f9556035d",
+  "title": "NASA Power Systems for CubeSats",
+  "slug": "nasa-power-systems-for-cubesats",
+  "description": "Comprehensive electrical power systems design guide",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Advanced",
+  "estimated_minutes": 120,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "power",
+    "eps"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8129-9df4-d72f9556035d",
+  "fetched_at": "2025-11-28T07:18:08.029782"
+}

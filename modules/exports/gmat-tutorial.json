@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81ca-adab-c8f0c25cc121",
+  "title": "GMAT Tutorial",
+  "slug": "gmat-tutorial",
+  "description": "General Mission Analysis Tool tutorial and exercises",
+  "category": "Mission Design & Analysis",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 90,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "gmat",
+    "tools"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81ca-adab-c8f0c25cc121",
+  "fetched_at": "2025-11-28T07:19:52.994330"
+}

@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81ea-aa0f-c71e037e517d",
+  "title": "TID Test Setup - Jetson",
+  "slug": "tid-test-setup-jetson",
+  "description": "Total ionizing dose test procedure for Jetson",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Advanced",
+  "estimated_minutes": 45,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "testing",
+    "radiation"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81ea-aa0f-c71e037e517d",
+  "fetched_at": "2025-11-28T07:20:03.704112"
+}

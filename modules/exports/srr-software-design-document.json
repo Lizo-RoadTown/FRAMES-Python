@@ -1,0 +1,44 @@
+{
+  "module_id": "e95e1385-3fcf-5481-bc9d-7b4fa8ca85c1",
+  "slug": "srr-software-design-document",
+  "title": "SRR - Software Design Document",
+  "description": "System Requirements Review software design documentation",
+  "category": "Software Development",
+  "discipline": "Software",
+  "target_audience": "Graduate",
+  "estimated_minutes": 90,
+  "status": "Draft",
+  "difficulty": "Advanced",
+  "source_type": "Markdown",
+  "source_file": "SRR - Software Design Document.md",
+  "tags": [
+    "documentation",
+    "reviews"
+  ],
+  "prerequisites": [
+    "EAT Software Design Notes"
+  ],
+  "sections": [
+    {
+      "heading": "SRR - Software Design Document",
+      "content_markdown": "Sub-team: Flight Software, Payload Software\nPriority: Medium\nDescription: subteam lead only\nProject: CADENCE\nStatus: Done\nAssignee: Kainoah Vann\nDue date: 03/18/2025 → 04/11/2025",
+      "word_count": 23
+    },
+    {
+      "heading": "Task description",
+      "content_markdown": "- This is a new document we will create for SRR. It will be updated throughout development and be turned in with a new revision at each milestone review with UNP.\n\nThe document is here: https://livecsupomona.sharepoint.com/:w:/r/sites/broncospacelab/Shared%20Documents/CADENCE%20-%20General/System%20Requirements%20Review%20(SRR)/CADENCE%20Software%20Design%20Document%20-%20SRR.docx?d=wc6bdddf30609450b9a353ffd0a21bbdb&csf=1&web=1&e=rqSqAE\n\n- I copied the MDD for formatting and left a few things in there that i thought were possible relevant. Feel free to change whatever you want **except for the formatting**\n\nExpectations of this document for SRR:\n\n- very short explanation of the software architecture and how this meets mission requirements\n- functional and reliability requirements and risk assessment\n\nAccording to this chart:\n\n![image.png](image%2059.png)\n\nWe were supposed to have a Software Development Plan during SCR but i don’t think they mentioned missing it in the feedback we got so we should probably include that sort of thing here.\n\nThe only 2 blocks in this chart that we have to worry about right now are the **Planning** and **Software Concept Definition and Requirements** blocks of the chart (the first 2). Everything else is for later.\n\nThere really isn’t much detail or guidance on what should be in the SDD (Software Design Document) at all really. I would focus on writing requirements and trying to understand the logical flow of the system before diving into this document. Spend about a week on that stuff and then transition to this.\n\nThis document is supposed to be short for SRR so I don’t think it’s really a big deal.",
+      "word_count": 241
+    },
+    {
+      "heading": "Supporting files",
+      "content_markdown": "- UNP User’s Guide - https://livecsupomona.sharepoint.com/:b:/r/sites/broncospacelab/Shared%20Documents/CADENCE%20-%20General/UNP%20Resources/UNP%20NS12%20User%27s%20Guide_RevA_18Feb25.pdf?csf=1&web=1&e=TK7koe\n    - Section 2.4.5 (pg 35)\n    - Section 8.3.7 (pg 112)",
+      "word_count": 16
+    }
+  ],
+  "raw_markdown": "# SRR - Software Design Document\n\nSub-team: Flight Software, Payload Software\nPriority: Medium\nDescription: subteam lead only\nProject: CADENCE\nStatus: Done\nAssignee: Kainoah Vann\nDue date: 03/18/2025 → 04/11/2025\n\n## Task description\n\n- This is a new document we will create for SRR. It will be updated throughout development and be turned in with a new revision at each milestone review with UNP.\n\nThe document is here: https://livecsupomona.sharepoint.com/:w:/r/sites/broncospacelab/Shared%20Documents/CADENCE%20-%20General/System%20Requirements%20Review%20(SRR)/CADENCE%20Software%20Design%20Document%20-%20SRR.docx?d=wc6bdddf30609450b9a353ffd0a21bbdb&csf=1&web=1&e=rqSqAE\n\n- I copied the MDD for formatting and left a few things in there that i thought were possible relevant. Feel free to change whatever you want **except for the formatting**\n\nExpectations of this document for SRR:\n\n- very short explanation of the software architecture and how this meets mission requirements\n- functional and reliability requirements and risk assessment\n\nAccording to this chart:\n\n![image.png](image%2059.png)\n\nWe were supposed to have a Software Development Plan during SCR but i don’t think they mentioned missing it in the feedback we got so we should probably include that sort of thing here.\n\nThe only 2 blocks in this chart that we have to worry about right now are the **Planning** and **Software Concept Definition and Requirements** blocks of the chart (the first 2). Everything else is for later.\n\nThere really isn’t much detail or guidance on what should be in the SDD (Software Design Document) at all really. I would focus on writing requirements and trying to understand the logical flow of the system before diving into this document. Spend about a week on that stuff and then transition to this.\n\nThis document is supposed to be short for SRR so I don’t think it’s really a big deal.\n\n## Supporting files\n\n- UNP User’s Guide - https://livecsupomona.sharepoint.com/:b:/r/sites/broncospacelab/Shared%20Documents/CADENCE%20-%20General/UNP%20Resources/UNP%20NS12%20User%27s%20Guide_RevA_18Feb25.pdf?csf=1&web=1&e=TK7koe\n    - Section 2.4.5 (pg 35)\n    - Section 8.3.7 (pg 112)",
+  "record_source": {
+    "type": "cadence-notion-export",
+    "archive": "temp_cadence_extract\\ExportBlock-e881308d-93d4-492e-bdac-6d92e7bb342e-Part-1.zip",
+    "entry_name": "SRR - Software Design Document 1b4ca1dca64c803eb1c0c9f0d959859c.md"
+  }
+}

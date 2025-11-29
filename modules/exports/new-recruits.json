@@ -1,0 +1,3938 @@
+{
+  "module_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc",
+  "title": "New Recruits",
+  "slug": "new-recruits",
+  "description": "Complete onboarding guide for new team members",
+  "category": "Getting Started",
+  "difficulty": "Beginner",
+  "estimated_minutes": 45,
+  "target_audience": "All",
+  "status": "Published",
+  "tags": [
+    "onboarding"
+  ],
+  "sections": [
+    {
+      "heading": "Overview",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-817d-bd31-f29676a92c57",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "callout",
+          "callout": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Complete onboarding guide for new team members",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Complete onboarding guide for new team members",
+                "href": null
+              }
+            ],
+            "icon": {
+              "type": "emoji",
+              "emoji": "🎯"
+            },
+            "color": "blue_background"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81b9-9ae0-c6d8d7dd0e04",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "divider",
+          "divider": {}
+        }
+      ]
+    },
+    {
+      "heading": "New Recruits",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8156-a2f6-cd748830f20b",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Hello and welcome to the CADENCE team!",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Hello and welcome to the CADENCE team!",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8155-8cb0-d4b609c700b8",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "There’s a lot of information to get through, so this page will serve as a reference point for you while you get acquainted with the project and with the rest of the team.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "There’s a lot of information to get through, so this page will serve as a reference point for you while you get acquainted with the project and with the rest of the team.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "About the Bronco Space Lab",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-810b-93f8-e044c1d13dd9",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "📍3670 W Temple Ave STE 278, Pomona, CA 91768",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "📍3670 W Temple Ave STE 278, Pomona, CA 91768",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-816c-bd1d-e934d89e9218",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Located near Innovation Brew Works.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Located near Innovation Brew Works.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Lab Culture and Rules",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81bd-9714-c059434174c2",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Usually open around 9am - 10am on weekdays",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Usually open around 9am - 10am on weekdays",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81b2-ae09-c0b0d77db198",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Closes around 6pm - 7pm on weekdays (the AC turns off at 6pm)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Closes around 6pm - 7pm on weekdays (the AC turns off at 6pm)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8163-92c4-c9b7cd01a4fc",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "sometimes we here way past 7pm, ping lab door chat on icon lab discord if you want to ask if anyones there",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "sometimes we here way past 7pm, ping lab door chat on icon lab discord if you want to ask if anyones there",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-814a-81aa-c9ea4305215a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Not open on weekends unless otherwise specified",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Not open on weekends unless otherwise specified",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-810f-9dd3-c34adf561296",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "go touch grass",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "go touch grass",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8141-8be5-e0ff602b44ec",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Bathroom code is 4132",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Bathroom code is 4132",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8138-bee6-e39af19cb775",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Conference rooms available on the other side of the courtyard. Code for the door is same as bathrooms (4132)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Conference rooms available on the other side of the courtyard. Code for the door is same as bathrooms (4132)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81c4-8a41-f11b381acf74",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "ask anyone in the lab if you need help finding them",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "ask anyone in the lab if you need help finding them",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81ac-8b49-eaf02de51fd1",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "you are allowed to use them whenever you want, no reservation required",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "you are allowed to use them whenever you want, no reservation required",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-814d-915d-e9d0d3e33884",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "if you need it for longer than a few hours, let your lead know and we will set up a reservation for you",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "if you need it for longer than a few hours, let your lead know and we will set up a reservation for you",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81b8-9dec-f1a93e5a3681",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Small kitchenette with a microwave, air fryer, sink, fridge and freezer available for you to use",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Small kitchenette with a microwave, air fryer, sink, fridge and freezer available for you to use",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-810f-9e64-f4cff631726a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "please clean up after yourself",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "please clean up after yourself",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81ba-a7f8-e51e7b91c3ec",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "also a table to eat at",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "also a table to eat at",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8183-989e-c7caa411c94d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "You can eat anywhere in the lab, just be mindful of mess and any hardware nearby",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "You can eat anywhere in the lab, just be mindful of mess and any hardware nearby",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-810a-90c0-fd91a786a19e",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Feel free to come by and hang out, you can do homework there or project work",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Feel free to come by and hang out, you can do homework there or project work",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Getting Started",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-814b-8ceb-d638b4d9d956",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Set up your CPP Outlook calendar",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Set up your CPP Outlook calendar",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8181-9897-c133bdc45fe9",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Understand the rules of Discord usage and file sharing",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Understand the rules of Discord usage and file sharing",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8130-97b0-d997292da72a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Read the Mission Design Document (MDD)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Read the Mission Design Document (MDD)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8163-b7e6-d379cd530882",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Read the Requirements Verification Matrix (RVM)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Read the Requirements Verification Matrix (RVM)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8140-979b-dfa0261e4745",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Read (skim) through the UNP User’s Guide",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Read (skim) through the UNP User’s Guide",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-814e-a7c2-c492594b944a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Look at the Timeline/Task list on the home page",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Look at the Timeline/Task list on the home page",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-817a-835e-dac8e53d4d4c",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[Tasks Tracker](Tasks%20Tracker%2019aca1dca64c801ab552d081e412bbc4.csv)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[Tasks Tracker](Tasks%20Tracker%2019aca1dca64c801ab552d081e412bbc4.csv)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8194-bc54-e4fd0f734dde",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Send questions in your sub-team chat or in the q-and-a channel on Discord",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Send questions in your sub-team chat or in the q-and-a channel on Discord",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Outlook Calendar",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81b7-93ff-d7f71f0771a5",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "We require all members to use and update their school Outlook calendar. This makes it easier to schedule meetings and see when people are available. Here’s a guide on how to set this up.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "We require all members to use and update their school Outlook calendar. This makes it easier to schedule meetings and see when people are available. Here’s a guide on how to set this up.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "How to add classes to your calendar",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8178-95a4-ced53ed7750d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "In outlook, click “New Event” in the top right corner.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "In outlook, click “New Event” in the top right corner.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-811d-876f-d08e1a06ab34",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Add your class. Include the date and time. Location is not necessary.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Add your class. Include the date and time. Location is not necessary.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-812e-8c57-d8465f7de44e",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Click “Make Recurring”",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Click “Make Recurring”",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8128-862f-fd78194737e9",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Select the days of the week work class occurs.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Select the days of the week work class occurs.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8108-8071-fe30ee2e9916",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Make the end date sometime around when the semester ends. (Fall 2025 - last day before finals week is December 5th)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Make the end date sometime around when the semester ends. (Fall 2025 - last day before finals week is December 5th)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81ad-8b1f-cf07f0f81f49",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Calendar Sharing",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Calendar Sharing",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8198-ba5a-dec295fd0f5d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "To update sharing settings, click the 3 dots next to your CPP calendar on the left side of the screen for more options.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "To update sharing settings, click the 3 dots next to your CPP calendar on the left side of the screen for more options.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-819f-9765-d990b44701c7",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Click “Sharing and Permissions”",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Click “Sharing and Permissions”",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8153-9ed1-e7014d4b6d7f",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Select one of the following options:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Select one of the following options:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8118-8934-d83691d58f23",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Can view when I’m busy",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Can view when I’m busy",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81d4-aecf-eae46f44fcc4",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Can view titles and locations",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Can view titles and locations",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8153-92a4-ccffce8d43fc",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Can view all details",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Can view all details",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8131-a594-e91da6d6800c",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Adding outside accounts",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Adding outside accounts",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81fb-bde3-fddef90e95f2",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Go to your settings in the top right corner",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Go to your settings in the top right corner",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81ca-9abe-d46f3fe4ab89",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Navigate to Calendar settings and select Accounts",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Navigate to Calendar settings and select Accounts",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8108-bc0a-cf35cf6b9399",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Log into any other outside calendar account you may use for personal events",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Log into any other outside calendar account you may use for personal events",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-819e-a8de-edef79076cb0",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Select “Include in my work availability” after logging in",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Select “Include in my work availability” after logging in",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8182-90cc-dd4ffeb89fd7",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "This will only show as “Busy” on your calendar, other cannot see any event details",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "This will only show as “Busy” on your calendar, other cannot see any event details",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81f9-b608-ea05b8cfc45b",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Viewing other’s calendars",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Viewing other’s calendars",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8154-93f2-fd554d562412",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Click “Add calendar” on the left",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Click “Add calendar” on the left",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81f1-94b6-f2ab3ad4b94a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Go to “Add from directory” and select your CPP account",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Go to “Add from directory” and select your CPP account",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8118-bf8c-f01250c0cfca",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Type in the email or name of anyone who goes to CPP",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Type in the email or name of anyone who goes to CPP",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8190-a4e2-f9432a744817",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Their calendar will now be visible whenever you want. You just have to check/uncheck their calendar if you want to see/hide it.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Their calendar will now be visible whenever you want. You just have to check/uncheck their calendar if you want to see/hide it.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Importance of Documentation",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-813a-bf9b-fb6752803b48",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Documentation is the most important part of working on a team, aside from communication. We have students coming and going over the course of this project, so documenting your work and how you did things and what important decisions you made and why is **majorly important and can make or break a team.**",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Documentation is the most important part of working on a team, aside from communication. We have students coming and going over the course of this project, so documenting your work and how you did things and what important decisions you made and why is **majorly important and can make or break a team.**",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8191-a5b3-f1f2257977bd",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "write down what you tried - what worked and what didn’t",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "write down what you tried - what worked and what didn’t",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8180-97be-f2bf92626a43",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "you never know what will be important down the line",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "you never know what will be important down the line",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-818c-9da2-f84768127669",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "some problems come up again and again, so having a record of what you did to solve it previously can save so much time",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "some problems come up again and again, so having a record of what you did to solve it previously can save so much time",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81a4-a490-fdc8c5c5a12c",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "keep track of resources used during research and development",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "keep track of resources used during research and development",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81fa-ad79-dc7d2cc13185",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "make sure your documentation is available to **every team member on the project**",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "make sure your documentation is available to **every team member on the project**",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81d1-9dec-d3e10b57fecb",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "save in a shared place (OneDrive, Notion, etc.)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "save in a shared place (OneDrive, Notion, etc.)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8119-922a-c3a12a1fbcba",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "ask where something should be saved if you aren’t sure",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "ask where something should be saved if you aren’t sure",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81f8-a45b-d2d425256b6f",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "write documentation with the expectation that other people will be looking at it to understand what you did",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "write documentation with the expectation that other people will be looking at it to understand what you did",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8189-807a-c0b4963733fa",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "they should be able to replicate the results",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "they should be able to replicate the results",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81a1-86b9-cf17470b1c86",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "almost like writing a tutorial",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "almost like writing a tutorial",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Notion",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-810a-8adf-ff3f1a219baa",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Using Notion is **required for all members of the team.**",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Using Notion is **required for all members of the team.**",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8107-aaf4-cb164631ca18",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "In general, we use notion for:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "In general, we use notion for:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-810a-a4ee-c0652869fc1c",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "task management",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "task management",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8195-8cdb-ffcf58c5b2f4",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "keeping track of deadlines",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "keeping track of deadlines",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-815f-95df-df391319b526",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "meeting notes",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "meeting notes",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81f9-9891-d16b18a9236d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "informal documentation",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "informal documentation",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81e9-8db5-e050ef194be6",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Feel free to make your own pages in your sub-team sections.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Feel free to make your own pages in your sub-team sections.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-815f-a27d-cd0ee4dafcb3",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Ask Kelly or your lead if you have questions about Notion.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Ask Kelly or your lead if you have questions about Notion.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "OneDrive",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8127-a3b3-f4892f4d7876",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "All of our more formal documentation goes here. For every milestone or review, we make a new folder for the documents required to be submitted to UNP.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "All of our more formal documentation goes here. For every milestone or review, we make a new folder for the documents required to be submitted to UNP.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-814c-a153-d15f1568577d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "We have templates for Word documents and PowerPoint presentations that we use.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "We have templates for Word documents and PowerPoint presentations that we use.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81a6-bf5d-e148641913fb",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Just make a copy of an existing document to re-use the template.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Just make a copy of an existing document to re-use the template.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "GitHub",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-816b-962b-cfb4fa17783d",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "We use GitHub for more than just code. We use it for:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "We use GitHub for more than just code. We use it for:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81b3-9e89-e123f223eed5",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "hardware designs, schematic files and PCB files",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "hardware designs, schematic files and PCB files",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-810a-8afd-fd8981472961",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "(eventually) formal documentation on technical work (think of a how-to guide)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "(eventually) formal documentation on technical work (think of a how-to guide)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8171-9c70-e6f3b52781e3",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "beyond flight software, we use it for GMAT simulation code",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "beyond flight software, we use it for GMAT simulation code",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81c0-a736-e520a64ae63e",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Kelly should have sent you an invitation to join the BroncoSpace-Lab community on GitHub. There, you can see every CADENCE repository that we have so far.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Kelly should have sent you an invitation to join the BroncoSpace-Lab community on GitHub. There, you can see every CADENCE repository that we have so far.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-811f-8cdc-dc9393c404d5",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "As we progress in design and development, we will be using the GitHub more and more, so make sure you familiarize yourself with it.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "As we progress in design and development, we will be using the GitHub more and more, so make sure you familiarize yourself with it.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Communication and Discord Usage",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8167-940a-d29a311c77db",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Communication, along with documentation, is **the most important aspect about working in a team**. We primarily use Discord for text communication.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Communication, along with documentation, is **the most important aspect about working in a team**. We primarily use Discord for text communication.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81bc-acdd-f73c60bb2b63",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "All project-related discussions over text must happen in the CADENCE Discord Server.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "All project-related discussions over text must happen in the CADENCE Discord Server.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81b4-9038-f218386c8481",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "This is primarily to keep a record of important discussions",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "This is primarily to keep a record of important discussions",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-811c-82ca-d637b4bbf182",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Also great to keep things in one place so other team members can have the same updated information",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Also great to keep things in one place so other team members can have the same updated information",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8190-9e9d-da83ff2d017c",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "You can use DM for personal conversations with project members, but any and all project discussions must be held in the server.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "You can use DM for personal conversations with project members, but any and all project discussions must be held in the server.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "About CADENCE",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8144-ba1a-e15d67c2ee03",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[CADENCE-SWANS Information](CADENCE-SWANS%20Information%2025bca1dca64c80ac94e0e30df16c934f.md)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[CADENCE-SWANS Information](CADENCE-SWANS%20Information%2025bca1dca64c80ac94e0e30df16c934f.md)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8112-93c7-e2c34bbd0085",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Visit this page for an overview of the mission",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Visit this page for an overview of the mission",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    }
+  ],
+  "notion_page_id": "2b96b8ea-578a-8108-91c0-ea8ee6ee6ecc",
+  "fetched_at": "2025-11-28T07:17:39.367680"
+}

@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81b9-bd73-e2bcaa9de132",
+  "title": "How Many Satellites for 24hr Surveillance",
+  "slug": "how-many-satellites-for-24hr-surveillance",
+  "description": "Constellation design for continuous coverage",
+  "category": "Mission Design & Analysis",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 45,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "constellation",
+    "orbits"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81b9-bd73-e2bcaa9de132",
+  "fetched_at": "2025-11-28T07:19:40.061297"
+}

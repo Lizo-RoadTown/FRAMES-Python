@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Viewer - FRAMES</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="module-viewer">
+        <header class="module-header">
+            <a href="/" class="back-button">← Back to Modules</a>
+            <div id="module-title" class="loading">Loading...</div>
+            <div id="module-meta"></div>
+        </header>
+
+        <div class="progress-bar">
+            <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+        </div>
+
+        <main id="module-content" class="module-content">
+            <div class="loading">Loading module content...</div>
+        </main>
+
+        <nav class="module-nav">
+            <button id="prev-btn" class="nav-btn" disabled>← Previous</button>
+            <span id="section-indicator">Section 1 of 1</span>
+            <button id="next-btn" class="nav-btn">Next →</button>
+        </nav>
+    </div>
+
+    <script>
+        const MODULE_ID = "{{ module_id }}";
+    </script>
+    <script src="{{ url_for('static', filename='module-viewer.js') }}"></script>
+</body>
+</html>

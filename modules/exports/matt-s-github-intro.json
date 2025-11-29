@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81bf-bccd-dcad6e45c8d4",
+  "title": "Matt's Github Intro",
+  "slug": "matt-s-github-intro",
+  "description": "Introduction to GitHub workflows",
+  "category": "Getting Started",
+  "difficulty": "Beginner",
+  "estimated_minutes": 20,
+  "target_audience": "All",
+  "status": "Published",
+  "tags": [
+    "github",
+    "tools"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81bf-bccd-dcad6e45c8d4",
+  "fetched_at": "2025-11-28T07:19:49.058795"
+}

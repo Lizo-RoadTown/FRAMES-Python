@@ -1,0 +1,19 @@
+{
+  "module_id": "2b96b8ea-578a-817e-9191-f664b76cda38",
+  "title": "UNP Electrical Power Systems",
+  "slug": "unp-electrical-power-systems",
+  "description": "NASA UNP electrical power systems training",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Advanced",
+  "estimated_minutes": 120,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "power",
+    "eps"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-817e-9191-f664b76cda38",
+  "fetched_at": "2025-11-28T07:18:46.809304"
+}

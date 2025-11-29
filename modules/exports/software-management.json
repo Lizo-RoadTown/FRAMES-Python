@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81bb-9da3-f1317c974f96",
+  "title": "Software Management",
+  "slug": "software-management",
+  "description": "Software project management and development processes",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 45,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "management",
+    "process"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81bb-9da3-f1317c974f96",
+  "fetched_at": "2025-11-28T07:19:41.659755"
+}

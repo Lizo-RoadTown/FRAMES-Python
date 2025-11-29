@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8125-84a1-fbe3dffd19ba",
+  "title": "Cygnet Hardware Software Plan",
+  "slug": "cygnet-hardware-software-plan",
+  "description": "Integrated hardware-software development plan",
+  "category": "Software Development",
+  "difficulty": "Advanced",
+  "estimated_minutes": 60,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "cadence",
+    "integration"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8125-84a1-fbe3dffd19ba",
+  "fetched_at": "2025-11-28T07:18:02.021320"
+}

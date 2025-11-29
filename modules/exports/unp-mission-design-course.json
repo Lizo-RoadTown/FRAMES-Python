@@ -1,0 +1,19 @@
+{
+  "module_id": "2b96b8ea-578a-8151-a2e1-e5e0d4f31304",
+  "title": "UNP Mission Design Course",
+  "slug": "unp-mission-design-course",
+  "description": "Complete NASA mission design course presentation",
+  "category": "Mission Design & Analysis",
+  "difficulty": "Advanced",
+  "estimated_minutes": 180,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "mission",
+    "course"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8151-a2e1-e5e0d4f31304",
+  "fetched_at": "2025-11-28T07:18:23.780563"
+}

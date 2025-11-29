@@ -1,0 +1,19 @@
+{
+  "module_id": "2b96b8ea-578a-8174-ab56-f9a96c1ce6a9",
+  "title": "TID Test Guideline Research",
+  "slug": "tid-test-guideline-research",
+  "description": "Research guidelines for TID testing",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Advanced",
+  "estimated_minutes": 30,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "testing",
+    "radiation",
+    "research"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8174-ab56-f9a96c1ce6a9",
+  "fetched_at": "2025-11-28T07:18:43.415604"
+}

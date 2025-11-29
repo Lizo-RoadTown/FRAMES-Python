@@ -1,0 +1,19 @@
+{
+  "module_id": "2b96b8ea-578a-81df-bf88-f74f7f931c00",
+  "title": "Communications Subsystem",
+  "slug": "communications-subsystem",
+  "description": "RF communications and subsystem design guide",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Advanced",
+  "estimated_minutes": 90,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "comms",
+    "rf"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81df-bf88-f74f7f931c00",
+  "fetched_at": "2025-11-28T07:19:59.271372"
+}

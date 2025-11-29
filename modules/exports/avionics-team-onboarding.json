@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8101-80f6-d78aea760980",
+  "title": "Avionics Team Onboarding",
+  "slug": "avionics-team-onboarding",
+  "description": "Complete onboarding for avionics hardware team",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 60,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "avionics",
+    "onboarding"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8101-80f6-d78aea760980",
+  "fetched_at": "2025-11-28T07:17:36.081766"
+}

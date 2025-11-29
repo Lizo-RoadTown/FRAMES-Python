@@ -1,0 +1,726 @@
+{
+  "module_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d",
+  "title": "Software Overview",
+  "slug": "software-overview",
+  "description": "General software overview and tools introduction",
+  "category": "Getting Started",
+  "difficulty": "Beginner",
+  "estimated_minutes": 30,
+  "target_audience": "All",
+  "status": "Published",
+  "tags": [
+    "software",
+    "tools"
+  ],
+  "sections": [
+    {
+      "heading": "Overview",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-819b-8728-ccc7fa2c86db",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "callout",
+          "callout": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "General software overview and tools introduction",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "General software overview and tools introduction",
+                "href": null
+              }
+            ],
+            "icon": {
+              "type": "emoji",
+              "emoji": "🎯"
+            },
+            "color": "blue_background"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8122-b332-f79f456fd8bf",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "divider",
+          "divider": {}
+        }
+      ]
+    },
+    {
+      "heading": "Board to Board Communication",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81cb-b8ac-fd9719cb7f82",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Cygnet Payload Computer transmits messages to FC Board v5b via UART0",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Cygnet Payload Computer transmits messages to FC Board v5b via UART0",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8127-b24c-e5ab50c2ddcd",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Message from Payload Computer to FC Board v5b is sent to another FC Board via radio communication",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Message from Payload Computer to FC Board v5b is sent to another FC Board via radio communication",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81df-87e8-e14be33765f3",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Figure out why boards don’t communicate to each other during certain times",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Figure out why boards don’t communicate to each other during certain times",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Cosmic Watch Muon Detections",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8197-9db3-f4c219f13e82",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Initialize ADC on RP2040",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Initialize ADC on RP2040",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81bc-99b3-e80a2cca8ae4",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Read values from ADC",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Read values from ADC",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8177-aa53-ee61c938d5c8",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Establish a baseline value from ADC as origin or “0”",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Establish a baseline value from ADC as origin or “0”",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81e4-84ae-d960ef16f42a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Set a conversion rate between ADC values to Voltage values",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Set a conversion rate between ADC values to Voltage values",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8117-9346-e3bb85139530",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Must be the reproduce the same waveform as seen on the oscilloscope",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Must be the reproduce the same waveform as seen on the oscilloscope",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81e1-9770-d8df6b9757b3",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Set a trigger threshold for the software to know what level is a particle detection",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Set a trigger threshold for the software to know what level is a particle detection",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "GPS & Other Sensors Data",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8176-8d14-c8ff57425ee2",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Verify that GPS is using external antenna via protocol commands stated in the datasheet",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Verify that GPS is using external antenna via protocol commands stated in the datasheet",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-81e4-935f-ce14f44dbc7a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "It does say in the website that it automatically does switch over but just want to make sure",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "It does say in the website that it automatically does switch over but just want to make sure",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8181-8232-ecc4874c72d8",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Ensure GPS is soldered correctly",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Ensure GPS is soldered correctly",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8147-8e5b-cc8e56285928",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Check for compatible Antennas",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Check for compatible Antennas",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8192-8d36-e7ffab0ba7e3",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "[ ]  Change I2C Addresses of sensors",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "[ ]  Change I2C Addresses of sensors",
+                "href": null
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    }
+  ],
+  "notion_page_id": "2b96b8ea-578a-8121-8f67-c77ccfbc3f8d",
+  "fetched_at": "2025-11-28T07:18:00.773142"
+}

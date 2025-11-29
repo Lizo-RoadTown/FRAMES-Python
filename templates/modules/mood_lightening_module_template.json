@@ -1,0 +1,38 @@
+{
+  "module_id": "33333333-3333-3333-3333-333333333333",
+  "title": "Mood-Lightening Module Template",
+  "slug": "mood-lightening-module-template",
+  "description": "Template for culture-building or morale modules that blend learning with engagement.",
+  "category": "Getting Started",
+  "discipline": "General",
+  "target_audience": "Mixed",
+  "estimated_minutes": 30,
+  "difficulty": "Beginner",
+  "status": "Draft",
+  "source_type": "Template",
+  "source_file": "templates/modules/mood_lightening_module_template.json",
+  "tags": ["template", "culture"],
+  "prerequisites": [],
+  "learning_objectives": [
+    {"statement": "Break the ice and highlight team culture.", "bloom_level": "Understand"},
+    {"statement": "Connect the cultural lesson to mission goals.", "bloom_level": "Apply"}
+  ],
+  "concepts": ["culture"],
+  "sections": [
+    {"title": "Story Spotlight", "type": "reading", "content_markdown": "Share a fun anecdote related to the project.", "assets": []},
+    {"title": "Interactive Activity", "type": "practice", "steps": []},
+    {"title": "Quick Quiz", "type": "quiz", "questions": []},
+    {"title": "Feel-Good Reflection", "type": "reflection", "prompts": []}
+  ],
+  "reflection_prompts": ["What made you smile during this module?"],
+  "race_metadata": {
+    "ghost_data": [],
+    "time_targets": {"beginner": 40, "intermediate": 30, "advanced": 20},
+    "checkpoints": []
+  },
+  "notion_page_id": null,
+  "github_file": "templates/modules/mood_lightening_module_template.json",
+  "record_source": {"type": "template"},
+  "created_at": null,
+  "updated_at": null
+}

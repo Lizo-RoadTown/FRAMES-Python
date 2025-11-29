@@ -1,0 +1,22 @@
+# Files and directories that agents should NOT delete or modify
+
+# Critical libraries
+react-notion-x-master/
+react-notion-x-master.zip
+
+# Environment and credentials
+.env
+.vscode/mcp.json
+
+# Database
+instance/
+
+# Version control
+.git/
+
+# Python virtual environment
+venv/
+__pycache__/
+
+# Node modules (if added later)
+node_modules/

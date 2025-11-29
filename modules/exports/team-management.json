@@ -1,0 +1,94 @@
+{
+  "module_id": "2b96b8ea-578a-8183-b319-ce7c836cc388",
+  "title": "Team Management",
+  "slug": "team-management",
+  "description": "Project management for aerospace teams",
+  "category": "Getting Started",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 45,
+  "target_audience": "All",
+  "status": "Published",
+  "tags": [
+    "management"
+  ],
+  "sections": [
+    {
+      "heading": "Overview",
+      "content_blocks": [
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-812d-9235-ddb949622d6a",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8183-b319-ce7c836cc388"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "callout",
+          "callout": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Project management for aerospace teams",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Project management for aerospace teams",
+                "href": null
+              }
+            ],
+            "icon": {
+              "type": "emoji",
+              "emoji": "🎯"
+            },
+            "color": "blue_background"
+          }
+        },
+        {
+          "object": "block",
+          "id": "2b96b8ea-578a-8154-a242-fad3229492c0",
+          "parent": {
+            "type": "page_id",
+            "page_id": "2b96b8ea-578a-8183-b319-ce7c836cc388"
+          },
+          "created_time": "2025-11-28T00:15:00.000Z",
+          "last_edited_time": "2025-11-28T00:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "a0c68c95-e424-445a-ac9e-8795504247c8"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "divider",
+          "divider": {}
+        }
+      ]
+    }
+  ],
+  "notion_page_id": "2b96b8ea-578a-8183-b319-ce7c836cc388",
+  "fetched_at": "2025-11-28T07:18:50.061863"
+}

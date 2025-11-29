@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-8162-9b7b-f315de3a3547",
+  "title": "2U Flight Software - Cygnet",
+  "slug": "2u-flight-software-cygnet",
+  "description": "Flight software implementation for 2U CubeSat",
+  "category": "Software Development",
+  "difficulty": "Advanced",
+  "estimated_minutes": 90,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "cadence",
+    "flight-software"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8162-9b7b-f315de3a3547",
+  "fetched_at": "2025-11-28T07:18:32.662813"
+}

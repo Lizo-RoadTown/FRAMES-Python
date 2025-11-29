@@ -1,0 +1,17 @@
+{
+  "module_id": "2b96b8ea-578a-8131-a72a-dc4ceb48ad8f",
+  "title": "Train Kelly in Software",
+  "slug": "train-kelly-in-software",
+  "description": "Software mentoring and training guide",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 30,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "mentoring"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-8131-a72a-dc4ceb48ad8f",
+  "fetched_at": "2025-11-28T07:18:11.061096"
+}

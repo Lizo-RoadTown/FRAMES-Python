@@ -1,0 +1,76 @@
+# -------------------------
+# PYTHON
+# -------------------------
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+venv/
+.venv/
+ENV/
+env/
+instance/
+.pytest_cache/
+
+# -------------------------
+# DATABASE / STATE FILES
+# -------------------------
+*.db
+frames_data.json
+frames_data.json.bak*
+*.sql.backup
+*.dump
+
+# -------------------------
+# IDE / EDITORS
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS JUNK
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# LOGS
+# -------------------------
+*.log
+
+# -------------------------
+# SECRETS / ENV
+# (Never commit secrets!)
+# -------------------------
+.env
+.env.local
+.env.*.local
+.env.*
+.notion_db_id
+.claude/
+
+# -------------------------
+# NODE / REACT
+# -------------------------
+node_modules/
+frontend-react/node_modules/
+apps/onboarding-lms/frontend-react/node_modules/
+
+# -------------------------
+# SWARM LAB (NEW)
+# -------------------------
+swarm/runs/
+archive/
+temp_docs/
+ascent_basecamp_core_full_docs.zip
+nul
+
+# -------------------------
+# EXTERNAL REPOS
+# -----------------------
+
+react-notion-x-master/
+

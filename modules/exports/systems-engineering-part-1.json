@@ -1,0 +1,19 @@
+{
+  "module_id": "2b96b8ea-578a-81fb-99c1-f6f1de2c7414",
+  "title": "Systems Engineering Part 1",
+  "slug": "systems-engineering-part-1",
+  "description": "Introduction to systems engineering methodology",
+  "category": "Systems Engineering",
+  "difficulty": "Beginner",
+  "estimated_minutes": 60,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "nasa",
+    "se",
+    "fundamentals"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81fb-99c1-f6f1de2c7414",
+  "fetched_at": "2025-11-28T07:20:20.474797"
+}

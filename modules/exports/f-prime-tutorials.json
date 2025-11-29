@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-818b-bb2a-d9a277c724fd",
+  "title": "F Prime Tutorials",
+  "slug": "f-prime-tutorials",
+  "description": "Flight software framework tutorials and exercises",
+  "category": "Software Development",
+  "difficulty": "Intermediate",
+  "estimated_minutes": 120,
+  "target_audience": "Graduate",
+  "status": "Published",
+  "tags": [
+    "f-prime",
+    "software"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-818b-bb2a-d9a277c724fd",
+  "fetched_at": "2025-11-28T07:18:56.335362"
+}

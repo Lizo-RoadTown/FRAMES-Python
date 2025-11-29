@@ -1,0 +1,18 @@
+{
+  "module_id": "2b96b8ea-578a-81a2-b1a0-d07013103e7b",
+  "title": "New Avionics Team Members Onboarding",
+  "slug": "new-avionics-team-members-onboarding",
+  "description": "New member orientation for avionics subsystem",
+  "category": "Hardware & Subsystems",
+  "difficulty": "Beginner",
+  "estimated_minutes": 45,
+  "target_audience": "Undergraduate",
+  "status": "Published",
+  "tags": [
+    "avionics",
+    "onboarding"
+  ],
+  "sections": [],
+  "notion_page_id": "2b96b8ea-578a-81a2-b1a0-d07013103e7b",
+  "fetched_at": "2025-11-28T07:19:21.771159"
+}
