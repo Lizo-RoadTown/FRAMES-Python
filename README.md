@@ -1,5 +1,12 @@
 # FRAMES / Ascent Basecamp
 
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow.svg)
+![React](https://img.shields.io/badge/react-18+-61dafb.svg)
+![Flask](https://img.shields.io/badge/flask-3.0+-000000.svg)
+![PostgreSQL](https://img.shields.io/badge/postgresql-15+-316192.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 ---
 
 ## FRAMES (Predictive AI Modeling + Research Framework)
