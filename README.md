@@ -159,58 +159,82 @@ To accelerate development and documentation while preventing the uncontrolled cr
 
 ## Getting Started
 
-### 👨‍💻 For Developers (Using the Code)
+<table>
+<tr>
+<td width="33%" valign="top">
 
-**You want to:** Run the system locally, understand the architecture, contribute code, or deploy your own instance.
+### 👨‍💻 For Developers
 
-**Start here:**
-- 📄 **[System Overview](canon/SYSTEM_OVERVIEW.md)** — Overall architecture and how components connect
-- 📄 **[Database Schema](canon/DATABASE_SCHEMA.md)** — Complete PostgreSQL schema with 37+ tables
-- 📄 **[File Structure & Standards](canon/FILE_STRUCTURE_AND_STANDARDS.md)** — Repository organization and coding conventions
+**You want to run the code, contribute features, or deploy your own instance.**
+
+**→ [Complete Developer Guide](docs/FOR_DEVELOPERS.md)**
+
+**What you'll find:**
+- Full technical stack breakdown
+- Database schema (37 tables)
+- API endpoint reference
+- Quick start commands
+- Testing and deployment
 
 **Quick Start:**
 ```bash
 git clone https://github.com/Lizo-RoadTown/FRAMES-Python.git
 cd FRAMES-Python
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env  # Add your Neon PostgreSQL URL
+cp .env.example .env
 python backend/app.py
 ```
 
----
+</td>
+<td width="33%" valign="top">
 
-### 🔬 For Researchers (Using the Platform for Research)
+### 🔬 For Researchers
 
-**You want to:** Access analytics, study collaboration patterns, run NDA models, or analyze learning data.
+**You want to study learning patterns, team dynamics, or knowledge transfer using real data.**
 
-**Start here:**
-- 📄 **[Researcher Platform](canon/RESEARCHER_PLATFORM.md)** — Analytics dashboards, NDA modeling, multi-university comparisons
-- 📄 **[FRAMES Philosophy](canon/FRAMES_PHILOSOPHY.md)** — Research foundations and theoretical framework
-- 📄 **[Database Schema](canon/DATABASE_SCHEMA.md)** — Understanding the data structure for analysis
+**→ [Complete Research Guide](docs/FOR_RESEARCHERS.md)**
 
-**What you can do:**
-- Access cross-university engagement metrics
-- Model team interfaces and knowledge transfer friction
-- Track student progression and time-on-task analytics
-- Export data for custom analysis and predictive modeling
+**What you'll find:**
+- NDA modeling explained
+- Learning analytics capabilities
+- Multi-university data access
+- Example analysis workflows
+- Predictive modeling opportunities
 
----
+**Research Questions:**
+- How does knowledge move through teams?
+- Where do students struggle most?
+- Which interfaces predict failure?
+- How effective are different teaching methods?
 
-### 📚 For Students (Using the Platform to Learn)
+</td>
+<td width="33%" valign="top">
 
-**You want to:** Complete onboarding modules, learn mission-critical skills, and track your progress.
+### 📚 For Students
 
-**Start here:**
-- 📄 **[Student LMS](canon/STUDENT_LMS.md)** — How the learning modules work
-- 📄 **[OATutor Adaptation](canon/OATUTOR_ADAPTATION.md)** — The pedagogical approach behind the modules
+**You want to learn technical skills, contribute to your team, and track your progress.**
 
-**What you get:**
-- Structured learning paths tailored to your team's actual work
-- Step-by-step modules created from real mission procedures
-- Progress tracking without grades or tests
-- Mobile-friendly PWA accessible anywhere
+**→ [Complete Student Guide](docs/FOR_STUDENTS.md)**
+
+**What you'll find:**
+- How the learning platform works
+- Module structure explained
+- Progress tracking features
+- Race mode (competitive learning)
+- Mobile-friendly access
+
+**What you'll learn:**
+- Power systems & batteries
+- Avionics & firmware
+- Structures & CAD
+- Sensors & telemetry
+- Mission-specific skills
+
+</td>
+</tr>
+</table>
 
 ---
 
