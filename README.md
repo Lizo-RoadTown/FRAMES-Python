@@ -1,7 +1,7 @@
 # FRAMES - Multi-University Research & Training Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-316192.svg)](https://www.postgresql.org/)
 [![Neon](https://img.shields.io/badge/Neon-PostgreSQL-00E599.svg)](https://neon.tech/)
 
@@ -155,7 +155,7 @@ See **[docs/README.md](docs/README.md)** for complete documentation overview.
 ## 🛠️ Technology Stack
 
 ### Backend
-- **Python 3.11+** with Flask
+- **Python 3.12+** with Flask
 - **PostgreSQL 15+** (Neon hosted)
 - **SQLAlchemy** ORM
 - **Anthropic Claude API** (AI assistant)
