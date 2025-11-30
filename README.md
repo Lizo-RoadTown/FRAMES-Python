@@ -139,9 +139,58 @@ To accelerate development and documentation while preventing the uncontrolled cr
 
 ## Getting Started
 
-👉 **[Complete System Overview](canon/SYSTEM_OVERVIEW.md)**  
-👉 **[Canonical Documentation Index](canon/INDEX.md)**  
-👉 **[Repository Structure & Standards](canon/FILE_STRUCTURE_AND_STANDARDS.md)**
+### 👨‍💻 For Developers (Using the Code)
+
+**You want to:** Run the system locally, understand the architecture, contribute code, or deploy your own instance.
+
+**Start here:**
+- 📄 **[System Overview](canon/SYSTEM_OVERVIEW.md)** — Overall architecture and how components connect
+- 📄 **[Database Schema](canon/DATABASE_SCHEMA.md)** — Complete PostgreSQL schema with 37+ tables
+- 📄 **[File Structure & Standards](canon/FILE_STRUCTURE_AND_STANDARDS.md)** — Repository organization and coding conventions
+
+**Quick Start:**
+```bash
+git clone https://github.com/Lizo-RoadTown/FRAMES-Python.git
+cd FRAMES-Python
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env  # Add your Neon PostgreSQL URL
+python backend/app.py
+```
+
+---
+
+### 🔬 For Researchers (Using the Platform for Research)
+
+**You want to:** Access analytics, study collaboration patterns, run NDA models, or analyze learning data.
+
+**Start here:**
+- 📄 **[Researcher Platform](canon/RESEARCHER_PLATFORM.md)** — Analytics dashboards, NDA modeling, multi-university comparisons
+- 📄 **[FRAMES Philosophy](canon/FRAMES_PHILOSOPHY.md)** — Research foundations and theoretical framework
+- 📄 **[Database Schema](canon/DATABASE_SCHEMA.md)** — Understanding the data structure for analysis
+
+**What you can do:**
+- Access cross-university engagement metrics
+- Model team interfaces and knowledge transfer friction
+- Track student progression and time-on-task analytics
+- Export data for custom analysis and predictive modeling
+
+---
+
+### 📚 For Students (Using the Platform to Learn)
+
+**You want to:** Complete onboarding modules, learn mission-critical skills, and track your progress.
+
+**Start here:**
+- 📄 **[Student LMS](canon/STUDENT_LMS.md)** — How the learning modules work
+- 📄 **[OATutor Adaptation](canon/OATUTOR_ADAPTATION.md)** — The pedagogical approach behind the modules
+
+**What you get:**
+- Structured learning paths tailored to your team's actual work
+- Step-by-step modules created from real mission procedures
+- Progress tracking without grades or tests
+- Mobile-friendly PWA accessible anywhere
 
 ---
 
