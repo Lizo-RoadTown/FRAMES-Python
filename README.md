@@ -1,76 +1,38 @@
-# FRAMES - Multi-University Research & Training Platform
+# FRAMES / Ascent Basecamp
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-316192.svg)](https://www.postgresql.org/)
-[![Neon](https://img.shields.io/badge/Neon-PostgreSQL-00E599.svg)](https://neon.tech/)
 
-> **A comprehensive platform combining AI-powered student onboarding, research analytics, and predictive modeling for multi-university space mission programs.**
-
----
+> **Multi-university research platform for space mission programs with AI-powered student training.**
 
 ## 🎯 What is FRAMES?
 
-FRAMES (Framework for Resilience Assessment in Modular Engineering Systems) is a multi-application platform serving 8 universities collaborating on space missions. It provides:
+FRAMES (Framework for Resilience Assessment in Modular Engineering Systems) / Ascent Basecamp is a unified ecosystem built on:
 
-### **Three Integrated Applications:**
+- **One PostgreSQL database** (Neon hosted)
+- **Three user-facing applications**
+- **Embedded agent swarm** for autonomous development
+- **Notion integration** for content management
 
-#### 1. 📚 Student Onboarding LMS
-AI-powered learning management system for training incoming students
+### Three Applications
 
-- Interactive, mobile-friendly training modules
-- AI assistant for team leads to manage content
-- Comprehensive usage analytics
-- Self-paced learning with progress tracking
+1. **Student Onboarding LMS** - Mobile-first PWA for student training
+2. **Team Lead Module Builder** - Admin workspace for creating training content  
+3. **Researcher Platform** - Analytics dashboards + AI predictions
 
-**Status:** 🚧 Active Development | **Launch:** Next cohort
-**Docs:** [Onboarding LMS Documentation](docs/onboarding-lms/)
-
----
-
-#### 2. 📊 Research Analytics Dashboard
-Faculty and researcher tools for analyzing team dynamics and knowledge transfer patterns
-
-- Multi-university comparison dashboards
-- NDA (Non-Decomposable Architecture) diagnostics
-- Interface and energy loss analysis
-- Predictive risk modeling
-
-**Status:** ✅ Core Features Complete | **Users:** Faculty & Researchers
-**Docs:** [Research Analytics Documentation](docs/research-analytics/)
-
----
-
-#### 3. 🤖 AI Prediction Core _(Planned)_
-Machine learning engine for mission success prediction
-
-- Predictive models using team/interface data
-- MLflow experiment tracking
-- Automated risk assessment
-- Research hypothesis testing
-
-**Status:** 📅 Planned | **Timeline:** Post-LMS Launch
-**Docs:** [AI Core Documentation](docs/ai-prediction-core/)
-
----
-
-## 🏗️ Shared Infrastructure
-
-All three applications connect to a **single PostgreSQL database** hosted on Neon:
+**Status:** Student LMS in active development, Research analytics operational
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│              Neon PostgreSQL Database                         │
-│  Universities │ Teams │ Students │ Modules │ Interfaces      │
-└─────┬────────────────────┬───────────────────┬───────────────┘
-      │                    │                   │
-      ▼                    ▼                   ▼
-┌─────────────┐   ┌─────────────────┐   ┌──────────────┐
-│ Onboarding  │   │    Research     │   │  AI Engine   │
-│     LMS     │   │    Analytics    │   │   (Future)   │
-│  (React +   │   │  (React + Flask)│   │   (ML API)   │
-│   Flask)    │   │                 │   │              │
-└─────────────┘   └─────────────────┘   └──────────────┘
+┌──────────────────────────────────────┐
+│      PostgreSQL Database (Neon)      │
+│   37 tables • 8 universities         │
+└────────┬──────────────┬──────────────┘
+         │              │              
+    ┌────▼────┐   ┌────▼────┐   ┌──────────┐
+    │ Student │   │  Team   │   │Researcher│
+    │   LMS   │   │  Lead   │   │ Platform │
+    │ (React) │   │ Builder │   │ (Flask)  │
+    └─────────┘   └─────────┘   └──────────┘
 ```
 
 ---
@@ -81,24 +43,26 @@ All three applications connect to a **single PostgreSQL database** hosted on Neo
 
 - Python 3.11+
 - Node.js 18+ (for React frontends)
-- Neon account
+- PostgreSQL database (Neon recommended)
 
 ### Get Started in 3 Steps
 
-1. **[Monorepo Structure](MONOREPO_STRUCTURE.md)** - Understand the repository organization
-2. **[Setup Complete](SETUP_COMPLETE.md)** - Quick start commands
-3. **[Project Roadmap](docs/shared/PROJECT_ROADMAP.md)** - Development plan
+1. **[📖 Start Here: Canon Index](canon/INDEX.md)** - Master documentation index
+2. **[🏗️ System Overview](canon/SYSTEM_OVERVIEW.md)** - Complete architecture guide
+3. **[🗂️ Monorepo Structure](MONOREPO_STRUCTURE.md)** - Repository organization
 
 ### For Developers
 
 ```bash
 # Clone repository
-git clone https://github.com/Lizo-RoadTown/Frames-App.git
-cd Frames-App
+git clone https://github.com/Lizo-RoadTown/FRAMES-Python.git
+cd FRAMES-Python
 
 # Set up Python environment
 python -m venv venv
-venv\Scripts\activate  # Windows
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate  # Windows
+
 pip install -r requirements.txt
 
 # Configure database connection
@@ -115,83 +79,74 @@ python backend/app.py
 
 ## 📚 Documentation
 
-### By Application
-- **[Onboarding LMS](docs/onboarding-lms/)** - Student training system
-- **[Research Analytics](docs/research-analytics/)** - Faculty/researcher tools
-- **[AI Prediction Core](docs/ai-prediction-core/)** - ML prediction engine (planned)
+> **📍 Start Here:** All authoritative documentation is in [`/canon`](canon/) directory
 
-### Shared Resources
-- **[Project Roadmap](docs/shared/PROJECT_ROADMAP.md)** - Development timeline
-- **[Monorepo Structure](MONOREPO_STRUCTURE.md)** - Repository organization
-- **[Setup Guide](SETUP_COMPLETE.md)** - Quick start
+### 🎯 Canonical Documentation
+**Official source of truth** - Always check these first:
+- **[INDEX.md](canon/INDEX.md)** - Master navigation
+- **[SYSTEM_OVERVIEW.md](canon/SYSTEM_OVERVIEW.md)** - Complete architecture
+- **[DATABASE_SCHEMA.md](canon/DATABASE_SCHEMA.md)** - Database structure
+- **[STUDENT_LMS.md](canon/STUDENT_LMS.md)** - Student onboarding app
+- **[TEAM_LEAD_MODULE_BUILDER.md](canon/TEAM_LEAD_MODULE_BUILDER.md)** - Team lead tools
+- **[RESEARCHER_PLATFORM.md](canon/RESEARCHER_PLATFORM.md)** - Research analytics
+- **[AGENT_SYSTEM_OVERVIEW.md](canon/AGENT_SYSTEM_OVERVIEW.md)** - AI agent protocols
 
-### Full Documentation Index
-See **[docs/README.md](docs/README.md)** for complete documentation overview.
+[See all 14 canonical docs →](canon/)
+
+### 📂 Active Documentation
+- **[Agent Operations](docs/agents/)** - Agent wake-up prompts, coordination
+- **[Notion Integration](docs/notion/)** - Workspace setup, API guides
+- **[CADENCE Modules](docs/cadence/)** - Module extraction, hub setup
+- **[Quick Start Guides](docs/guides/)** - Development workflows
+
+### 🗺️ Finding Documentation
+- **Lost a file?** Check [MIGRATION_MAP.md](MIGRATION_MAP.md)
+- **Historical docs?** See [archive/](archive/)
+- **Repository structure?** See [MONOREPO_STRUCTURE.md](MONOREPO_STRUCTURE.md)
 
 ---
 
 ## 🌟 Key Features
 
-### For Students
-- 📱 Mobile-friendly training modules
-- ⏱️ Self-paced learning
-- ✅ Progress tracking
-- 🔄 Reusable reference materials
-
-### For Team Leads
-- 🤖 AI-assisted content creation
-- 📊 Student progress analytics
-- ✏️ Easy module updates
-- 📈 Usage insights
-
-### For Faculty & Researchers
-- 🔬 Multi-university data analysis
-- 📉 Risk factor modeling
-- 🎯 NDA diagnostics
-- 📑 Export capabilities
+- **Mobile-first student training** - Progressive web app with offline support
+- **AI-assisted module creation** - Three autonomous agents building content
+- **Multi-university analytics** - NDA diagnostics across 8 institutions
+- **Race mode learning** - Competitive training with ghost cohorts
+- **Progress tracking** - Time + scroll analytics
+- **Notion integration** - 68 modules imported from CADENCE knowledge base
 
 ---
 
 ## 🛠️ Technology Stack
 
-### Backend
-- **Python 3.11+** with Flask
-- **PostgreSQL 15+** (Neon hosted)
-- **SQLAlchemy** ORM
-- **Anthropic Claude API** (AI assistant)
-
-### Frontend
-- **React** (Student LMS & Analytics dashboards)
-- **Vanilla JS** (Legacy analytics interface)
-- **Chart.js** (Data visualization)
-
-### Infrastructure
-
-- **Neon PostgreSQL** (Database)
-- **GitHub** (Version control & CI/CD)
-
-### Machine Learning (Planned)
-- **Scikit-learn** | **XGBoost** | **PyTorch**
-- **MLflow** (Experiment tracking)
-- **NetworkX** (Graph analysis)
+- **Backend:** Flask, SQLAlchemy, PostgreSQL (Neon)
+- **Frontend:** React (PWA), Chart.js
+- **AI:** Anthropic Claude API (three autonomous agents)
+- **Integration:** Notion API, react-notion-x
+- **ML (Planned):** MLflow, NetworkX, Scikit-learn
 
 ---
 
 ## 📊 Current Status
 
 ### ✅ Completed
-- [x] Multi-university database schema
+- [x] Multi-university database schema (37 tables)
 - [x] Research analytics backend (NDA diagnostics, interfaces)
 - [x] Comparative dashboard
 - [x] Student/team/faculty management
 - [x] Custom risk factor modeling
+- [x] Three-agent autonomous development system
+- [x] Canonical documentation system
+- [x] Notion workspace integration
 
 ### 🚧 In Progress
-- [ ] **Student Onboarding LMS** (Priority - Weeks 1-8)
-  - [ ] AI-powered module generation
-  - [ ] React student viewer
+- [ ] **Student Onboarding LMS** (Active Development)
+  - [x] 11+ training modules created
+  - [x] 8 LMS API endpoints
+  - [x] React scaffolding (Dashboard, ModulePlayer)
   - [ ] Team lead AI assistant
-  - [ ] Analytics dashboard
+  - [ ] Module analytics dashboard
+  - [ ] Race mode & competency tracking
 
 ### 📅 Planned
 - [ ] React research analytics frontend
@@ -201,108 +156,30 @@ See **[docs/README.md](docs/README.md)** for complete documentation overview.
 
 ---
 
-## 👥 Participating Universities
-
-**Lead Institution:** California State Polytechnic University, Pomona
-
-**Partner Universities:**
-- Texas State University
-- Columbia University
-- _(5 additional universities)_
-
----
-
 ## 🎓 Research Background
 
-FRAMES is based on research into **Non-Decomposable Architectures (NDA)** in space mission programs, using molecular modeling metaphors to understand knowledge transfer:
+FRAMES uses **Non-Decomposable Architecture (NDA)** theory to analyze space mission programs with molecular modeling metaphors:
 
-- **Teams/Faculty/Projects** = Molecules (nodes)
-- **Interfaces** = Bonds (edges)
-- **Energy Loss** = Knowledge transfer friction
-- **Bond Strength** = Interface quality (codified vs. institutional knowledge)
+- **Molecules (nodes)** = Teams, Faculty, Projects
+- **Bonds (edges)** = Interfaces between entities
+- **Energy Loss** = Knowledge transfer friction (0-100 scale)
 
-### Research Questions
-1. What interface patterns predict mission success?
-2. How does knowledge transfer degrade during team transitions?
-3. Can we predict program continuity across student cohorts?
-4. What interventions strengthen weak interfaces?
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! See our [Contributing Guide](docs/shared/CONTRIBUTING.md) for:
-
-- Development workflow
-- Git branching strategy
-- Code style guidelines
-- Pull request process
+**Lead Institution:** California State Polytechnic University, Pomona  
+**Partner Universities:** 8 universities collaborating on space missions
 
 ---
 
 ## 📞 Contact
 
-- **Project Lead:** eosborn@cpp.edu
-- **GitHub Issues:** [Report bugs or request features](https://github.com/Lizo-RoadTown/Frames-App/issues)
-- **Documentation:** [docs/](docs/)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🎓 Academic Citation
-
-If you use FRAMES in your research, please cite:
-
-```bibtex
-@software{frames2025,
-  title={FRAMES: Framework for Resilience Assessment in Modular Engineering Systems},
-  author={Elizabeth Osborn, California State Polytechnic University, Pomona},
-  year={2025},
-  url={https://github.com/Lizo-RoadTown/Frames-App}
-}
-```
-
----
-
-## 👥 Team
-
-**Lead Institution:** California State Polytechnic University, Pomona
-
-**Participating Universities:**
-- Cal Poly Pomona (Lead)
-- Texas State University
-- Columbia University
-- _(5 additional universities)_
-
-**Principal Investigator:** Liz Osborn
-
----
-
-## 📞 Contact
-
-- **Project Lead:** eosborn@cpp.edu
-- **GitHub Issues:** [Report bugs or request features](https://github.com/Lizo-RoadTown/Frames-App/issues)
-- **Documentation:** [docs/](docs/)
-
----
-
-## 🙏 Acknowledgments
-
-- **NASA** - Research funding
-- **USIP Program** - Multi-university collaboration framework
-- **All participating universities** - Data sharing and collaboration
-- **Cal Poly Pomona** - Lead institution and project management
+**Principal Investigator:** Elizabeth Osborn, Ph.D.  
+**Email:** eosborn@cpp.edu  
+**Institution:** Cal Poly Pomona
 
 ---
 
 <div align="center">
 
-**[Documentation](docs/)** • **[Monorepo Structure](MONOREPO_STRUCTURE.md)** • **[Setup Guide](SETUP_COMPLETE.md)** • **[Project Roadmap](docs/shared/PROJECT_ROADMAP.md)**
+**[📖 Canon Docs](canon/)** • **[🗺️ Migration Map](MIGRATION_MAP.md)** • **[🏗️ Monorepo Structure](MONOREPO_STRUCTURE.md)** • **[🤖 Agent System](canon/AGENT_SYSTEM_OVERVIEW.md)**
 
 Built for space mission research and student success 🚀
 
