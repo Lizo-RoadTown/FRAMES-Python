@@ -1,57 +1,216 @@
 # FRAMES / Ascent Basecamp
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-316192.svg)](https://www.postgresql.org/)
+*A unified learning + research ecosystem for multi-year student space missions.*
 
-> **Multi-university research platform for space mission programs with AI-powered student training.**
+FRAMES (Framework for Resilience Assessment in Modular Engineering Systems) / **Ascent Basecamp** is:
 
-## 🎯 What is FRAMES?
+- A way to **onboard students** into complex engineering projects  
+- A way for **team leads** to turn real work into reusable training  
+- A way for **researchers** to study how space mission teams actually function  
+- A home for a **controlled agent swarm** that helps maintain the system
 
-FRAMES (Framework for Resilience Assessment in Modular Engineering Systems) / Ascent Basecamp is a unified ecosystem built on:
+Everything runs on a **single PostgreSQL database** shared by three applications:
+- Student onboarding LMS  
+- Team lead module builder  
+- Research analytics platform  
 
-- **One PostgreSQL database** (Neon hosted)
-- **Three user-facing applications**
-- **Embedded agent swarm** for autonomous development
-- **Notion integration** for content management
-
-### Three Applications
-
-1. **Student Onboarding LMS** - Mobile-first PWA for student training
-2. **Team Lead Module Builder** - Admin workspace for creating training content  
-3. **Researcher Platform** - Analytics dashboards + AI predictions
-
-**Status:** Student LMS in active development, Research analytics operational
-
-```
-┌──────────────────────────────────────┐
-│      PostgreSQL Database (Neon)      │
-│   37 tables • 8 universities         │
-└────────┬──────────────┬──────────────┘
-         │              │              
-    ┌────▼────┐   ┌────▼────┐   ┌──────────┐
-    │ Student │   │  Team   │   │Researcher│
-    │   LMS   │   │  Lead   │   │ Platform │
-    │ (React) │   │ Builder │   │ (Flask)  │
-    └─────────┘   └─────────┘   └──────────┘
-```
+This README is a **map** to that world, not the whole world.
 
 ---
 
-## 🚀 Quick Start
+## 1. What Lives in This Repository?
 
-### Prerequisites
+Think of this repo as one system with three faces:
 
-- Python 3.11+
-- Node.js 18+ (for React frontends)
-- PostgreSQL database (Neon recommended)
+1. **Student Onboarding LMS**  
+   - React-based PWA for students  
+   - Delivers hands-on modules based on real mission work  
+   - Tracks time, scroll, revisit patterns (no grades, no tests)
 
-### Get Started in 3 Steps
+2. **Team Lead Module Builder**  
+   - Web admin tools for creating and maintaining modules  
+   - Takes Notion content, OAtutor-style structuring, and agent help  
+   - Keeps team leads out of Git and JSON as much as possible  
 
-1. **[📖 Start Here: Canon Index](canon/INDEX.md)** - Master documentation index
-2. **[🏗️ System Overview](canon/SYSTEM_OVERVIEW.md)** - Complete architecture guide
-3. **[🗂️ Monorepo Structure](MONOREPO_STRUCTURE.md)** - Repository organization
+3. **Researcher Analytics Platform**  
+   - Flask-based analytics and APIs  
+   - Models collaboration using Non-Decomposable Architecture (NDA)  
+   - Supports multi-university, multi-cohort analysis
 
-### For Developers
+All three talk to a **single Postgres schema** that already includes CADENCE program data, Ascent Basecamp tables, and student learning tables.  
+For the full schema, see:  
+👉 `canon/DATABASE_SCHEMA.md`
+
+---
+
+## 2. Where to Start (Depending on Who You Are)
+
+### 🧑‍🎓 New Student / Curious Reader  
+You want: *"What is this and why does it exist?"*
+
+Start here:  
+- **System overview**  
+  👉 `canon/SYSTEM_OVERVIEW.md`  
+
+This explains:
+- Why FRAMES exists  
+- How modules relate to real missions  
+- What "onboarding engine" actually means  
+
+---
+
+### 🛠️ Team Lead / Content Owner  
+You want: *"How do I get my training materials into this system?"*
+
+Start here:  
+- **Team Lead Module Builder**  
+  👉 `canon/TEAM_LEAD_MODULE_BUILDER.md`  
+
+Then see:
+- **Student LMS technical design** (how modules are stored and played)  
+  👉 `canon/STUDENT_LMS.md`  
+
+This pair explains:
+- How you submit content (Notion, forms, or AI-assisted)  
+- How modules are structured in the database  
+- What the student experience looks like end-to-end  
+
+---
+
+### 🔭 Researcher / Architect  
+You want: *"How does this tie into NDA, interfaces, and analytics?"*
+
+Start here:  
+- **Researcher Platform**  
+  👉 `canon/RESEARCHER_PLATFORM.md`  
+
+Then:
+- **Complete system architecture**  
+  👉 `canon/SYSTEM_OVERVIEW.md`  
+
+This covers:
+- Multi-university architecture  
+- NDA diagnostics and modeling  
+- Research analytics capabilities  
+
+---
+
+### 🤖 Agent Developer / AI Integrator  
+You want: *"What are these three agents and how are they supposed to behave?"*
+
+Start here:  
+- **Agent system overview**  
+  👉 `canon/AGENT_SYSTEM_OVERVIEW.md`  
+
+Then:  
+- **Agent safety rules**  
+  👉 `canon/AGENT_SAFETY_RULES.md`  
+
+Also important:
+- **Agent work queues**  
+  👉 `agent_work_queues/alpha_queue.md`  
+  👉 `agent_work_queues/beta_queue.md`  
+  👉 `agent_work_queues/gamma_queue.md`  
+
+These explain:
+- Roles for Alpha (modules), Beta (platform), Gamma (infrastructure)  
+- How agents claim work, log actions, and ask for help  
+- How they are supposed to respect the architecture instead of inventing a new one
+
+---
+
+## 3. The Core Shape of the System
+
+At the highest level:
+
+```text
+          One PostgreSQL Database (Neon)
+        ───────────────────────────────────
+        • CADENCE historical program data
+        • Ascent Basecamp learning tables
+        • Student performance + cohorts
+        • Agent logs + technical decisions
+```
+
+Three major applications share this database:
+
+**Student Onboarding LMS**
+- Modules, sections, analytics events, learner performance
+- Designed for mobile / PWA consumption
+- No live AI during runtime (deterministic student experience)
+
+**Team Lead / Content Management**
+- Uses Notion as the authoring surface
+- Imports structured module specs from CSV, forms, or AI-structured text
+- Produces modules that the LMS can run, versioned in the DB
+
+**Researcher Dashboard / Analytics**
+- Pulls from the same DB
+- Computes NDA metrics, interface loads, performance patterns
+- Future: prediction models, pgvector-based search, exploration tools
+
+For a deeper, line-by-line breakdown, use:  
+👉 `canon/STUDENT_LMS.md`  
+👉 `canon/RESEARCHER_PLATFORM.md`
+
+---
+
+---
+
+## 4. AI & Agents (What They Are Actually Allowed to Do)
+
+The agentic layer is not a mysterious swarm. It has explicit rules:
+
+- Agents operate against the same Postgres database as humans.
+- They have startup protocols (read chat logs, check queues, inspect help requests).
+- They must log all significant actions to `ascent_basecamp_agent_log`.
+- They are **not allowed** to create new Notion structures unless:
+  - A template exists, **and**
+  - There is an explicit directive, **or**
+  - You've approved the pattern.
+
+You'll find patterns and examples in:
+- `canon/AGENT_SYSTEM_OVERVIEW.md`
+- `docs/agents/AGENT_TEAM_CHAT.md` (running coordination log)
+- `docs/notion/NOTION_DESIGN_BEST_PRACTICES.md`
+
+Use these as **contracts**, not suggestions.
+
+---
+
+## 5. Teaching Model: From Notion + OAtutor Principles → Engineering Modules
+
+The student LMS is not a quiz engine. It's built around:
+
+- **Team lead content** (real lab / mission work) from Notion
+- **AI-assisted structuring** (short sections, clear goals, estimated time)
+- **Concepts borrowed from OAtutor** (gradual progression, stepwise explanation), adapted for hands-on engineering instead of pure math.
+
+The pipeline looks like:
+
+```
+Notion content / Slides / SOPs
+          ↓
+AI helps team lead structure content
+          ↓
+Module specs (JSON / DB)
+          ↓
+Student LMS (React PWA)
+          ↓
+Analytics → Researcher Platform
+```
+
+Details for the LMS module system live in:  
+👉 `canon/STUDENT_LMS.md`  
+👉 `canon/TEAM_LEAD_MODULE_BUILDER.md`  
+👉 `canon/OATUTOR_ADAPTATION.md`
+
+---
+
+## 6. For Developers: Minimal Quick Start
+
+**Goal:** Get a backend running and see that the stack is alive.  
+This is not the full dev guide; it just proves the project is wired.
 
 ```bash
 # Clone repository
@@ -60,127 +219,73 @@ cd FRAMES-Python
 
 # Set up Python environment
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate  # Windows
+# Windows:
+#   venv\Scripts\activate
+# Mac/Linux:
+#   source venv/bin/activate
 
 pip install -r requirements.txt
 
-# Configure database connection
+# Copy and edit environment
 cp .env.example .env
-# Edit .env with your Neon PostgreSQL connection string
+# Edit .env to add your Neon PostgreSQL URL
 
 # Run Flask backend
 python backend/app.py
-
-# Open browser: http://localhost:5000
 ```
 
----
+Then open:  
+👉 http://localhost:5000
 
-## 📚 Documentation
-
-> **📍 Start Here:** All authoritative documentation is in [`/canon`](canon/) directory
-
-### 🎯 Canonical Documentation
-**Official source of truth** - Always check these first:
-- **[INDEX.md](canon/INDEX.md)** - Master navigation
-- **[SYSTEM_OVERVIEW.md](canon/SYSTEM_OVERVIEW.md)** - Complete architecture
-- **[DATABASE_SCHEMA.md](canon/DATABASE_SCHEMA.md)** - Database structure
-- **[STUDENT_LMS.md](canon/STUDENT_LMS.md)** - Student onboarding app
-- **[TEAM_LEAD_MODULE_BUILDER.md](canon/TEAM_LEAD_MODULE_BUILDER.md)** - Team lead tools
-- **[RESEARCHER_PLATFORM.md](canon/RESEARCHER_PLATFORM.md)** - Research analytics
-- **[AGENT_SYSTEM_OVERVIEW.md](canon/AGENT_SYSTEM_OVERVIEW.md)** - AI agent protocols
-
-[See all 14 canonical docs →](canon/)
-
-### 📂 Active Documentation
-- **[Agent Operations](docs/agents/)** - Agent wake-up prompts, coordination
-- **[Notion Integration](docs/notion/)** - Workspace setup, API guides
-- **[CADENCE Modules](docs/cadence/)** - Module extraction, hub setup
-- **[Quick Start Guides](docs/guides/)** - Development workflows
-
-### 🗺️ Finding Documentation
-- **Lost a file?** Check [MIGRATION_MAP.md](MIGRATION_MAP.md)
-- **Historical docs?** See [archive/](archive/)
-- **Repository structure?** See [MONOREPO_STRUCTURE.md](MONOREPO_STRUCTURE.md)
+Frontends (Student LMS, Team Lead UI) have their own READMEs in their respective subfolders (for example `apps/onboarding-lms/frontend-react/` if present).
 
 ---
 
-## 🌟 Key Features
+---
 
-- **Mobile-first student training** - Progressive web app with offline support
-- **AI-assisted module creation** - Three autonomous agents building content
-- **Multi-university analytics** - NDA diagnostics across 8 institutions
-- **Race mode learning** - Competitive training with ghost cohorts
-- **Progress tracking** - Time + scroll analytics
-- **Notion integration** - 68 modules imported from CADENCE knowledge base
+## 7. Repository Organization (Conceptual)
+
+Rather than list every folder, here's how to think about the structure:
+
+**`canon/`**  
+All authoritative documentation lives here. 14 files that define system architecture, database schema, agent rules, application specs. When in doubt, start with `canon/INDEX.md`.
+
+**`backend/`**  
+Flask app, database access, APIs for LMS, analytics, and agent coordination.
+
+**`apps/` or `frontend/`**  
+React-based student and admin interfaces (when present).
+
+**`docs/`**  
+Additional documentation organized by topic (agents, notion, cadence, guides).  
+When in doubt, prefer canonical docs in `canon/` over anything in `docs/archive/`.
+
+**Agent working files**  
+- `docs/agents/AGENT_TEAM_CHAT.md`
+- `agent_work_queues/`
+
+These are used by autonomous agents and should stay machine-friendly but human-legible.
+
+**CADENCE / legacy content**  
+Source data, markdown exports, and Notion-derived artifacts that feed module creation and research.
+
+Over time, older documents are moved into `archive/` and indexed in `MIGRATION_MAP.md` so agents and humans know what is current.
 
 ---
 
-## 🛠️ Technology Stack
-
-- **Backend:** Flask, SQLAlchemy, PostgreSQL (Neon)
-- **Frontend:** React (PWA), Chart.js
-- **AI:** Anthropic Claude API (three autonomous agents)
-- **Integration:** Notion API, react-notion-x
-- **ML (Planned):** MLflow, NetworkX, Scikit-learn
-
 ---
 
-## 📊 Current Status
+## 8. Contact
 
-### ✅ Completed
-- [x] Multi-university database schema (37 tables)
-- [x] Research analytics backend (NDA diagnostics, interfaces)
-- [x] Comparative dashboard
-- [x] Student/team/faculty management
-- [x] Custom risk factor modeling
-- [x] Three-agent autonomous development system
-- [x] Canonical documentation system
-- [x] Notion workspace integration
-
-### 🚧 In Progress
-- [ ] **Student Onboarding LMS** (Active Development)
-  - [x] 11+ training modules created
-  - [x] 8 LMS API endpoints
-  - [x] React scaffolding (Dashboard, ModulePlayer)
-  - [ ] Team lead AI assistant
-  - [ ] Module analytics dashboard
-  - [ ] Race mode & competency tracking
-
-### 📅 Planned
-- [ ] React research analytics frontend
-- [ ] AI prediction core development
-- [ ] Multi-language support
-- [ ] Mobile native apps
-
----
-
-## 🎓 Research Background
-
-FRAMES uses **Non-Decomposable Architecture (NDA)** theory to analyze space mission programs with molecular modeling metaphors:
-
-- **Molecules (nodes)** = Teams, Faculty, Projects
-- **Bonds (edges)** = Interfaces between entities
-- **Energy Loss** = Knowledge transfer friction (0-100 scale)
-
-**Lead Institution:** California State Polytechnic University, Pomona  
-**Partner Universities:** 8 universities collaborating on space missions
-
----
-
-## 📞 Contact
-
-**Principal Investigator:** Elizabeth Osborn, Ph.D.  
-**Email:** eosborn@cpp.edu  
-**Institution:** Cal Poly Pomona
+**Project Lead & Research Developer:**  
+Elizabeth Osborn, Ph.D.  
+📧 eosborn@cpp.edu  
+Cal Poly Pomona
 
 ---
 
 <div align="center">
 
-**[📖 Canon Docs](canon/)** • **[🗺️ Migration Map](MIGRATION_MAP.md)** • **[🏗️ Monorepo Structure](MONOREPO_STRUCTURE.md)** • **[🤖 Agent System](canon/AGENT_SYSTEM_OVERVIEW.md)**
-
-Built for space mission research and student success 🚀
+**[📖 Canonical Docs](canon/)** • **[🗺️ Migration Map](MIGRATION_MAP.md)** • **[🤖 Agent System](canon/AGENT_SYSTEM_OVERVIEW.md)**
 
 </div>
