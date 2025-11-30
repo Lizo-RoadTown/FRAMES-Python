@@ -40,6 +40,19 @@ To provide a consistent, structured, and human-centered environment where studen
 
 ---
 
+## Open Source Philosophy
+
+**Who:**  
+Students, researchers, educators, engineering programs, and collaborators who benefit from shared tools and transparent systems.
+
+**What:**  
+FRAMES and Ascent Basecamp are developed as open-source, research-aligned tools. The architecture, documentation, and core methods are intentionally public so others can learn from, build on, or adapt the work.
+
+**Why:**  
+Complex engineering programs improve when knowledge is shared, not siloed. Making the system open-source supports academic collaboration, accelerates innovation, and ensures that students and faculty at any institution can benefit from consistent, reliable tools.
+
+---
+
 ## System Architecture
 
 ```
