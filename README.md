@@ -148,9 +148,12 @@ To accelerate development and documentation while preventing the uncontrolled cr
 ## Contact
 
 **Project Lead & Research Developer:**  
-Elizabeth Osborn, Ph.D.  
+Elizabeth Osborn  
 📧 eosborn@cpp.edu  
 Cal Poly Pomona
+
+**Partner Universities:**  
+Cal Poly Pomona • Cal Poly SLO • Arizona State University • University of Colorado Boulder • UCLA • USC • Stanford • UC Berkeley
 
 ---
 
