@@ -159,82 +159,56 @@ To accelerate development and documentation while preventing the uncontrolled cr
 
 ## Getting Started
 
-<table>
-<tr>
-<td width="33%" valign="top">
+### 👨‍💻 For Developers — Run the Code
 
-### 👨‍💻 For Developers
+> **You want to:** Run the system locally, understand the architecture, contribute code, or deploy your own instance.
 
-**You want to run the code, contribute features, or deploy your own instance.**
-
-**→ [Complete Developer Guide](docs/FOR_DEVELOPERS.md)**
-
-**What you'll find:**
-- Full technical stack breakdown
-- Database schema (37 tables)
-- API endpoint reference
-- Quick start commands
-- Testing and deployment
+**→ [Complete Developer Guide](docs/FOR_DEVELOPERS.md)** ← Full technical details, API reference, deployment instructions
 
 **Quick Start:**
 ```bash
 git clone https://github.com/Lizo-RoadTown/FRAMES-Python.git
 cd FRAMES-Python
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env
+cp .env.example .env  # Add your Neon PostgreSQL URL
 python backend/app.py
 ```
 
-</td>
-<td width="33%" valign="top">
+**What's in the guide:** Technical stack • Database schema (37 tables) • API endpoints • Testing • Deployment
 
-### 🔬 For Researchers
+---
 
-**You want to study learning patterns, team dynamics, or knowledge transfer using real data.**
+### 🔬 For Researchers — Study the Data
 
-**→ [Complete Research Guide](docs/FOR_RESEARCHERS.md)**
+> **You want to:** Access analytics, study collaboration patterns, run NDA models, or analyze learning data.
 
-**What you'll find:**
-- NDA modeling explained
-- Learning analytics capabilities
-- Multi-university data access
-- Example analysis workflows
-- Predictive modeling opportunities
+**→ [Complete Research Guide](docs/FOR_RESEARCHERS.md)** ← NDA theory, analytics workflows, data access
 
-**Research Questions:**
-- How does knowledge move through teams?
-- Where do students struggle most?
-- Which interfaces predict failure?
-- How effective are different teaching methods?
+**Research questions you can answer:**
+- How does knowledge move through engineering teams?
+- Where do students struggle in technical learning?
+- Which team interfaces predict project failure?
+- How effective are different pedagogical approaches?
 
-</td>
-<td width="33%" valign="top">
+**What's in the guide:** NDA modeling • Learning analytics • Multi-university comparison • Example code (Python/SQL)
 
-### 📚 For Students
+---
 
-**You want to learn technical skills, contribute to your team, and track your progress.**
+### 📚 For Students — Learn Technical Skills
 
-**→ [Complete Student Guide](docs/FOR_STUDENTS.md)**
+> **You want to:** Complete onboarding modules, learn mission-critical skills, and track your progress.
 
-**What you'll find:**
-- How the learning platform works
-- Module structure explained
-- Progress tracking features
-- Race mode (competitive learning)
-- Mobile-friendly access
+**→ [Complete Student Guide](docs/FOR_STUDENTS.md)** ← How the learning platform works, mobile access, race mode
 
 **What you'll learn:**
-- Power systems & batteries
-- Avionics & firmware
-- Structures & CAD
-- Sensors & telemetry
-- Mission-specific skills
+- **Power:** Battery sizing, EPS characterization, solar panel testing
+- **Avionics:** Firmware flashing, sensor integration, telemetry debugging
+- **Structures:** CAD modeling, 3D printing, vibration testing
+- **Thermal, Communications, Payload:** Mission-specific technical skills
 
-</td>
-</tr>
-</table>
+**What's in the guide:** Module structure • Progress tracking • Race mode (competitive learning) • Mobile PWA access
 
 ---
 
