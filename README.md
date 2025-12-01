@@ -1,309 +1,321 @@
-# FRAMES - Multi-University Research & Training Platform
+# FRAMES / Ascent Basecamp
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-316192.svg)](https://www.postgresql.org/)
-[![Neon](https://img.shields.io/badge/Neon-PostgreSQL-00E599.svg)](https://neon.tech/)
-
-> **A comprehensive platform combining AI-powered student onboarding, research analytics, and predictive modeling for multi-university space mission programs.**
-
----
-
-## 🎯 What is FRAMES?
-
-FRAMES (Framework for Resilience Assessment in Modular Engineering Systems) is a multi-application platform serving 8 universities collaborating on space missions. It provides:
-
-### **Three Integrated Applications:**
-
-#### 1. 📚 Student Onboarding LMS
-AI-powered learning management system for training incoming students
-
-- Interactive, mobile-friendly training modules
-- AI assistant for team leads to manage content
-- Comprehensive usage analytics
-- Self-paced learning with progress tracking
-
-**Status:** 🚧 Active Development | **Launch:** Next cohort
-**Docs:** [Onboarding LMS Documentation](docs/onboarding-lms/)
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow.svg)
+![React](https://img.shields.io/badge/react-18+-61dafb.svg)
+![Flask](https://img.shields.io/badge/flask-3.0+-000000.svg)
+![PostgreSQL](https://img.shields.io/badge/postgresql-15+-316192.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ---
 
-#### 2. 📊 Research Analytics Dashboard
-Faculty and researcher tools for analyzing team dynamics and knowledge transfer patterns
+## FRAMES (Predictive AI Modeling + Research Framework)
 
-- Multi-university comparison dashboards
-- NDA (Non-Decomposable Architecture) diagnostics
-- Interface and energy loss analysis
-- Predictive risk modeling
+**Who it serves:**  
+Researchers, faculty, system architects, and anyone studying how engineering teams behave and collaborate over long periods of time.
 
-**Status:** ✅ Core Features Complete | **Users:** Faculty & Researchers
-**Docs:** [Research Analytics Documentation](docs/research-analytics/)
+**What it is:**  
+A research-driven analytical framework built on Non-Decomposable Architecture (NDA) principles.  
+FRAMES models how knowledge moves through engineering programs, how teams interface with one another, and where structural friction points appear.  
+It provides the foundation for predictive AI models that examine engagement, collaboration quality, onboarding effectiveness, and system resilience.
 
----
-
-#### 3. 🤖 AI Prediction Core _(Planned)_
-Machine learning engine for mission success prediction
-
-- Predictive models using team/interface data
-- MLflow experiment tracking
-- Automated risk assessment
-- Research hypothesis testing
-
-**Status:** 📅 Planned | **Timeline:** Post-LMS Launch
-**Docs:** [AI Core Documentation](docs/ai-prediction-core/)
+**Why it exists:**  
+Because programs lose essential knowledge every semester as students graduate, and traditional onboarding can't capture the true patterns of collaboration beneath the surface.  
+FRAMES makes those invisible patterns measurable so programs can improve continuity, reduce failure points, and understand how their systems behave as a whole.
 
 ---
 
-## 🏗️ Shared Infrastructure
+## Ascent Basecamp (The Applications Built on FRAMES)
 
-All three applications connect to a **single PostgreSQL database** hosted on Neon:
+**Who it serves:**  
+Students, mentors, team leads, and faculty actively participating in engineering projects across multiple universities.
+
+**What it is:**  
+The practical, user-facing suite of applications built on top of the FRAMES framework and database.  
+Ascent Basecamp includes the student onboarding modules, team lead project management tools, the researcher analytics dashboard, and the AI-assisted content workflows.  
+It translates the research foundations of FRAMES into tools people can use every day.
+
+**Why it exists:**  
+To provide a consistent, structured, and human-centered environment where students can learn, teams can coordinate, and faculty can monitor progress—while all data continually feeds back into the research framework that strengthens the program over time.
+
+---
+
+## Open Source Philosophy
+
+**Who:**  
+Students, researchers, educators, engineering programs, and collaborators who benefit from shared tools and transparent systems.
+
+**What:**  
+FRAMES and Ascent Basecamp are developed as open-source, research-aligned tools. The architecture, documentation, and core methods are intentionally public so others can learn from, build on, or adapt the work.
+
+**Why:**  
+Complex engineering programs improve when knowledge is shared, not siloed. Making the system open-source supports academic collaboration, accelerates innovation, and ensures that students and faculty at any institution can benefit from consistent, reliable tools.
+
+---
+
+## System Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│              Neon PostgreSQL Database                         │
-│  Universities │ Teams │ Students │ Modules │ Interfaces      │
-└─────┬────────────────────┬───────────────────┬───────────────┘
-      │                    │                   │
-      ▼                    ▼                   ▼
-┌─────────────┐   ┌─────────────────┐   ┌──────────────┐
-│ Onboarding  │   │    Research     │   │  AI Engine   │
-│     LMS     │   │    Analytics    │   │   (Future)   │
-│  (React +   │   │  (React + Flask)│   │   (ML API)   │
-│   Flask)    │   │                 │   │              │
-└─────────────┘   └─────────────────┘   └──────────────┘
+                      ┌──────────────────────────┐
+                      │          FRAMES          │
+                      │  Research + Predictive   │
+                      │    Modeling Framework     │
+                      └──────────────┬───────────┘
+                                     │
+                          (Shared PostgreSQL DB)
+                                     │
+        ┌────────────────────────────┼──────────────────────────────┐
+        │                            │                              │
+┌───────▼────────┐        ┌──────────▼─────────┐         ┌──────────▼─────────┐
+│ Student LMS     │        │ Team Lead Builder  │         │ Researcher Platform │
+│ Onboarding App  │        │ Project Mgmt Tools │         │ Analytics + Models  │
+└─────────────────┘        └────────────────────┘         └────────────────────┘
+                                     │
+                                     │
+                           ┌─────────▼─────────┐
+                           │  Agentic Swarm    │
+                           │  (Guarded Tools)  │
+                           └───────────────────┘
 ```
 
 ---
 
-## 🚀 Quick Start
+## The Five Components
 
-### Prerequisites
+### 1. Student Onboarding Modules
 
-- Python 3.11+
-- Node.js 18+ (for React frontends)
-- Neon account
+**Who it serves:**  
+Students joining engineering teams who need a clear path into complex technical work.
 
-### Get Started in 3 Steps
+**What it is:**  
+A set of structured learning modules—short, focused, and standardized—that guide students through the tools, processes, and subsystem practices they need to participate effectively.
 
-1. **[Monorepo Structure](MONOREPO_STRUCTURE.md)** - Understand the repository organization
-2. **[Setup Complete](SETUP_COMPLETE.md)** - Quick start commands
-3. **[Project Roadmap](docs/shared/PROJECT_ROADMAP.md)** - Development plan
+**Why it exists:**  
+To remove confusion, reduce overwhelm, and give every new student a reliable way to build foundational knowledge without depending entirely on verbal explanations from busy mentors.
 
-### For Developers
+📄 **Learn more** → [`canon/STUDENT_LMS.md`](canon/STUDENT_LMS.md)
+
+---
+
+### 2. Team Lead Project Management & Module Builder
+
+**Who it serves:**  
+Team leads, mentors, and subsystem managers responsible for training new recruits.
+
+**What it is:**  
+A simplified workspace where team leads can organize tasks, create or refine training materials, and produce consistent modules using templates and controlled content workflows.
+
+**Why it exists:**  
+To eliminate repeated semester-to-semester re-teaching, preserve institutional knowledge, and standardize how training materials are created so consistency is maintained across teams and universities.
+
+📄 **Learn more** → [`canon/TEAM_LEAD_MODULE_BUILDER.md`](canon/TEAM_LEAD_MODULE_BUILDER.md)
+
+---
+
+### 3. Researcher AI Predictive Modeling & Analytics
+
+**Who it serves:**
+Faculty, program directors, systems engineers, and researchers studying learning, collaboration, and system resilience.
+
+**What it is:**
+A systems-diagnostic and analytics environment that examines engagement patterns, team interfaces, and structural fragility using NDA principles. This is a real, data-driven research platform—not just theory—providing system-wide analytics, predictive indicators of mission resilience, and longitudinal datasets across multiple cohorts and universities.
+
+**Why it exists:**
+To give researchers visibility into where learning breaks down, how knowledge flows through programs, and how multi-university engineering systems can be strengthened over time. Traditional approaches fail to capture invisible patterns of team decomposition, knowledge decay, and structural friction—FRAMES makes these measurable.
+
+📄 **Learn more** → [Full research platform details below](#-for-researchers--study-the-data) • [`docs/FOR_RESEARCHERS.md`](docs/FOR_RESEARCHERS.md) • [`docs/FOR_RESEARCH_PLATFORM.md`](docs/FOR_RESEARCH_PLATFORM.md)
+
+---
+
+### 4. Centralized Data Management (The FRAMES Database)
+
+**Who it serves:**  
+All users of the system—students, mentors, researchers, administrators—and all three applications.
+
+**What it is:**  
+A Neon-hosted PostgreSQL database that stores modules, analytics, team structures, progress data, research metrics, and program-wide information in one unified, consistent schema.
+
+**Why it exists:**  
+To eliminate scattered documentation, version conflicts, and information loss, ensuring that every application draws from the same accurate source of truth.
+
+📄 **Learn more** → [`canon/DATABASE_SCHEMA.md`](canon/DATABASE_SCHEMA.md)
+
+---
+
+### 5. Agentic Swarm (Controlled AI Layer)
+
+**Who it serves:**  
+Developers maintaining the system, team leads producing modules, and researchers who rely on consistent documentation.
+
+**What it is:**  
+A set of controlled AI agents that operate within strict guardrails to help format content, maintain files, support migrations, and preserve consistency without autonomously creating new structures or pages.
+
+**Why it exists:**  
+To accelerate development and documentation while preventing the uncontrolled creation of content, ensuring that AI supports human decisions rather than replacing or overriding them.
+
+📄 **Learn more** → [`canon/AGENT_SYSTEM_OVERVIEW.md`](canon/AGENT_SYSTEM_OVERVIEW.md)
+
+---
+
+## Getting Started
+
+### 👨‍💻 For Developers & Engineering Teams
+
+> **You want to:** Run the system locally, understand the architecture, contribute code, or deploy your own instance.
+
+**→ [Complete Developer Guide](docs/FOR_DEVELOPERS.md)** ← Full technical details, API reference, deployment instructions
+**→ [Engineering Teams Platform](docs/FOR_ENGINEERING_TEAMS.md)** ← Integration layer, workflow automation, team continuity
+
+**Quick Start:**
+```bash
+git clone https://github.com/Lizo-RoadTown/FRAMES-Python.git
+cd FRAMES-Python
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env  # Add your Neon PostgreSQL URL
+python backend/app.py
+```
+
+**What's in the guide:** Technical stack • Database schema (37 tables) • API endpoints • Testing • Deployment
+
+---
+
+### 🔬 For Researchers — Study the Data
+
+<div align="center">
+
+**Systems Researchers • Education Researchers • Organizational Scientists • Faculty**
+
+</div>
+
+> **A systems-diagnostic and analytics environment for studying continuity, turnover, and resilience in modular organizations.**
+
+**→ [Complete Research Guide](docs/FOR_RESEARCHERS.md)** ← Full NDA theory, analytics workflows, Python/SQL examples
+**→ [Research Platform Overview](docs/FOR_RESEARCH_PLATFORM.md)** ← Quick start, integration layer, structural metrics
+
+**What you get:**
+
+- ✅ **System-wide analytics** from real engineering programs (not synthetic data)
+- ✅ **NDA-based structural mapping** — identify fragile interfaces before they break
+- ✅ **Continuously updating database** — team behavior, knowledge flow, turnover patterns
+- ✅ **AI-assisted data extraction** — convert messy workflows into analyzable datasets
+- ✅ **Predictive indicators** — forecast mission resilience and program stability
+- ✅ **Longitudinal datasets** — compare cohorts across semesters and universities
+
+#### 📐 Architecture (Research Layer)
+
+```
+                    ┌──────────────────────────────┐
+                    │            FRAMES             │
+                    │  NDA-Based Diagnostic Model   │
+                    └───────────────┬──────────────┘
+                                    │ Metrics + Features
+                      ┌─────────────┴─────────────┐
+                      │  Researcher Analytics API │
+                      └─────────────┬─────────────┘
+                                    │
+                   ┌────────────────┴────────────────┐
+                   │                                  │
+         Structural Metrics                   Program Continuity
+        (interfaces, fragility)             (knowledge retention)
+```
+
+#### 🧪 Research Questions You Can Answer
+
+<details>
+<summary><b>📊 Structural Questions</b></summary>
+
+- What subsystem interfaces are most fragile?
+- Where does knowledge consistently disappear?
+- How many handoffs occur before information decays?
+- Which team structures predict project failure?
+
+</details>
+
+<details>
+<summary><b>👥 Behavioral/Engagement Questions</b></summary>
+
+- How long does it take new members to become productive?
+- Which modules correlate with team performance?
+- What learning patterns predict student success?
+- Where do students struggle in technical onboarding?
+
+</details>
+
+<details>
+<summary><b>🔮 Predictive Questions</b></summary>
+
+- Can we forecast structural failure using NDA indicators?
+- Which factors correlate with mission success or long-term stability?
+- How effective are different pedagogical approaches?
+- What turnover levels trigger program instability?
+
+</details>
+
+#### 📊 Example Research Workflow
+
+```python
+from frames_api import FRAMESClient
+
+client = FRAMESClient(api_key="YOUR_KEY")
+
+# Pull structural metrics for a team over 4 semesters
+metrics = client.get_structure_profile(team_id="eps", semesters=4)
+
+# Visualize fragility score over time
+metrics.plot("interface_fragility")
+```
+
+#### 📚 What You Can Query
+
+**Structural Data:** Decomposition maps • Continuity indices • Interface fragility scores
+**Behavioral Data:** Module engagement logs • Onboarding performance • Time-on-task analytics
+**Multi-University:** Cross-institutional comparisons • Subsystem turnover • Collaboration metrics
+
+#### 🚀 Getting Started
 
 ```bash
-# Clone repository
-git clone https://github.com/Lizo-RoadTown/Frames-App.git
-cd Frames-App
-
-# Set up Python environment
-python -m venv venv
-venv\Scripts\activate  # Windows
-pip install -r requirements.txt
-
-# Configure database connection
-cp .env.example .env
-# Edit .env with your Neon PostgreSQL connection string
-
-# Run Flask backend
-python backend/app.py
-
-# Open browser: http://localhost:5000
+pip install frames-research-tools
 ```
 
----
+Generate an API key, query structural data, and use built-in visualization tools.
 
-## 📚 Documentation
-
-### By Application
-- **[Onboarding LMS](docs/onboarding-lms/)** - Student training system
-- **[Research Analytics](docs/research-analytics/)** - Faculty/researcher tools
-- **[AI Prediction Core](docs/ai-prediction-core/)** - ML prediction engine (planned)
-
-### Shared Resources
-- **[Project Roadmap](docs/shared/PROJECT_ROADMAP.md)** - Development timeline
-- **[Monorepo Structure](MONOREPO_STRUCTURE.md)** - Repository organization
-- **[Setup Guide](SETUP_COMPLETE.md)** - Quick start
-
-### Full Documentation Index
-See **[docs/README.md](docs/README.md)** for complete documentation overview.
+**Full documentation:** [Research Platform Guide](docs/FOR_RESEARCHERS.md) • [Platform Overview](docs/FOR_RESEARCH_PLATFORM.md)
 
 ---
 
-## 🌟 Key Features
+### 📚 For Students — Learn Technical Skills
 
-### For Students
-- 📱 Mobile-friendly training modules
-- ⏱️ Self-paced learning
-- ✅ Progress tracking
-- 🔄 Reusable reference materials
+> **You want to:** Complete onboarding modules, learn mission-critical skills, and track your progress.
 
-### For Team Leads
-- 🤖 AI-assisted content creation
-- 📊 Student progress analytics
-- ✏️ Easy module updates
-- 📈 Usage insights
+**→ [Complete Student Guide](docs/FOR_STUDENTS.md)** ← How the learning platform works, mobile access, race mode
+**→ [Student Platform Overview](docs/FOR_STUDENT_PLATFORM.md)** ← Quick start, module generation, workflow-based learning
 
-### For Faculty & Researchers
-- 🔬 Multi-university data analysis
-- 📉 Risk factor modeling
-- 🎯 NDA diagnostics
-- 📑 Export capabilities
+**What you'll learn:**
+- **Power:** Battery sizing, EPS characterization, solar panel testing
+- **Avionics:** Firmware flashing, sensor integration, telemetry debugging
+- **Structures:** CAD modeling, 3D printing, vibration testing
+- **Thermal, Communications, Payload:** Mission-specific technical skills
+
+**What's in the guide:** Module structure • Progress tracking • Race mode (competitive learning) • Mobile PWA access
 
 ---
 
-## 🛠️ Technology Stack
+## Contact
 
-### Backend
-- **Python 3.11+** with Flask
-- **PostgreSQL 15+** (Neon hosted)
-- **SQLAlchemy** ORM
-- **Anthropic Claude API** (AI assistant)
+**Project Lead & Research Developer:**  
+Elizabeth Osborn  
+📧 eosborn@cpp.edu  
+Cal Poly Pomona
 
-### Frontend
-- **React** (Student LMS & Analytics dashboards)
-- **Vanilla JS** (Legacy analytics interface)
-- **Chart.js** (Data visualization)
-
-### Infrastructure
-
-- **Neon PostgreSQL** (Database)
-- **GitHub** (Version control & CI/CD)
-
-### Machine Learning (Planned)
-- **Scikit-learn** | **XGBoost** | **PyTorch**
-- **MLflow** (Experiment tracking)
-- **NetworkX** (Graph analysis)
-
----
-
-## 📊 Current Status
-
-### ✅ Completed
-- [x] Multi-university database schema
-- [x] Research analytics backend (NDA diagnostics, interfaces)
-- [x] Comparative dashboard
-- [x] Student/team/faculty management
-- [x] Custom risk factor modeling
-
-### 🚧 In Progress
-- [ ] **Student Onboarding LMS** (Priority - Weeks 1-8)
-  - [ ] AI-powered module generation
-  - [ ] React student viewer
-  - [ ] Team lead AI assistant
-  - [ ] Analytics dashboard
-
-### 📅 Planned
-- [ ] React research analytics frontend
-- [ ] AI prediction core development
-- [ ] Multi-language support
-- [ ] Mobile native apps
-
----
-
-## 👥 Participating Universities
-
-**Lead Institution:** California State Polytechnic University, Pomona
-
-**Partner Universities:**
-- Texas State University
-- Columbia University
-- _(5 additional universities)_
-
----
-
-## 🎓 Research Background
-
-FRAMES is based on research into **Non-Decomposable Architectures (NDA)** in space mission programs, using molecular modeling metaphors to understand knowledge transfer:
-
-- **Teams/Faculty/Projects** = Molecules (nodes)
-- **Interfaces** = Bonds (edges)
-- **Energy Loss** = Knowledge transfer friction
-- **Bond Strength** = Interface quality (codified vs. institutional knowledge)
-
-### Research Questions
-1. What interface patterns predict mission success?
-2. How does knowledge transfer degrade during team transitions?
-3. Can we predict program continuity across student cohorts?
-4. What interventions strengthen weak interfaces?
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! See our [Contributing Guide](docs/shared/CONTRIBUTING.md) for:
-
-- Development workflow
-- Git branching strategy
-- Code style guidelines
-- Pull request process
-
----
-
-## 📞 Contact
-
-- **Project Lead:** eosborn@cpp.edu
-- **GitHub Issues:** [Report bugs or request features](https://github.com/Lizo-RoadTown/Frames-App/issues)
-- **Documentation:** [docs/](docs/)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🎓 Academic Citation
-
-If you use FRAMES in your research, please cite:
-
-```bibtex
-@software{frames2025,
-  title={FRAMES: Framework for Resilience Assessment in Modular Engineering Systems},
-  author={Elizabeth Osborn, California State Polytechnic University, Pomona},
-  year={2025},
-  url={https://github.com/Lizo-RoadTown/Frames-App}
-}
-```
-
----
-
-## 👥 Team
-
-**Lead Institution:** California State Polytechnic University, Pomona
-
-**Participating Universities:**
-- Cal Poly Pomona (Lead)
-- Texas State University
-- Columbia University
-- _(5 additional universities)_
-
-**Principal Investigator:** Liz Osborn
-
----
-
-## 📞 Contact
-
-- **Project Lead:** eosborn@cpp.edu
-- **GitHub Issues:** [Report bugs or request features](https://github.com/Lizo-RoadTown/Frames-App/issues)
-- **Documentation:** [docs/](docs/)
-
----
-
-## 🙏 Acknowledgments
-
-- **NASA** - Research funding
-- **USIP Program** - Multi-university collaboration framework
-- **All participating universities** - Data sharing and collaboration
-- **Cal Poly Pomona** - Lead institution and project management
+**Partner Universities:**  
+Cal Poly Pomona • Cal Poly SLO • Arizona State University • University of Colorado Boulder • UCLA • USC • Stanford • UC Berkeley
 
 ---
 
 <div align="center">
 
-**[Documentation](docs/)** • **[Monorepo Structure](MONOREPO_STRUCTURE.md)** • **[Setup Guide](SETUP_COMPLETE.md)** • **[Project Roadmap](docs/shared/PROJECT_ROADMAP.md)**
-
-Built for space mission research and student success 🚀
+**[📖 Canonical Docs](canon/)** • **[🗺️ Migration Map](MIGRATION_MAP.md)** • **[🤖 Agent System](canon/AGENT_SYSTEM_OVERVIEW.md)** • **[🧠 FRAMES Philosophy](canon/FRAMES_PHILOSOPHY.md)**
 
 </div>

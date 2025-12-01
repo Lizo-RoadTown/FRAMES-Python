@@ -1,103 +1,72 @@
-# Agent Alpha Work Queue
-## Module Creation Engine
+# Agent Alpha Work Queue — UPDATED 2025-11-30
+## Module Content Architect
 
-**Agent Role:** Transform CADENCE documentation into learning modules
-**Resource Claims:** `modules/*`, `modules` table (write), `module_sections` table (write)
+**Agent Role:** Review existing modules against canon, create terminology mapping, prepare for remake  
+**Resource Claims:** `modules/*` (read/write), `modules` table (read/analyze, write after approval)
+
+**⚠️ CRITICAL CHANGE:** New canon documentation has changed project terminology. All existing modules need review before any new creation.
 
 ---
 
-## Current Status: Ready to Start
+## Current Status: Ready for Canon Alignment Work
 
 ### Session Start Checklist
 - [ ] Log startup to ascent_basecamp_agent_log
-- [ ] Read AGENT_TEAM_CHAT.md for context
+- [ ] Read `/docs/agents/AGENT_TEAM_CHAT.md` for context
+- [ ] Read `/docs/agents/THREE_BRANCH_WORK_PLAN_2025_11_30.md` for coordination plan
 - [ ] Check for resource conflicts in agent_log
 - [ ] Claim first resource from queue below
 - [ ] Begin work with logging every 10 minutes
 
 ---
 
-## Phase 1: Power Subsystem Modules (Priority: HIGH)
+## PHASE 1: MODULE ANALYSIS (PRIORITY: CRITICAL) ⭐
 
-### Module 1: Power Subsystem Orientation
-- **Resource:** `modules/power/orientation.md`
-- **Source:** `cadence_documents` where subsystem='power'
-- **Type:** Orientation module
-- **Estimated Duration:** 45 minutes
-- **Deliverable:** JSON spec in `modules` table
+**Goal:** Understand what exists, map old→new terminology, create human-readable analysis  
+**Duration:** 2-3 hours  
+**Human Approval:** NOT REQUIRED for analysis phase  
+**Deliverable:** `docs/modules/MODULE_ANALYSIS_REPORT.md`
 
-**Tasks:**
-1. Query cadence_documents for power subsystem overview
-2. Extract key concepts and terminology
-3. Create module outline (5-7 sections)
-4. Write learning objectives
-5. Create orientation quiz (10 questions)
-6. Log completion with module_id
+### Task 1.1: Canon Terminology Extraction
+- **Resource:** `/canon/*.md` (read only)
+- **Estimated Duration:** 30 minutes
 
-### Module 2: Battery Sizing Fundamentals
-- **Resource:** `modules/power/battery_sizing_101.md`
-- **Source:** CADENCE power docs on battery selection
-- **Type:** Core module
-- **Estimated Duration:** 60 minutes
+**Actions:**
+1. Read all 14 canonical documents
+2. Extract official terminology for:
+   - Project name (Ascent Basecamp vs FRAMES)
+   - Subsystem names (Power, Structures, Thermal, etc.)
+   - Competency levels (Orientation, Competency, Integration, Autonomy)
+   - Application names (Student LMS, Team Lead Module Builder, Researcher Platform)
+   - Database/architecture terms
+3. Create master terminology list in structured format
+4. Log completion to agent_log
 
-**Tasks:**
-1. Extract battery sizing methodology from CADENCE docs
-2. Create step-by-step calculation guide
-3. Add example problems
-4. Create checks for each calculation step
-5. Add reflection questions
-6. Link to power budget module (prerequisite)
-
-### Module 3: EPS Characterization
-- **Resource:** `modules/power/eps_characterization.md`
-- **Source:** CADENCE EPS testing procedures
-- **Type:** Core module
-- **Estimated Duration:** 60 minutes
-
-**Tasks:**
-1. Document EPS testing workflow
-2. Create hands-on lab steps
-3. Add LTSpice simulation link
-4. Create data analysis checks
-5. Add troubleshooting guide
-
-### Module 4: Power Budget Analysis
-- **Resource:** `modules/power/power_budget_analysis.md`
-- **Source:** CADENCE power budget spreadsheets
-- **Type:** Core module
-- **Estimated Duration:** 60 minutes
-
-**Tasks:**
-1. Extract power budget methodology
-2. Create Excel/spreadsheet template
-3. Add validation checks
-4. Create example mission profile
-5. Link to battery sizing (dependent)
-
-### Module 5: Solar Panel Selection
-- **Resource:** `modules/power/solar_panel_selection.md`
-- **Source:** CADENCE solar panel docs
-- **Type:** Core module
-- **Estimated Duration:** 60 minutes
-
-**Tasks:**
-1. Document panel selection criteria
-2. Create sizing calculator
-3. Add datasheet interpretation guide
-4. Create comparison matrix
-5. Link to power budget (prerequisite)
+**Output:** Section 1 of analysis report with official terminology table
 
 ---
 
-## Phase 2: Race Metadata Enhancement (Priority: MEDIUM)
+### Task 1.2: Existing Module Inventory
+- **Resource:** `modules/enhanced/*.json` (read only)
+- **Estimated Duration:** 45 minutes
 
-### Task: Add Race Features to Power Modules
-- **Resource:** `modules` table where subsystem='power'
-- **Dependencies:** Gamma must populate ghost_cohorts first
-- **Estimated Duration:** 90 minutes
+**Actions:**
+1. List all 65+ JSON files in `modules/enhanced/`
+2. For each module extract:
+   - Current title and slug
+   - Category/discipline/tags
+   - Any terminology that might be outdated
+   - Subsystem classification (if mentioned)
+   - Learning objectives
+3. Create spreadsheet-style table
+4. Log completion
 
-**Tasks:**
-1. Check with Gamma on ghost cohort status (log 'help' action if needed)
+**Output:** Section 2 of analysis report with complete module inventory
+
+---
+
+(See full updated queue in `/workspaces/FRAMES-Python/agent_work_queues/alpha_queue.md`)
+
 2. For each power module:
    - Add timer metadata
    - Add checkpoint definitions

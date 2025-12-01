@@ -23,7 +23,11 @@
       "Bash(python shared/database/bootstrap_db.py:*)",
       "Bash(python:*)",
       "Bash(unzip:*)",
-      "Bash(iconv:*)"
+      "Bash(iconv:*)",
+      "Bash(python3:*)",
+      "Bash(psql:*)",
+      "Bash(git pull:*)",
+      "Bash(mv:*)"
     ],
     "deny": [],
     "ask": []
