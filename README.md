@@ -159,11 +159,12 @@ To accelerate development and documentation while preventing the uncontrolled cr
 
 ## Getting Started
 
-### 👨‍💻 For Developers — Run the Code
+### 👨‍💻 For Developers & Engineering Teams
 
 > **You want to:** Run the system locally, understand the architecture, contribute code, or deploy your own instance.
 
 **→ [Complete Developer Guide](docs/FOR_DEVELOPERS.md)** ← Full technical details, API reference, deployment instructions
+**→ [Engineering Teams Platform](docs/FOR_ENGINEERING_TEAMS.md)** ← Integration layer, workflow automation, team continuity
 
 **Quick Start:**
 ```bash
@@ -191,6 +192,7 @@ python backend/app.py
 > **A systems-diagnostic and analytics environment for studying continuity, turnover, and resilience in modular organizations.**
 
 **→ [Complete Research Guide](docs/FOR_RESEARCHERS.md)** ← Full NDA theory, analytics workflows, example code
+**→ [Research Platform Overview](docs/FOR_RESEARCH_PLATFORM.md)** ← Quick start, integration layer, structural metrics
 
 #### 🔍 What This Platform Actually Provides
 
@@ -287,6 +289,7 @@ Then generate an API key and start querying structural data using built-in visua
 > **You want to:** Complete onboarding modules, learn mission-critical skills, and track your progress.
 
 **→ [Complete Student Guide](docs/FOR_STUDENTS.md)** ← How the learning platform works, mobile access, race mode
+**→ [Student Platform Overview](docs/FOR_STUDENT_PLATFORM.md)** ← Quick start, module generation, workflow-based learning
 
 **What you'll learn:**
 - **Power:** Battery sizing, EPS characterization, solar panel testing

@@ -25,7 +25,9 @@
       "Bash(unzip:*)",
       "Bash(iconv:*)",
       "Bash(python3:*)",
-      "Bash(psql:*)"
+      "Bash(psql:*)",
+      "Bash(git pull:*)",
+      "Bash(mv:*)"
     ],
     "deny": [],
     "ask": []

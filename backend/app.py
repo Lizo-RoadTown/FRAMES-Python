@@ -9,11 +9,11 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-from models import SystemState, Team, Faculty, Project, Interface
-from analytics import FramesAnalytics
+from .models import SystemState, Team, Faculty, Project, Interface
+from .analytics import FramesAnalytics
 from flask import make_response
 import traceback
-from backend.database import db
+from .database import db
 
 app = Flask(__name__,
             static_folder='../frontend/static',
@@ -26,6 +26,10 @@ if not app.config['SQLALCHEMY_DATABASE_URI']:
     raise RuntimeError("DATABASE_URL is required. Please set it in your .env (Neon connection string).")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
+
+# Register LMS routes blueprint
+from .lms_routes import lms_bp
+app.register_blueprint(lms_bp)
 
 # Global system state (in production, use database)
 system_state = SystemState()

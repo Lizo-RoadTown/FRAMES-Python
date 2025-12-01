@@ -18,7 +18,7 @@ from shared.database.db_models import (
     Module, ModuleSection, ModuleProgress, ModuleAssignment,
     ModuleAnalyticsEvent, ModuleFeedback
 )
-from database import db
+from .database import db
 from datetime import datetime
 import logging
 import os

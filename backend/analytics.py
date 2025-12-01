@@ -4,7 +4,7 @@ Ported from JavaScript to Python
 """
 
 from typing import Dict, List, Tuple
-from models import SystemState, Team, Faculty, Project, Interface
+from .models import SystemState, Team, Faculty, Project, Interface
 
 
 class FramesAnalytics:
