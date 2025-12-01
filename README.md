@@ -182,17 +182,103 @@ python backend/app.py
 
 ### 🔬 For Researchers — Study the Data
 
-> **You want to:** Access analytics, study collaboration patterns, run NDA models, or analyze learning data.
+<div align="center">
 
-**→ [Complete Research Guide](docs/FOR_RESEARCHERS.md)** ← NDA theory, analytics workflows, data access
+**Systems Researchers • Education Researchers • Organizational Scientists • Faculty**
 
-**Research questions you can answer:**
-- How does knowledge move through engineering teams?
-- Where do students struggle in technical learning?
-- Which team interfaces predict project failure?
+</div>
+
+> **A systems-diagnostic and analytics environment for studying continuity, turnover, and resilience in modular organizations.**
+
+**→ [Complete Research Guide](docs/FOR_RESEARCHERS.md)** ← Full NDA theory, analytics workflows, example code
+
+#### 🔍 What This Platform Actually Provides
+
+This is a **real, data-driven research environment**, not just theory. You get:
+
+- ✅ **System-wide analytics** derived from real engineering programs
+- ✅ **NDA-based structural mapping** tools
+- ✅ **Continuously updating database** of team behavior
+- ✅ **AI-assisted data extraction** for research tasks
+- ✅ **Predictive indicators** of mission and program resilience
+- ✅ **Longitudinal datasets** across multiple cohorts
+
+#### 📐 The Architecture (Research Layer)
+
+```
+                    ┌──────────────────────────────┐
+                    │            FRAMES             │
+                    │  NDA-Based Diagnostic Model   │
+                    └───────────────┬──────────────┘
+                                    │ Metrics + Features
+                      ┌─────────────┴─────────────┐
+                      │  Researcher Analytics API │
+                      └─────────────┬─────────────┘
+                                    │
+                   ┌────────────────┴────────────────┐
+                   │                                  │
+         Structural Metrics                   Program Continuity
+        (interfaces, fragility)             (knowledge retention)
+```
+
+#### 🧪 Research Questions You Can Answer
+
+<details>
+<summary><b>📊 Structural Questions</b></summary>
+
+- What subsystem interfaces are most fragile?
+- Where does knowledge consistently disappear?
+- How many handoffs occur before information decays?
+
+</details>
+
+<details>
+<summary><b>👥 Behavioral/Engagement Questions</b></summary>
+
+- How long does it take new members to become productive?
+- Which modules correlate with team performance?
+- What learning patterns predict student success?
+
+</details>
+
+<details>
+<summary><b>🔮 Predictive Questions</b></summary>
+
+- Can we forecast structural failure using NDA indicators?
+- Which factors correlate with mission success or long-term stability?
 - How effective are different pedagogical approaches?
 
-**What's in the guide:** NDA modeling • Learning analytics • Multi-university comparison • Example code (Python/SQL)
+</details>
+
+#### 📊 Example Research Workflow
+
+```python
+from frames_api import FRAMESClient
+
+client = FRAMESClient(api_key="YOUR_KEY")
+
+# Pull structural metrics for a team over 4 semesters
+metrics = client.get_structure_profile(team_id="eps", semesters=4)
+
+# Visualize fragility score over time
+metrics.plot("interface_fragility")
+```
+
+#### 📚 What You Can Query
+
+**Structural Data** • Decomposition maps • Continuity indices • Interface fragility scores
+**Behavioral Data** • Module engagement logs • Onboarding performance • Time-on-task analytics
+**Multi-University** • Cross-institutional comparisons • Subsystem-level turnover • Collaboration metrics
+
+#### 🚀 Getting Started
+
+```bash
+pip install frames-research-tools
+```
+
+Then generate an API key and start querying structural data using built-in visualization tools.
+
+**Full documentation:** [Research Platform Guide](docs/FOR_RESEARCHERS.md)
 
 ---
 
