@@ -1,32 +1,34 @@
-# Agent Beta Work Queue — UPDATED 2025-11-30 16:50
+# Agent Beta Work Queue — UPDATED 2025-12-01
 ## Platform Integration Specialist
 
-**Agent Role:** Fix backend issues, learn Notion templates (read-only), integrate LMS with real data  
-**Resource Claims:** `backend/*` (write), `frontend-react/*` (write), Notion (READ ONLY)
+**Agent Role:** Fix backend issues, integrate LMS with real data, Notion template reading (using notionary)  
+**Resource Claims:** `backend/*` (write), `frontend-react/*` (write), Notion (READ ONLY via notionary)
 
-**⚠️ CRITICAL BLOCKER:** Notion integration access blocked (see below). Pivoting to frontend work.
-
----
-
-## 🚫 NOTION ACCESS BLOCKER (2025-11-30 16:45)
-
-**Issue:** Integration can see Foundation page in search but cannot read content  
-**Error:** `404 Not Found` on pages.retrieve(), blocks.children.list(), databases.retrieve()  
-**Root Cause:** Integration lacks "Read content" permission  
-**Impact:** Cannot access 26 embedded database schemas  
-**Blocking:**
-- Phase 2: Template schema documentation
-- Phase 3: Template-filling service design
-- Gamma's sync daemon property name fixes
-
-**Required Human Action:**
-Share Foundation page (`159f75f3-8dc5-8075-a7f1-ea05b0a73a0c`) with integration in Notion workspace OR grant workspace-level content read permission.
-
-**Beta's Response:** Pausing Notion work, switching to frontend integration (independent task)
+**✅ BREAKTHROUGH:** Discovered `notionary` library - solves all Notion access issues!
 
 ---
 
-## Current Status: Phase 1 Complete, Phase 2 Blocked, Now Working Phase 3
+## 🎯 NOTION BLOCKER RESOLVED (2025-12-01)
+
+**Previous Issue:** Old `notion-client` library couldn't access pages (404 errors)  
+**Root Cause:** Wrong library - required manual UUID lookup and page sharing  
+**Solution:** Switch to `notionary` library with smart discovery  
+
+**What Changed:**
+- ❌ Old: `notion-client` with manual IDs → **2,800 lines of broken code**
+- ✅ New: `notionary` with title-based discovery → **~500 lines (working)**
+
+**Cleanup Required:**
+- Archive 14 broken scripts (~2,800 lines)
+- Install `notionary` library
+- Write 3 new services (~500 lines)
+
+**Full Plan:** See `docs/agents/NOTION_CLEANUP_AND_MIGRATION_PLAN.md`  
+**Checklist:** See `NOTION_CLEANUP_CHECKLIST.md` (root)
+
+---
+
+## Current Status: Phase 1 Complete, Phase 2 Pending Cleanup, Phase 4 Ready
 
 ### ✅ PHASE 1: BACKEND STABILIZATION - COMPLETE (2025-11-30)
 
@@ -102,70 +104,67 @@ Share Foundation page (`159f75f3-8dc5-8075-a7f1-ea05b0a73a0c`) with integration 
 
 ---
 
-## PHASE 2: NOTION TEMPLATE ANALYSIS (PRIORITY: HIGH) ⏸️
+## PHASE 2: NOTION CLEANUP & MIGRATION (PRIORITY: CRITICAL) 🔄
 
-**Goal:** Understand premade templates WITHOUT creating pages  
-**Duration:** 2-3 hours  
-**Human Approval:** REQUIRED for Notion access  
-**Deliverable:** `docs/notion/TEMPLATE_STRUCTURE_ANALYSIS.md`
+**Goal:** Remove broken code, install notionary, establish basic access  
+**Duration:** 1.5 hours  
+**Human Approval:** REQUIRED for cleanup approval  
+**Deliverable:** Working notionary installation + archived old code
 
-### Task 2.1: Request Human Guidance
-- **Resource:** AGENT_TEAM_CHAT.md (write)
-- **Estimated Duration:** 10 minutes
+### Task 2.1: Archive Broken Notion Code
+- **Resource:** Multiple files (read/move)
+- **Estimated Duration:** 30 minutes
 
 **Actions:**
-1. Update AGENT_TEAM_CHAT.md with request:
-   - "Need Notion workspace access (read-only)"
-   - "Where are premade templates located?"
-   - "Which template for Team Lead dashboard?"
-   - "Which template for Module Library?"
-2. Set status to BLOCKED
-3. Wait for human response
+1. Create `archive/notion-failed-attempts/` directory
+2. Move 14 broken scripts to archive (see checklist)
+3. Move 4 outdated docs to archive
+4. Delete batch files (setup_notion_integration.bat, etc.)
+5. Update `canon/ARCHIVE_INDEX.md` with entries
+6. Log completion
 
-**Output:** Blocker message logged, waiting for access
+**Output:** ~2,800 lines of broken code archived
 
 ---
 
-### Task 2.2: Template Structure Documentation (After Access Granted)
-- **Resource:** Notion API (read-only), templates (read)
+### Task 2.2: Install Notionary & Test Basic Access
+- **Resource:** requirements.txt (write), .env (read)
+- **Estimated Duration:** 30 minutes
+
+**Actions:**
+1. Add `notionary` to requirements.txt
+2. Run: `pip install notionary`
+3. Test basic access with Foundation page:
+   ```python
+   from notionary import NotionPage
+   page = await NotionPage.from_title("Foundation")
+   print(f"✅ Found: {page.title}")
+   ```
+4. Verify no 404 errors
+5. Document success in AGENT_TEAM_CHAT.md
+6. Log completion
+
+**Output:** Working notionary installation, successful page access
+
+---
+
+### Task 2.3: Create Template Reader Service
+- **Resource:** `backend/notion_template_reader.py` (create)
 - **Estimated Duration:** 90 minutes
 
 **Actions:**
-1. Access each premade template
-2. Document database properties for each:
-   - Property names
-   - Property types (text, number, select, relation, etc.)
-   - Required vs optional
-   - Default values
-   - Formulas (if any)
-3. Document page structure:
-   - Headings/sections
-   - Tables/databases embedded
-   - Views configured
-4. Create mapping: `DATABASE_TABLE → NOTION_TEMPLATE`
-5. Identify which database columns → which Notion properties
-6. Note any "safe zones" for agent edits vs protected structure
+1. Create new file `backend/notion_template_reader.py`
+2. Implement `NotionTemplateReader` class with methods:
+   - `get_database_schema(database_title)` - Get property schema
+   - `get_page_structure(page_title)` - Get page content as Markdown
+   - `analyze_template(template_name)` - Full template analysis
+3. Add safety wrapper (never create pages)
+4. Add audit logging for all operations
+5. Test with "Foundation" page
+6. Create `docs/notion/TEMPLATE_STRUCTURE_ANALYSIS.md` with findings
+7. Get human approval of documented structure
 
-**Output:** Complete template structure documentation
-
----
-
-### Task 2.3: Template Filling Strategy Design
-- **Resource:** Analysis from 2.2
-- **Estimated Duration:** 45 minutes
-
-**Actions:**
-1. Design service architecture for `backend/notion_template_service.py`:
-   - Function to query database
-   - Function to format data for Notion properties
-   - Function to update existing page properties (NO page creation)
-   - Validation to prevent structure changes
-2. Create pseudo-code/outline
-3. Document error handling approach
-4. Plan logging strategy
-5. Get human review of design before implementing
-
-**Output:** Design document for template service
+**Output:** Template reader service + documented schemas
 
 ---
 

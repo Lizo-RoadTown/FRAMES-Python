@@ -1,3 +1,14 @@
+# DEPRECATED
+
+**This file is no longer canonical.**
+
+**Replaced by:** (Being rewritten for V2)
+**Reason:** Agent roles based on outdated conceptual model
+
+**Archived:** 2025-12-01
+
+---
+
 # Agent System Overview
 
 ## Architecture

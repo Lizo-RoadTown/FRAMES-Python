@@ -1,3 +1,14 @@
+# DEPRECATED
+
+**This file is no longer canonical.**
+
+**Replaced by:** (Being rewritten for V2)
+**Reason:** Part of old agent system structure
+
+**Archived:** 2025-12-01
+
+---
+
 # Agent Error Logging
 
 ## Purpose

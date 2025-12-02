@@ -1,3 +1,14 @@
+# DEPRECATED
+
+**This file is no longer canonical.**
+
+**Replaced by:** (Being rewritten for V2)
+**Reason:** Safety rules based on outdated conceptual model
+
+**Archived:** 2025-12-01
+
+---
+
 # Agent Safety Rules
 
 1. Do not modify data structures without explicit authorization.
