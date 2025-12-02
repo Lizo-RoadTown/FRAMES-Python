@@ -246,23 +246,6 @@ python backend/app.py
 
 ---
 
-### 📚 For Students — Learn Technical Skills
-
-> **You want to:** Complete onboarding modules, learn mission-critical skills, and track your progress.
-
-**→ [Complete Student Guide](docs/FOR_STUDENTS.md)** ← How the learning platform works, mobile access, race mode
-**→ [Student Platform Overview](docs/FOR_STUDENT_PLATFORM.md)** ← Quick start, module generation, workflow-based learning
-
-**What you'll learn:**
-- **Power:** Battery sizing, EPS characterization, solar panel testing
-- **Avionics:** Firmware flashing, sensor integration, telemetry debugging
-- **Structures:** CAD modeling, 3D printing, vibration testing
-- **Thermal, Communications, Payload:** Mission-specific technical skills
-
-**What's in the guide:** Module structure • Progress tracking • Race mode (competitive learning) • Mobile PWA access
-
----
-
 ## Contact
 
 **Project Lead & Research Developer:**  
