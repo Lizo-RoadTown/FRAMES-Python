@@ -114,16 +114,103 @@ To eliminate repeated semester-to-semester re-teaching, preserve institutional k
 
 ### 3. Researcher AI Predictive Modeling & Analytics
 
-**Who it serves:**
-Faculty, program directors, systems engineers, and researchers studying learning, collaboration, and system resilience.
+**Who it serves:**  
+Faculty, program directors, systems engineers, and researchers studying learning, collaboration, and system resilience across engineering programs.
 
-**What it is:**
-A systems-diagnostic and analytics environment that examines engagement patterns, team interfaces, and structural fragility using NDA principles. This is a real, data-driven research platform—not just theory—providing system-wide analytics, predictive indicators of mission resilience, and longitudinal datasets across multiple cohorts and universities.
+**What it is:**  
+A systems-diagnostic and analytics environment that examines engagement patterns, team interfaces, and structural fragility using NDA (Non-Decomposable Architecture) principles. This is a real, data-driven research platform—not just theory—providing system-wide analytics, predictive indicators of mission resilience, and longitudinal datasets across multiple cohorts and universities.
 
-**Why it exists:**
+**Why it exists:**  
 To give researchers visibility into where learning breaks down, how knowledge flows through programs, and how multi-university engineering systems can be strengthened over time. Traditional approaches fail to capture invisible patterns of team decomposition, knowledge decay, and structural friction—FRAMES makes these measurable.
 
-📄 **Learn more** → [Full research platform details below](#-for-researchers--study-the-data) • [`docs/FOR_RESEARCHERS.md`](docs/FOR_RESEARCHERS.md) • [`docs/FOR_RESEARCH_PLATFORM.md`](docs/FOR_RESEARCH_PLATFORM.md)
+#### What You Get
+
+- ✅ **System-wide analytics** from real engineering programs (not synthetic data)
+- ✅ **NDA-based structural mapping** — identify fragile interfaces before they break
+- ✅ **Continuously updating database** — team behavior, knowledge flow, turnover patterns
+- ✅ **AI-assisted data extraction** — convert messy workflows into analyzable datasets
+- ✅ **Predictive indicators** — forecast mission resilience and program stability
+- ✅ **Longitudinal datasets** — compare cohorts across semesters and universities
+
+#### Research Architecture
+
+```
+                    ┌──────────────────────────────┐
+                    │            FRAMES             │
+                    │  NDA-Based Diagnostic Model   │
+                    └───────────────┬──────────────┘
+                                    │ Metrics + Features
+                      ┌─────────────┴─────────────┐
+                      │  Researcher Analytics API │
+                      └─────────────┬─────────────┘
+                                    │
+                   ┌────────────────┴────────────────┐
+                   │                                  │
+         Structural Metrics                   Program Continuity
+        (interfaces, fragility)             (knowledge retention)
+```
+
+#### Research Questions You Can Answer
+
+<details>
+<summary><b>📊 Structural Questions</b></summary>
+
+- What subsystem interfaces are most fragile?
+- Where does knowledge consistently disappear?
+- How many handoffs occur before information decays?
+- Which team structures predict project failure?
+
+</details>
+
+<details>
+<summary><b>👥 Behavioral/Engagement Questions</b></summary>
+
+- How long does it take new members to become productive?
+- Which modules correlate with team performance?
+- What learning patterns predict student success?
+- Where do students struggle in technical onboarding?
+
+</details>
+
+<details>
+<summary><b>🔮 Predictive Questions</b></summary>
+
+- Can we forecast structural failure using NDA indicators?
+- Which factors correlate with mission success or long-term stability?
+- How effective are different pedagogical approaches?
+- What turnover levels trigger program instability?
+
+</details>
+
+#### Example Research Workflow
+
+```python
+from frames_api import FRAMESClient
+
+client = FRAMESClient(api_key="YOUR_KEY")
+
+# Pull structural metrics for a team over 4 semesters
+metrics = client.get_structure_profile(team_id="eps", semesters=4)
+
+# Visualize fragility score over time
+metrics.plot("interface_fragility")
+```
+
+#### What You Can Query
+
+**Structural Data:** Decomposition maps • Continuity indices • Interface fragility scores  
+**Behavioral Data:** Module engagement logs • Onboarding performance • Time-on-task analytics  
+**Multi-University:** Cross-institutional comparisons • Subsystem turnover • Collaboration metrics
+
+#### Getting Started
+
+```bash
+pip install frames-research-tools
+```
+
+Generate an API key, query structural data, and use built-in visualization tools.
+
+📄 **Learn more** → [`docs/FOR_RESEARCHERS.md`](docs/FOR_RESEARCHERS.md) • [`docs/FOR_RESEARCH_PLATFORM.md`](docs/FOR_RESEARCH_PLATFORM.md) • [`canon/RESEARCHER_PLATFORM.md`](canon/RESEARCHER_PLATFORM.md)
 
 ---
 
@@ -178,110 +265,6 @@ python backend/app.py
 ```
 
 **What's in the guide:** Technical stack • Database schema (37 tables) • API endpoints • Testing • Deployment
-
----
-
-### 🔬 For Researchers — Study the Data
-
-<div align="center">
-
-**Systems Researchers • Education Researchers • Organizational Scientists • Faculty**
-
-</div>
-
-> **A systems-diagnostic and analytics environment for studying continuity, turnover, and resilience in modular organizations.**
-
-**→ [Complete Research Guide](docs/FOR_RESEARCHERS.md)** ← Full NDA theory, analytics workflows, Python/SQL examples
-**→ [Research Platform Overview](docs/FOR_RESEARCH_PLATFORM.md)** ← Quick start, integration layer, structural metrics
-
-**What you get:**
-
-- ✅ **System-wide analytics** from real engineering programs (not synthetic data)
-- ✅ **NDA-based structural mapping** — identify fragile interfaces before they break
-- ✅ **Continuously updating database** — team behavior, knowledge flow, turnover patterns
-- ✅ **AI-assisted data extraction** — convert messy workflows into analyzable datasets
-- ✅ **Predictive indicators** — forecast mission resilience and program stability
-- ✅ **Longitudinal datasets** — compare cohorts across semesters and universities
-
-#### 📐 Architecture (Research Layer)
-
-```
-                    ┌──────────────────────────────┐
-                    │            FRAMES             │
-                    │  NDA-Based Diagnostic Model   │
-                    └───────────────┬──────────────┘
-                                    │ Metrics + Features
-                      ┌─────────────┴─────────────┐
-                      │  Researcher Analytics API │
-                      └─────────────┬─────────────┘
-                                    │
-                   ┌────────────────┴────────────────┐
-                   │                                  │
-         Structural Metrics                   Program Continuity
-        (interfaces, fragility)             (knowledge retention)
-```
-
-#### 🧪 Research Questions You Can Answer
-
-<details>
-<summary><b>📊 Structural Questions</b></summary>
-
-- What subsystem interfaces are most fragile?
-- Where does knowledge consistently disappear?
-- How many handoffs occur before information decays?
-- Which team structures predict project failure?
-
-</details>
-
-<details>
-<summary><b>👥 Behavioral/Engagement Questions</b></summary>
-
-- How long does it take new members to become productive?
-- Which modules correlate with team performance?
-- What learning patterns predict student success?
-- Where do students struggle in technical onboarding?
-
-</details>
-
-<details>
-<summary><b>🔮 Predictive Questions</b></summary>
-
-- Can we forecast structural failure using NDA indicators?
-- Which factors correlate with mission success or long-term stability?
-- How effective are different pedagogical approaches?
-- What turnover levels trigger program instability?
-
-</details>
-
-#### 📊 Example Research Workflow
-
-```python
-from frames_api import FRAMESClient
-
-client = FRAMESClient(api_key="YOUR_KEY")
-
-# Pull structural metrics for a team over 4 semesters
-metrics = client.get_structure_profile(team_id="eps", semesters=4)
-
-# Visualize fragility score over time
-metrics.plot("interface_fragility")
-```
-
-#### 📚 What You Can Query
-
-**Structural Data:** Decomposition maps • Continuity indices • Interface fragility scores
-**Behavioral Data:** Module engagement logs • Onboarding performance • Time-on-task analytics
-**Multi-University:** Cross-institutional comparisons • Subsystem turnover • Collaboration metrics
-
-#### 🚀 Getting Started
-
-```bash
-pip install frames-research-tools
-```
-
-Generate an API key, query structural data, and use built-in visualization tools.
-
-**Full documentation:** [Research Platform Guide](docs/FOR_RESEARCHERS.md) • [Platform Overview](docs/FOR_RESEARCH_PLATFORM.md)
 
 ---
 
