@@ -316,6 +316,6 @@ Cal Poly Pomona • Cal Poly SLO • Arizona State University • University of 
 
 <div align="center">
 
-**[📖 Canonical Docs](canon/)** • **[🗺️ Migration Map](MIGRATION_MAP.md)** • **[🤖 Agent System](canon/AGENT_SYSTEM_OVERVIEW.md)** • **[🧠 FRAMES Philosophy](canon/FRAMES_PHILOSOPHY.md)**
+**[📖 Canonical Docs](canon/)** • **[🗺️ Migration Map](MIGRATION_MAP.md)** • **[🤖 Agent System](canon/AGENT_SYSTEM_OVERVIEW.md)** • **[🧠 FRAMES Philosophy](canon/FRAMES_PHILOSOPHY.md)** • **[🔬 Theoretical Ontology](THEORETICAL_ONTOLOGY.md)**
 
 </div>
