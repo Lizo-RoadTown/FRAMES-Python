@@ -80,39 +80,24 @@ Complex engineering programs improve when knowledge is shared, not siloed. Makin
 
 ---
 
-## The Five Components
+## The Three Components
 
-### 1. Student Onboarding Modules
+### 1. For Team Leads & Students: Project Management and Onboarding
 
 **Who it serves:**  
-Students joining engineering teams who need a clear path into complex technical work.
+Students joining engineering teams and team leads/mentors responsible for training new recruits.
 
 **What it is:**  
-A set of structured learning modules—short, focused, and standardized—that guide students through the tools, processes, and subsystem practices they need to participate effectively.
+An integrated learning and project management environment that combines structured onboarding modules for students with project coordination tools for team leads. Students receive short, focused learning modules that guide them through tools, processes, and subsystem practices, while team leads can organize tasks, create training materials, and produce consistent modules using templates and controlled content workflows.
 
 **Why it exists:**  
-To remove confusion, reduce overwhelm, and give every new student a reliable way to build foundational knowledge without depending entirely on verbal explanations from busy mentors.
+To remove confusion for new students, eliminate repeated semester-to-semester re-teaching, preserve institutional knowledge, and give everyone—students and mentors—a reliable way to build and share foundational knowledge without depending entirely on verbal explanations.
 
-📄 **Learn more** → [`canon/STUDENT_LMS.md`](canon/STUDENT_LMS.md)
+📄 **Learn more** → [`canon/STUDENT_LMS.md`](canon/STUDENT_LMS.md) • [`canon/TEAM_LEAD_MODULE_BUILDER.md`](canon/TEAM_LEAD_MODULE_BUILDER.md)
 
 ---
 
-### 2. Team Lead Project Management & Module Builder
-
-**Who it serves:**  
-Team leads, mentors, and subsystem managers responsible for training new recruits.
-
-**What it is:**  
-A simplified workspace where team leads can organize tasks, create or refine training materials, and produce consistent modules using templates and controlled content workflows.
-
-**Why it exists:**  
-To eliminate repeated semester-to-semester re-teaching, preserve institutional knowledge, and standardize how training materials are created so consistency is maintained across teams and universities.
-
-📄 **Learn more** → [`canon/TEAM_LEAD_MODULE_BUILDER.md`](canon/TEAM_LEAD_MODULE_BUILDER.md)
-
----
-
-### 3. Researcher AI Predictive Modeling & Analytics
+### 2. For Researchers: AI Predictive Modeling & Analytics
 
 **Who it serves:**  
 Faculty, program directors, systems engineers, and researchers studying learning, collaboration, and system resilience across engineering programs.
@@ -214,33 +199,26 @@ Generate an API key, query structural data, and use built-in visualization tools
 
 ---
 
-### 4. Centralized Data Management (The FRAMES Database)
+### 3. For Developers: Centralized Data Management & Agentic Swarm
 
 **Who it serves:**  
-All users of the system—students, mentors, researchers, administrators—and all three applications.
+Developers maintaining the system, engineering teams building integrations, and technical staff managing the infrastructure.
 
 **What it is:**  
-A Neon-hosted PostgreSQL database that stores modules, analytics, team structures, progress data, research metrics, and program-wide information in one unified, consistent schema.
+A Neon-hosted PostgreSQL database (37+ tables) that stores modules, analytics, team structures, progress data, and research metrics in one unified schema—combined with a controlled AI agent layer that helps format content, maintain files, support migrations, and preserve consistency within strict guardrails.
 
 **Why it exists:**  
-To eliminate scattered documentation, version conflicts, and information loss, ensuring that every application draws from the same accurate source of truth.
+To eliminate scattered documentation, version conflicts, and information loss while accelerating development. The database ensures every application draws from the same accurate source of truth, while the agentic swarm supports human decisions without autonomously creating new structures or pages.
 
-📄 **Learn more** → [`canon/DATABASE_SCHEMA.md`](canon/DATABASE_SCHEMA.md)
+**What you get:**
 
----
+- ✅ **Single source of truth** — PostgreSQL database shared across all applications
+- ✅ **Comprehensive schema** — 37+ tables covering teams, students, modules, analytics, interfaces
+- ✅ **AI-assisted development** — Controlled agents that format, migrate, and maintain consistency
+- ✅ **Strict guardrails** — Agents cannot create pages/structures without approval
+- ✅ **Developer tools** — API endpoints, migration scripts, testing frameworks
 
-### 5. Agentic Swarm (Controlled AI Layer)
-
-**Who it serves:**  
-Developers maintaining the system, team leads producing modules, and researchers who rely on consistent documentation.
-
-**What it is:**  
-A set of controlled AI agents that operate within strict guardrails to help format content, maintain files, support migrations, and preserve consistency without autonomously creating new structures or pages.
-
-**Why it exists:**  
-To accelerate development and documentation while preventing the uncontrolled creation of content, ensuring that AI supports human decisions rather than replacing or overriding them.
-
-📄 **Learn more** → [`canon/AGENT_SYSTEM_OVERVIEW.md`](canon/AGENT_SYSTEM_OVERVIEW.md)
+📄 **Learn more** → [`canon/DATABASE_SCHEMA.md`](canon/DATABASE_SCHEMA.md) • [`canon/AGENT_SYSTEM_OVERVIEW.md`](canon/AGENT_SYSTEM_OVERVIEW.md)
 
 ---
 
