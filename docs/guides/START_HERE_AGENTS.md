@@ -1,6 +1,7 @@
-# Start Here - Three Agent System Quick Start
+# Start Here - Four Agent System Quick Start
 
-**New GitHub Codespace Setup - Wake Up All Three Agents**
+**Multi-Environment Setup - Wake Up All Four Agents**
+**Environments:** GitHub Codespace (Alpha, Beta, Gamma) + Cursor IDE (Delta)
 
 ---
 
@@ -128,11 +129,12 @@ context = startup_protocol('gamma')
 
 ## 📋 Agent Roles Quick Reference
 
-| Agent | Role | Current Status | Next Priority |
-|-------|------|----------------|---------------|
-| **Alpha** | Module Creator | 11 modules created (71-82) | Create more avionics modules |
-| **Beta** | Platform Developer | API + React scaffolding done | Build supporting components |
-| **Gamma** | Infrastructure | Notion sync blocked | **Populate ghost_cohorts** ⚠️ |
+| Agent | Role | Environment | Current Status | Next Priority |
+|-------|------|-------------|----------------|---------------|
+| **Alpha** | Module Creator | VS Code | 11 modules created (71-82) | Create more avionics modules |
+| **Beta** | Platform Developer | VS Code | API + React scaffolding done | Build supporting components |
+| **Gamma** | Infrastructure | VS Code | Notion sync blocked | **Populate ghost_cohorts** ⚠️ |
+| **Delta** | Cross-Environment Validator | **Cursor** | 🆕 NEW | Environment setup + validation |
 
 ---
 
@@ -162,9 +164,11 @@ context = startup_protocol('gamma')
 - ~~docs/archive/*~~ - Reference only, not operational
 
 ### Wake-Up Prompts (Full Detail)
-- **[AGENT_ALPHA_WAKEUP_PROMPT.md](AGENT_ALPHA_WAKEUP_PROMPT.md)** - Alpha's full context
-- **[AGENT_BETA_WAKEUP_PROMPT.md](AGENT_BETA_WAKEUP_PROMPT.md)** - Beta's full context
-- **[AGENT_GAMMA_WAKEUP_PROMPT.md](AGENT_GAMMA_WAKEUP_PROMPT.md)** - Gamma's full context
+- **[AGENT_ALPHA_WAKEUP_PROMPT.md](../agents/AGENT_ALPHA_WAKEUP_PROMPT.md)** - Alpha's full context (VS Code)
+- **[AGENT_BETA_WAKEUP_PROMPT.md](../agents/AGENT_BETA_WAKEUP_PROMPT.md)** - Beta's full context (VS Code)
+- **[AGENT_GAMMA_WAKEUP_PROMPT.md](../agents/AGENT_GAMMA_WAKEUP_PROMPT.md)** - Gamma's full context (VS Code)
+- **[AGENT_DELTA_WAKEUP_PROMPT.md](../agents/AGENT_DELTA_WAKEUP_PROMPT.md)** - Delta's full context (Cursor IDE) 🆕
+- **[CURSOR_SETUP.md](../agents/CURSOR_SETUP.md)** - Cursor environment setup guide 🆕
 
 ---
 
@@ -200,6 +204,22 @@ context = startup_protocol('gamma')
 **Files to monitor:**
 - [scripts/](scripts/) - Infrastructure scripts
 - [docs/shared/NEON_DATABASE_SETUP.md](docs/shared/NEON_DATABASE_SETUP.md)
+
+### Agent Delta - Cross-Environment Validator 🆕
+**Environment:** Cursor IDE (different from other agents)
+**Owns:** Validation reports, test results, cross-agent verification
+**Capabilities:** Browser testing, MCP integrations, system validation
+**Progress:** Just initialized - setting up environment
+**Next:** Environment setup, then validate other agents' work
+
+**Unique Tools:**
+- Browser tools for frontend testing
+- MCP servers for API integrations
+- Cross-agent validation capabilities
+
+**Files to monitor:**
+- [docs/agents/CURSOR_SETUP.md](docs/agents/CURSOR_SETUP.md) - Setup guide
+- [agent_work_queues/delta_queue.md](agent_work_queues/delta_queue.md) - Work queue
 
 ---
 
@@ -316,6 +336,7 @@ gamma: startup - ready
 **Questions?** Each agent has a full wake-up prompt file with detailed context. Use those for complete orientation!
 
 **Files:**
-- [AGENT_ALPHA_WAKEUP_PROMPT.md](AGENT_ALPHA_WAKEUP_PROMPT.md)
-- [AGENT_BETA_WAKEUP_PROMPT.md](AGENT_BETA_WAKEUP_PROMPT.md)
-- [AGENT_GAMMA_WAKEUP_PROMPT.md](AGENT_GAMMA_WAKEUP_PROMPT.md)
+- [AGENT_ALPHA_WAKEUP_PROMPT.md](../agents/AGENT_ALPHA_WAKEUP_PROMPT.md) (VS Code)
+- [AGENT_BETA_WAKEUP_PROMPT.md](../agents/AGENT_BETA_WAKEUP_PROMPT.md) (VS Code)
+- [AGENT_GAMMA_WAKEUP_PROMPT.md](../agents/AGENT_GAMMA_WAKEUP_PROMPT.md) (VS Code)
+- [AGENT_DELTA_WAKEUP_PROMPT.md](../agents/AGENT_DELTA_WAKEUP_PROMPT.md) (Cursor IDE) 🆕

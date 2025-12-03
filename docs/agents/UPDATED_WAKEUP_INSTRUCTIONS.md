@@ -1,7 +1,7 @@
-# ✅ UPDATED: Three Agent Wake-Up Instructions
+# ✅ UPDATED: Four Agent Wake-Up Instructions
 
-**Date:** 2025-11-29
-**Environment:** GitHub Codespace (shared environment, MCP connected)
+**Date:** 2025-12-03
+**Environment:** GitHub Codespace (Alpha, Beta, Gamma) + Cursor IDE (Delta)
 
 ---
 
@@ -31,11 +31,10 @@ Status: ✅ Connected and verified
 
 ### Agent Status from Startup:
 ```
-Agent Alpha: ✅ Ready
-- 0 help requests waiting
-- 5 pending tasks in queue
-- 0 resource conflicts
-- 3 messages from other agents in team chat
+Agent Alpha: ✅ Ready (VS Code/Codespace)
+Agent Beta:  ✅ Ready (VS Code/Codespace)
+Agent Gamma: ✅ Ready (VS Code/Codespace)
+Agent Delta: 🆕 NEW (Cursor IDE)
 ```
 
 ---
@@ -281,6 +280,42 @@ Independent Work (Can Do Now):
 
 ---
 
+---
+
+### 🟪 Agent Delta (Cursor IDE - NEW!)
+
+**Full prompt:** [AGENT_DELTA_WAKEUP_PROMPT.md](AGENT_DELTA_WAKEUP_PROMPT.md)
+**Setup Guide:** [CURSOR_SETUP.md](CURSOR_SETUP.md)
+
+**Quick version:**
+```
+You are Agent Delta, cross-environment validator in the Ascent Basecamp system.
+
+Environment: Cursor IDE (different from Alpha/Beta/Gamma)
+Unique capabilities:
+- Browser testing tools
+- MCP integrations
+- Cross-agent validation
+
+Read these first:
+1. AGENT_DELTA_WAKEUP_PROMPT.md - Your role and context
+2. CURSOR_SETUP.md - Environment setup guide
+3. AGENT_TEAM_CHAT.md - Latest status
+
+Next steps:
+1. Create .env with DATABASE_URL and NOTION_API_KEY
+2. Verify connections (Neon, Notion, GitHub)
+3. Run startup_protocol('delta')
+4. Check what other agents have built to validate
+
+from shared.agent_utils import startup_protocol
+context = startup_protocol('delta')
+```
+
+---
+
 **Status:** Environment ready, startup verified, ready to wake agents! 🚀
 
 **Recommendation:** Start with Gamma to unblock Alpha and Beta!
+
+**New:** Delta is now available in Cursor IDE for cross-environment testing!
