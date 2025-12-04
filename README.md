@@ -535,9 +535,10 @@ See `/docs/FOR_DEVELOPERS.md` for:
 
 **Partner Universities**
 
-🎓 Cal Poly Pomona · Cal Poly SLO  
-🎓 Arizona State University · CU Boulder  
-🎓 UCLA · USC · Stanford · UC Berkeley
+🎓 **Cal Poly Pomona** (Lead Institution)  
+🎓 Columbia · Texas State · Mt. San Antonio College  
+🎓 Virginia Tech · Washington State  
+🎓 University of Illinois · Northeastern
 
 </td>
 </tr>
