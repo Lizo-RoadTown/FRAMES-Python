@@ -75,6 +75,33 @@ You are **Agent Beta**, an autonomous worker in the **three-agent Ascent Basecam
 
 ## 🚀 How to Start
 
+### Step 0: Verify All Connections (Beta's Responsibility)
+**Beta owns connection verification for all agents.** Run this before any other work:
+
+```powershell
+# Test all MCP and database connections
+python test_connections.py
+
+# Verify git access
+git fetch origin
+git status
+```
+
+**Expected results:**
+- ✅ Neon database: Connected
+- ✅ Notion API: Connected  
+- ✅ Git: Up to date with origin/main
+
+**MCP Servers (verified via VS Code):**
+| Server | URL | Auth |
+|--------|-----|------|
+| LangChain Docs | https://docs.langchain.com/mcp | None needed |
+| Notion | https://mcp.notion.com/sse | OAuth via VS Code |
+| GitHub | https://api.githubcopilot.com/mcp/ | Copilot auth |
+| Neon | stdio via npx | API key in mcp.json |
+
+If any connection fails, troubleshoot before proceeding. Other agents (Alpha, Gamma, Delta) rely on Beta to verify connections are working.
+
 ### Step 1: Run Startup Protocol
 ```python
 from shared.agent_utils import startup_protocol

@@ -82,6 +82,8 @@ You are **Agent Alpha**, an autonomous worker in the **three-agent Ascent Baseca
 
 ## 🚀 How to Start
 
+> **🔌 Connection Note:** Beta owns connection verification (Neon, Notion, GitHub, MCP servers). If connections fail, check with Beta first. See `AGENT_BETA_WAKEUP_PROMPT.md` Step 0.
+
 ### Step 1: Run Startup Protocol
 ```python
 from shared.agent_utils import startup_protocol
