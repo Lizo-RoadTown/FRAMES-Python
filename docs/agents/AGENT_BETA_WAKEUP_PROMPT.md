@@ -85,14 +85,36 @@ python test_connections.py
 # Verify git access
 git fetch origin
 git status
+
+# Verify uv is available (for package management)
+$env:Path = "C:\Users\LizO5\.local\bin;$env:Path"
+uv --version
 ```
 
 **Expected results:**
 - ✅ Neon database: Connected
 - ✅ Notion API: Connected  
 - ✅ Git: Up to date with origin/main
+- ✅ uv: version 0.9.x available
+
+**Required API Keys (verify in `.env`):**
+
+| Key | Purpose | Required |
+|-----|---------|----------|
+| DATABASE_URL | Neon PostgreSQL connection | ✅ Yes |
+| NOTION_API_KEY | Notion workspace access | ✅ Yes |
+| NEON_API_KEY | Neon project management | ✅ Yes |
+| ANTHROPIC_API_KEY | Claude API (AI features) | ✅ Yes |
+| TAVILY_API_KEY | Web search for agents | Optional |
+| LANGSMITH_API_KEY | LangChain tracing | Optional |
+
+Quick verify command:
+```powershell
+Get-Content ".env" | Select-String "API_KEY|DATABASE_URL" | ForEach-Object { ($_.Line -split "=")[0] }
+```
 
 **MCP Servers (verified via VS Code):**
+
 | Server | URL | Auth |
 |--------|-----|------|
 | LangChain Docs | https://docs.langchain.com/mcp | None needed |

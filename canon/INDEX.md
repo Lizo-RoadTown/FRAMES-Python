@@ -2,10 +2,14 @@
 
 **Status:** Transitioning from V1 to V2 ontology (2025-12-01)
 
+## Scientific Foundation
+
+- **THEORETICAL_ONTOLOGY.md** - Herbert Simon–aligned scientific canon (bedrock theory)
+
 ## Core System (V2 - Active)
 
 - **system_overview_v_2.md** - System architecture (NEW)
-- **OPERATIONAL_ONTOLOGY.md** - Core conceptual model (NEW)
+- **OPERATIONAL_ONTOLOGY.md** - Core conceptual model (translates theory → practice)
 - **Notion_Interface_layer.md** - Notion's role and integration (NEW)
 - DATABASE_SCHEMA.md - Database structure
 - FILE_STRUCTURE_AND_STANDARDS.md - File organization
